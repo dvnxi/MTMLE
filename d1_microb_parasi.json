@@ -1,0 +1,185 @@
+{
+  "subject": "Microbiology & Parasitology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which gram-positive cocci is most commonly associated with skin and soft tissue infections, including furuncles and carbuncles?",
+      "options": ["Streptococcus pyogenes", "Staphylococcus aureus", "Enterococcus faecalis", "Streptococcus agalactiae"],
+      "answer": "Staphylococcus aureus",
+      "explanation": "S. aureus is the most common cause of furuncles, carbuncles, and skin abscesses.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 2,
+      "question": "What is the characteristic microscopic feature of Entamoeba histolytica trophozoites?",
+      "options": ["Ingested RBCs", "Charcot-Leyden crystals", "Large glycogen vacuoles", "Four nuclei with central karyosome"],
+      "answer": "Ingested RBCs",
+      "explanation": "E. histolytica trophozoites are identified by ingested red blood cells in their cytoplasm.",
+      "image": "to_be_added",
+      "image_comment": "Trophozoite image showing ingested RBCs."
+    },
+    {
+      "id": 3,
+      "question": "Which culture medium is selective for Neisseria gonorrhoeae?",
+      "options": ["MacConkey agar", "Thayer-Martin agar", "Blood agar", "Sabouraud dextrose agar"],
+      "answer": "Thayer-Martin agar",
+      "explanation": "Thayer-Martin agar contains antibiotics to inhibit normal flora, selective for Neisseria species.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 4,
+      "question": "The causative agent of malaria is transmitted by which vector?",
+      "options": ["Anopheles mosquito", "Aedes mosquito", "Culex mosquito", "Sandfly"],
+      "answer": "Anopheles mosquito",
+      "explanation": "Malaria parasites (Plasmodium spp.) are transmitted via the bite of an infected female Anopheles mosquito.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 5,
+      "question": "Which bacterial structure is responsible for motility?",
+      "options": ["Capsule", "Fimbriae", "Flagella", "Pili"],
+      "answer": "Flagella",
+      "explanation": "Flagella are long, whip-like appendages used for bacterial motility.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 6,
+      "question": "Which is the most common cause of community-acquired pneumonia worldwide?",
+      "options": ["Mycoplasma pneumoniae", "Streptococcus pneumoniae", "Klebsiella pneumoniae", "Haemophilus influenzae"],
+      "answer": "Streptococcus pneumoniae",
+      "explanation": "S. pneumoniae is the leading cause of community-acquired pneumonia globally.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 7,
+      "question": "What is the characteristic egg feature of Schistosoma japonicum?",
+      "options": ["Terminal spine", "Lateral spine", "Small lateral knob", "Operculated"],
+      "answer": "Small lateral knob",
+      "explanation": "S. japonicum eggs have a small, inconspicuous lateral knob, unlike S. haematobium (terminal spine) or S. mansoni (lateral spine).",
+      "image": "to_be_added",
+      "image_comment": "Microscopic egg showing small lateral knob."
+    },
+    {
+      "id": 8,
+      "question": "Which viral family does hepatitis B virus belong to?",
+      "options": ["Flaviviridae", "Picornaviridae", "Hepadnaviridae", "Retroviridae"],
+      "answer": "Hepadnaviridae",
+      "explanation": "Hepatitis B virus is a DNA virus classified under the Hepadnaviridae family.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 9,
+      "question": "A patient with diarrhea after eating undercooked pork is suspected of infection with which parasite?",
+      "options": ["Taenia saginata", "Taenia solium", "Trichinella spiralis", "Diphyllobothrium latum"],
+      "answer": "Trichinella spiralis",
+      "explanation": "Trichinella spiralis is transmitted through ingestion of undercooked pork containing encysted larvae.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 10,
+      "question": "What type of hypersensitivity reaction is responsible for the positive tuberculin skin test?",
+      "options": ["Type I", "Type II", "Type III", "Type IV"],
+      "answer": "Type IV",
+      "explanation": "Tuberculin skin test is a delayed-type (Type IV) hypersensitivity reaction mediated by T cells.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 11,
+      "question": "Which staining method is used to visualize acid-fast bacilli?",
+      "options": ["Gram stain", "Wright's stain", "Ziehl-Neelsen stain", "Silver stain"],
+      "answer": "Ziehl-Neelsen stain",
+      "explanation": "Ziehl-Neelsen staining is used to detect Mycobacterium tuberculosis and other acid-fast organisms.",
+      "image": "to_be_added",
+      "image_comment": "Microscopic field showing red acid-fast bacilli."
+    },
+    {
+      "id": 12,
+      "question": "The presence of perianal eggs detected by cellophane tape method is characteristic of which parasite?",
+      "options": ["Ascaris lumbricoides", "Trichuris trichiura", "Enterobius vermicularis", "Strongyloides stercoralis"],
+      "answer": "Enterobius vermicularis",
+      "explanation": "The cellophane tape method is used to recover eggs of pinworm (E. vermicularis) from perianal region.",
+      "image": "to_be_added",
+      "image_comment": "Eggs recovered on tape preparation."
+    },
+    {
+      "id": 13,
+      "question": "Which toxin is responsible for the symptoms of tetanus?",
+      "options": ["Tetanolysin", "Tetanospasmin", "Exotoxin A", "Enterotoxin"],
+      "answer": "Tetanospasmin",
+      "explanation": "Tetanospasmin is the neurotoxin produced by Clostridium tetani causing spastic paralysis.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 14,
+      "question": "Which fungal pathogen is most associated with pigeon droppings and causes meningitis in AIDS patients?",
+      "options": ["Histoplasma capsulatum", "Cryptococcus neoformans", "Aspergillus fumigatus", "Coccidioides immitis"],
+      "answer": "Cryptococcus neoformans",
+      "explanation": "C. neoformans is an encapsulated yeast found in pigeon droppings; it commonly causes meningitis in immunocompromised patients.",
+      "image": "to_be_added",
+      "image_comment": "Encapsulated yeast visualized with India ink."
+    },
+    {
+      "id": 15,
+      "question": "Which parasite is associated with 'autoinfection' and hyperinfection syndrome especially in immunocompromised individuals?",
+      "options": ["Strongyloides stercoralis", "Hookworm", "Ascaris lumbricoides", "Trichuris trichiura"],
+      "answer": "Strongyloides stercoralis",
+      "explanation": "Strongyloides can autoinfect the host, leading to persistent infection and severe dissemination.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 16,
+      "question": "What characteristic feature is seen in Mycobacterium tuberculosis colonies on Löwenstein-Jensen medium?",
+      "options": ["Smooth and moist", "Fried-egg appearance", "Rough, buff, and tough", "Flat and spreading"],
+      "answer": "Rough, buff, and tough",
+      "explanation": "M. tuberculosis colonies are described as rough, buff-colored, and tough on LJ medium.",
+      "image": "to_be_added",
+      "image_comment": "Colony morphology on LJ slant."
+    },
+    {
+      "id": 17,
+      "question": "Which bacteria is known for producing 'rice-water stools' in cholera?",
+      "options": ["Vibrio cholerae", "Salmonella typhi", "Shigella dysenteriae", "Campylobacter jejuni"],
+      "answer": "Vibrio cholerae",
+      "explanation": "V. cholerae produces a toxin that causes profuse, watery diarrhea described as 'rice-water stools.'",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 18,
+      "question": "Which helminth infection can cause iron deficiency anemia due to chronic intestinal blood loss?",
+      "options": ["Ascaris lumbricoides", "Hookworm", "Enterobius vermicularis", "Trichuris trichiura"],
+      "answer": "Hookworm",
+      "explanation": "Hookworms attach to the intestinal mucosa and suck blood, leading to iron deficiency anemia.",
+      "image": "to_be_added",
+      "image_comment": "Adult hookworm head morphology."
+    },
+    {
+      "id": 19,
+      "question": "Which virus causes Koplik spots as a pathognomonic sign?",
+      "options": ["Rubella virus", "Measles virus", "Varicella-zoster virus", "Parvovirus B19"],
+      "answer": "Measles virus",
+      "explanation": "Koplik spots are bluish-white lesions on the buccal mucosa, pathognomonic for measles.",
+      "image": "to_be_added",
+      "image_comment": "Photograph showing Koplik spots."
+    },
+    {
+      "id": 20,
+      "question": "Which protozoan causes sleeping sickness in humans?",
+      "options": ["Trypanosoma cruzi", "Trypanosoma brucei", "Leishmania donovani", "Babesia microti"],
+      "answer": "Trypanosoma brucei",
+      "explanation": "African sleeping sickness is caused by T. brucei, transmitted by tsetse flies.",
+      "image": "to_be_added",
+      "image_comment": "Trypanosome morphology in blood smear."
+    }
+  ]
+}

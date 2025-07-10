@@ -1,0 +1,95 @@
+{
+  "subject": "Clinical Microscopy",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which type of urine specimen is most suitable for routine urinalysis?",
+      "options": ["First morning", "Random", "Timed", "Midstream clean-catch"],
+      "answer": "First morning",
+      "explanation": "The first morning urine is the most concentrated, making it ideal for routine analysis and microscopic examination.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 2,
+      "question": "What is the primary component of a urinary cast?",
+      "options": ["Fibrin", "Uromodulin (Tamm-Horsfall protein)", "Albumin", "Globulin"],
+      "answer": "Uromodulin (Tamm-Horsfall protein)",
+      "explanation": "Uromodulin is the main matrix of urinary casts, produced by renal tubular epithelial cells.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 3,
+      "question": "Which crystal is commonly seen in acidic urine and appears as envelope-shaped?",
+      "options": ["Calcium oxalate", "Triple phosphate", "Cystine", "Amorphous urates"],
+      "answer": "Calcium oxalate",
+      "explanation": "Calcium oxalate crystals are envelope-shaped and found in acidic or neutral urine.",
+      "image": null,
+      "image_comment": "Add microscopic image of calcium oxalate crystal"
+    },
+    {
+      "id": 4,
+      "question": "What is the best method to preserve urine for routine analysis if immediate testing is not possible?",
+      "options": ["Refrigeration", "Formalin addition", "Heating", "Acidification"],
+      "answer": "Refrigeration",
+      "explanation": "Refrigeration slows bacterial growth and chemical changes in urine specimens.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 5,
+      "question": "Which condition is associated with the presence of fatty casts in urine?",
+      "options": ["Acute glomerulonephritis", "Nephrotic syndrome", "Pyelonephritis", "Cystitis"],
+      "answer": "Nephrotic syndrome",
+      "explanation": "Fatty casts are characteristic of nephrotic syndrome due to lipiduria.",
+      "image": null,
+      "image_comment": "Add microscopic image of fatty cast"
+    },
+    {
+      "id": 6,
+      "question": "What is the significance of a positive leukocyte esterase test on urine dipstick?",
+      "options": ["Hematuria", "Proteinuria", "Pyuria", "Glycosuria"],
+      "answer": "Pyuria",
+      "explanation": "Leukocyte esterase indicates the presence of WBCs, suggesting infection or inflammation (pyuria).",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 7,
+      "question": "Which parasite's eggs are detected in urine during midday collection?",
+      "options": ["Schistosoma haematobium", "Ascaris lumbricoides", "Taenia saginata", "Trichuris trichiura"],
+      "answer": "Schistosoma haematobium",
+      "explanation": "Eggs of Schistosoma haematobium are best detected in urine collected around noon due to peak egg excretion.",
+      "image": null,
+      "image_comment": "Add image of S. haematobium egg"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a normal crystal found in alkaline urine?",
+      "options": ["Uric acid", "Ammonium biurate", "Cystine", "Bilirubin"],
+      "answer": "Ammonium biurate",
+      "explanation": "Ammonium biurate crystals are common in alkaline urine and have a 'thorn apple' appearance.",
+      "image": null,
+      "image_comment": "Add microscopic image of ammonium biurate crystal"
+    },
+    {
+      "id": 9,
+      "question": "What is the usual color of normal freshly voided urine?",
+      "options": ["Amber", "Red", "Brown", "Green"],
+      "answer": "Amber",
+      "explanation": "Normal urine is typically yellow to amber due to the pigment urochrome.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 10,
+      "question": "What is the preferred anticoagulant for synovial fluid analysis?",
+      "options": ["EDTA", "Heparin", "Sodium citrate", "Fluoride oxalate"],
+      "answer": "Heparin",
+      "explanation": "Heparin prevents clotting without interfering with crystal examination in synovial fluid.",
+      "image": null,
+      "image_comment": null
+    }
+  ]
+}

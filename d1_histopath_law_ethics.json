@@ -1,0 +1,95 @@
+{
+  "subject": "Histopathology, Laws & Ethics",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the most commonly used fixative in histopathology?",
+      "options": ["Formalin", "Alcohol", "Osmium tetroxide", "Picric acid"],
+      "answer": "Formalin",
+      "explanation": "10% neutral buffered formalin is the most widely used fixative for routine histopathologic examination due to its excellent preservation properties.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 2,
+      "question": "Which decalcifying agent is considered the fastest acting?",
+      "options": ["Nitric acid", "Formic acid", "EDTA", "Hydrochloric acid"],
+      "answer": "Nitric acid",
+      "explanation": "Nitric acid is a strong acid and decalcifies bone tissues rapidly, though it can damage tissue morphology if not carefully monitored.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 3,
+      "question": "Which stain is most appropriate for demonstrating connective tissue fibers?",
+      "options": ["Periodic Acid-Schiff (PAS)", "Masson's trichrome", "Giemsa", "Wright's"],
+      "answer": "Masson's trichrome",
+      "explanation": "Masson's trichrome stain is used to differentiate muscle, collagen, and fibrin, highlighting connective tissues.",
+      "image": null,
+      "image_comment": "Add image of Masson's trichrome staining result"
+    },
+    {
+      "id": 4,
+      "question": "What is the primary purpose of paraffin embedding?",
+      "options": ["Hardens tissue for sectioning", "Decalcifies tissue", "Dehydrates tissue", "Fixes tissue"],
+      "answer": "Hardens tissue for sectioning",
+      "explanation": "Paraffin embedding supports and hardens tissues to allow thin slicing using a microtome.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 5,
+      "question": "Which law governs the practice of medical technology in the Philippines?",
+      "options": ["RA 5527", "RA 4688", "RA 1517", "RA 9165"],
+      "answer": "RA 5527",
+      "explanation": "RA 5527, known as the Philippine Medical Technology Act of 1969, regulates the practice of medical technology in the Philippines.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a core ethical principle in the practice of medical technology?",
+      "options": ["Confidentiality", "Profit maximization", "Selective reporting", "Favoritism"],
+      "answer": "Confidentiality",
+      "explanation": "Maintaining patient confidentiality is fundamental to medical ethics and professional conduct.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 7,
+      "question": "Who is authorized to sign laboratory results in the Philippines?",
+      "options": ["Medical technologist only", "Pathologist", "Nurse", "Medical technician"],
+      "answer": "Pathologist",
+      "explanation": "By Philippine law (RA 5527), laboratory results must be validated and signed by a licensed pathologist or authorized physician.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is the gold standard for tissue processing automation?",
+      "options": ["Vacuum infiltration processor", "Cryostat", "Manual dehydration", "Hand embedding"],
+      "answer": "Vacuum infiltration processor",
+      "explanation": "Vacuum infiltration processors speed up impregnation and improve reagent penetration in tissue processing.",
+      "image": null,
+      "image_comment": "Add image of a vacuum infiltration tissue processor"
+    },
+    {
+      "id": 9,
+      "question": "What is the ideal section thickness for routine light microscopy?",
+      "options": ["1-2 µm", "3-5 µm", "10 µm", "20 µm"],
+      "answer": "3-5 µm",
+      "explanation": "Routine histologic sections are cut at 3-5 µm to allow optimal microscopic examination.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 10,
+      "question": "Which law regulates clinical laboratories in the Philippines?",
+      "options": ["RA 5527", "RA 4688", "RA 1517", "RA 7719"],
+      "answer": "RA 4688",
+      "explanation": "RA 4688 regulates clinical laboratories and requires licensing and standard compliance.",
+      "image": null,
+      "image_comment": null
+    }
+  ]
+}

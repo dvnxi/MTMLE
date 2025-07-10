@@ -1,0 +1,185 @@
+{
+  "subject": "Clinical Chemistry",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A patient undergoing evaluation for diabetes mellitus has a fasting plasma glucose of 130 mg/dL on two separate occasions. What is the most appropriate interpretation?",
+      "options": ["Normal glucose tolerance", "Impaired fasting glucose", "Provisional diabetes diagnosis", "Hypoglycemia"],
+      "answer": "Provisional diabetes diagnosis",
+      "explanation": "A fasting plasma glucose ≥126 mg/dL on two separate occasions confirms diabetes mellitus diagnosis.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 2,
+      "question": "Which of the following methods is most specific for measuring glucose in serum?",
+      "options": ["Folin-Wu method", "Somogyi-Nelson method", "Glucose oxidase method", "Benedict's copper reduction method"],
+      "answer": "Glucose oxidase method",
+      "explanation": "Glucose oxidase specifically measures β-D-glucose and is the most specific enzymatic method used.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 3,
+      "question": "In multiple myeloma, which serum protein electrophoresis pattern is typically seen?",
+      "options": ["Increased albumin, decreased globulin", "Decreased albumin, increased globulin", "Decreased total protein, normal albumin", "Normal albumin, decreased globulin"],
+      "answer": "Decreased albumin, increased globulin",
+      "explanation": "Multiple myeloma causes increased monoclonal immunoglobulins (M-protein) and reduced albumin.",
+      "image": "to_be_added",
+      "image_comment": "Serum protein electrophoresis image with M spike (monoclonal peak)."
+    },
+    {
+      "id": 4,
+      "question": "Which enzyme is most specific for diagnosing acute pancreatitis?",
+      "options": ["Amylase", "Lipase", "Lactate dehydrogenase (LDH)", "Alkaline phosphatase (ALP)"],
+      "answer": "Lipase",
+      "explanation": "Serum lipase is more specific than amylase for diagnosing acute pancreatitis and remains elevated longer.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 5,
+      "question": "Which cardiac marker rises earliest after an acute myocardial infarction?",
+      "options": ["Lactate dehydrogenase (LDH)", "Troponin I", "Creatine kinase-MB (CK-MB)", "Aspartate aminotransferase (AST)"],
+      "answer": "CK-MB",
+      "explanation": "CK-MB rises 4-6 hours after infarction and peaks at 12-24 hours, making it an early marker.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 6,
+      "question": "What is the primary analyte measured to monitor long-term glucose control in diabetic patients?",
+      "options": ["Fasting glucose", "Fructosamine", "Glycated hemoglobin (HbA1c)", "Oral glucose tolerance test (OGTT)"],
+      "answer": "Glycated hemoglobin (HbA1c)",
+      "explanation": "HbA1c reflects average blood glucose levels over the preceding 2-3 months.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 7,
+      "question": "A patient with obstructive jaundice will typically show which pattern of bilirubin levels?",
+      "options": ["Increased direct bilirubin", "Increased indirect bilirubin", "Decreased total bilirubin", "Normal bilirubin"],
+      "answer": "Increased direct bilirubin",
+      "explanation": "Obstructive jaundice results in conjugated (direct) hyperbilirubinemia due to blocked bile flow.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 8,
+      "question": "What is the main confirmatory test for Bence Jones protein in urine?",
+      "options": ["Heat coagulation test", "Sulfosalicylic acid test", "Electrophoresis", "Biuret test"],
+      "answer": "Electrophoresis",
+      "explanation": "Urine protein electrophoresis is the gold standard for confirming Bence Jones proteins.",
+      "image": "to_be_added",
+      "image_comment": "Electrophoresis pattern for Bence Jones protein (free light chains)."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following analytes is most affected by hemolysis?",
+      "options": ["Potassium", "Sodium", "Chloride", "Calcium"],
+      "answer": "Potassium",
+      "explanation": "Hemolysis releases intracellular potassium, leading to falsely elevated serum levels.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 10,
+      "question": "The anion gap is calculated using which formula?",
+      "options": ["Na - (Cl + HCO₃)", "Na + K - (Cl + HCO₃)", "Na - (K + Cl)", "Na + Cl - HCO₃"],
+      "answer": "Na - (Cl + HCO₃)",
+      "explanation": "Anion gap = Na - (Cl + HCO₃). It is used to help classify metabolic acidosis.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 11,
+      "question": "What is the primary metabolite monitored during lithium therapy?",
+      "options": ["Sodium", "Lithium itself", "Calcium", "Magnesium"],
+      "answer": "Lithium itself",
+      "explanation": "Lithium levels must be directly measured to avoid toxicity since it has a narrow therapeutic range.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 12,
+      "question": "Which lipoprotein is considered anti-atherogenic?",
+      "options": ["Low-density lipoprotein (LDL)", "Very low-density lipoprotein (VLDL)", "Chylomicrons", "High-density lipoprotein (HDL)"],
+      "answer": "HDL",
+      "explanation": "HDL helps remove cholesterol from tissues and transports it to the liver for excretion.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 13,
+      "question": "Which tumor marker is elevated in hepatocellular carcinoma?",
+      "options": ["Alpha-fetoprotein (AFP)", "Carbohydrate antigen 19-9 (CA 19-9)", "Cancer antigen 125 (CA 125)", "Carcinoembryonic antigen (CEA)"],
+      "answer": "AFP",
+      "explanation": "Alpha-fetoprotein (AFP) is used as a marker for hepatocellular carcinoma and germ cell tumors.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 14,
+      "question": "Which serum enzyme is most sensitive for detecting liver metastases?",
+      "options": ["Aspartate aminotransferase (AST)", "Alanine aminotransferase (ALT)", "Alkaline phosphatase (ALP)", "Creatine kinase (CK)"],
+      "answer": "ALP",
+      "explanation": "ALP is elevated in hepatic metastases due to increased bile duct obstruction and osteoblastic activity.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 15,
+      "question": "In metabolic alkalosis, what is the expected compensatory response?",
+      "options": ["Increased respiratory rate", "Decreased respiratory rate", "Increased renal excretion of bicarbonate", "Decreased chloride reabsorption"],
+      "answer": "Decreased respiratory rate",
+      "explanation": "The body compensates by hypoventilating to retain CO₂ and correct alkalosis.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 16,
+      "question": "Which analyte requires protection from light during sample transport?",
+      "options": ["Glucose", "Ammonia", "Bilirubin", "Uric acid"],
+      "answer": "Bilirubin",
+      "explanation": "Bilirubin degrades when exposed to light, causing falsely decreased results.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 17,
+      "question": "What is the main method for measuring serum albumin?",
+      "options": ["Biuret method", "Bromocresol green (BCG) dye-binding method", "Folin-Ciocalteu method", "Orcinol method"],
+      "answer": "Bromocresol green (BCG) dye-binding method",
+      "explanation": "The BCG dye-binding method is most commonly used due to its simplicity and specificity.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is the best indicator of glomerular filtration rate (GFR)?",
+      "options": ["Serum urea", "Serum creatinine", "Creatinine clearance", "Uric acid"],
+      "answer": "Creatinine clearance",
+      "explanation": "Creatinine clearance best estimates GFR because it reflects the filtration capacity of the glomeruli.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 19,
+      "question": "What is the preferred anticoagulant for plasma ammonia determination?",
+      "options": ["Sodium citrate", "Ethylenediaminetetraacetic acid (EDTA)", "Heparin", "Oxalate"],
+      "answer": "Heparin",
+      "explanation": "Heparinized plasma is preferred for ammonia because it minimizes contamination and prevents clotting.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 20,
+      "question": "Which serum electrolyte abnormality is most commonly seen in patients with Addison's disease?",
+      "options": ["Hypernatremia", "Hyperkalemia", "Hypocalcemia", "Hyperchloremia"],
+      "answer": "Hyperkalemia",
+      "explanation": "Addison's disease causes aldosterone deficiency, resulting in sodium loss and potassium retention (hyperkalemia).",
+      "image": null,
+      "image_comment": null
+    }
+  ]
+}
