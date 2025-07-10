@@ -3,8 +3,6 @@ import json
 import random
 import os
 import pandas as pd
-from fpdf import FPDF
-
 # -------------------------
 # Account configuration
 # -------------------------
@@ -155,27 +153,6 @@ def question_sidebar(questions):
             if st.sidebar.button(btn_label, key=f"nav_{idx}"):
                 st.session_state.question_idx = idx
                 st.rerun()
-
-# -------------------------
-# PDF Export
-# -------------------------
-def generate_pdf(questions, section_names):
-    pdf = FPDF()
-    pdf.add_page()
-    pdf.set_font("Arial", size=12)
-
-    for idx, q_idx in enumerate(st.session_state.order_list):
-        q = questions[q_idx]
-        section = section_names[q_idx]
-        pdf.multi_cell(0, 10, f"Section: {section}")
-        pdf.multi_cell(0, 10, f"Q{idx + 1}: {q['question']}")
-        pdf.multi_cell(0, 10, f"Correct answer: {q['answer']}")
-        pdf.multi_cell(0, 10, f"Explanation: {q.get('explanation', 'No explanation provided.')}")
-        pdf.ln()
-
-    filename = f"{st.session_state.username}_div1_results.pdf"
-    pdf.output(filename)
-    return filename
 
 # -------------------------
 # Main logic
