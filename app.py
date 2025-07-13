@@ -353,9 +353,9 @@ elif options == "Reviewers and Notes":
     st.markdown("<h2 style='margin: 0; color: #FC8EAC;'>Reviewers and Notes</h2>", unsafe_allow_html=True)
     st.markdown("<p style='color:#FFC0CB; font-style: italic;'>Disclaimer: I do not claim ownership of any of the materials included in this website. This website is for educational purposes only and is not intended for commercial use.</p>", unsafe_allow_html=True)
     st.write("If you ever need more reference materials, you can check out the following files/links: ")
-    st.write("1. Med Tech Notes by Doc Krizza-Almond https://krizzaalmond.com/2020/05/01/mymedtechnotesforfree/")
+    st.markdown("1. Med Tech Notes by Doc Krizza-Almond https://krizzaalmond.com/2020/05/01/mymedtechnotesforfree/")
     st.markdown("<p style='color:#FFC0CB; font-style: italic;'>The password for Doc Krizza-Almond's PDF files is at the bottom of the Introduction section in the Mock Test Page. That's why the app requires an exclusive account to access the mock exam page. </p>", unsafe_allow_html=True)
-    st.write("2. Other materials: https://drive.google.com/drive/u/0/folders/18eTwXcgZGYX6zsa6pnd6AbWeGZz5JNyf")
+    st.markdown("2. Other materials: https://drive.google.com/drive/u/0/folders/18eTwXcgZGYX6zsa6pnd6AbWeGZz5JNyf")
 
     st.markdown("<p style='color:#FFC0CB; font-style: italic;'>or</p>", unsafe_allow_html=True)
 
