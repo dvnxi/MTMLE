@@ -19,37 +19,32 @@ for msg in st.session_state.messages:
     else:
         st.markdown(f"<span style='color:#FC74A6; font-weight:bold;'>R.ChatBot:</span><br>{msg['content']}", unsafe_allow_html=True)
 
-# ✅ Send message function
-def send_message():
-    user_message = st.session_state.input.strip()
-    if user_message:
-        st.session_state.messages.append({"role": "user", "content": user_message})
+# ✅ Text input
+user_input = st.text_input(
+    "Ask your MedTech question:",
+    placeholder="Type your question here...",
+    label_visibility="collapsed"
+)
 
-        # Only keep last 10 messages for context if you want faster
-        context_messages = st.session_state.messages[-10:]
+# ✅ Send button
+if st.button("Send") and user_input.strip() != "":
+    user_message = user_input.strip()
 
-        response = ollama_client.chat(
-            model="phi3",  # Replace with your preferred/fastest model (e.g., "phi3", "llama2:7b" if installed)
-            messages=context_messages
-        )
-        bot_reply = response['message']['content']
-        st.session_state.messages.append({"role": "assistant", "content": bot_reply})
+    # Append user message first
+    st.session_state.messages.append({"role": "user", "content": user_message})
 
-        st.session_state.input = ""  # Clear input
+    # Keep last 10 for context
+    context_messages = st.session_state.messages[-10:]
 
-# ✅ Spacer to push input down on mobile
-st.markdown("<div style='height:30vh;'></div>", unsafe_allow_html=True)
-
-# ✅ Input + Send button
-col1, col2 = st.columns([5, 1])
-with col1:
-    st.text_input(
-        "Ask your MedTech question:",
-        key="input",
-        on_change=send_message,
-        placeholder="Type your question here...",
-        label_visibility="collapsed"
+    # Call Ollama with Mistral
+    response = ollama_client.chat(
+        model="mistral",  # ✅ Use Mistral
+        messages=context_messages
     )
-with col2:
-    if st.button("Send"):
-        send_message()
+    bot_reply = response['message']['content']
+
+    # Append bot reply
+    st.session_state.messages.append({"role": "assistant", "content": bot_reply})
+
+    # Force rerun to clear input
+    st.rerun()

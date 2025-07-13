@@ -246,6 +246,7 @@ elif options == "Mock Exam":
             st.write("This data is based on PRC Board of Medical Technology Resolution No. 15 Series of 1996: https://www.prc.gov.ph/sites/default/files/Board%20of%20Medical%20Technology%20-%20Syllabi_0.pdf")
             df_per = pd.read_csv('clinical_microscopy_per.csv')
             st.dataframe(df_per, hide_index=True, use_container_width=True, height=2487)
+            st.markdown("Med Tech Notes by Doc Krizza-Almond https://krizzaalmond.com/2020/05/01/mymedtechnotesforfree/")
             st.markdown("<p style='color:#FFC0CB; font-style: italic;'>password: rmtako (huge thanks to Doc Krizza-Almond)</p>", unsafe_allow_html=True)
 
         elif div in ["Div 1", "Div 2", "Div 3"]:
@@ -401,7 +402,7 @@ elif options == "R.Chatbot":
     st.markdown("<h2 style='margin: 0; color:#FC8EAC;'>R.ChatBot is still under development</h2>", unsafe_allow_html=True)
     for _ in range(2):
         st.write(" ")
-    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>This feature requires intensive effort and resources like API. Ret assured that the developer is doing the best he could to produce this page soon.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>This feature requires intensive effort and resources like API. Rest assured, the developer is doing his best to produce this page soon.</p>", unsafe_allow_html=True)
     st.write("In the meantime, you can try the R.ChatBot prototype by opening the link below. The chatbot is powered by Ollama, a local LLM server.")
     st.markdown("<p style='color:#FFC0CB;'>https://42ffae807d33.ngrok-free.app</p>", unsafe_allow_html=True)
     for _ in range(2):
