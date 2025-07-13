@@ -41,6 +41,7 @@ if 'username' not in st.session_state:
 # Login page
 # -------------------------
 def login():
+    st.markdown("<p style='margin: 0; color: #FFC0CB; font-style: italic;'>This site is still under development. Progress 40%</p>", unsafe_allow_html=True)
     st.markdown("<h2 style='margin: 0; color: #FC8EAC;'>Login</h2>", unsafe_allow_html=True)
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
@@ -193,7 +194,7 @@ def load_div_questions(div_key, files_sections):
 # Main logic
 # -------------------------
 st.sidebar.title("Navigation")
-options = st.sidebar.radio("Choose a section:", ["Home", "Mock Exam", "About", "References", "Reviewers and Notes"])
+options = st.sidebar.radio("Choose a section:", ["Home", "Mock Exam", "About", "References", "Reviewers and Notes", "R.Chatbot"])
 
 if options == "Home":
     if not st.session_state.logged_in:
@@ -322,9 +323,8 @@ elif options == "About":
     st.write("For any issues or suggestions, please contact: daquioagjairo30@gmail.com.")
     st.write("This app used various sources, such as articles, books, and online resources. Please refer to the 'References' section for more details.")
     st.write("All rights reserved. This app is not affiliated with the Professional Regulation Commission (PRC) or any official medical technology board review programs.")
-
-    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>Disclaimer: This review web app is for educational purposes only. The 'mock exam' does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.</p>", unsafe_allow_html=True)
-    for _ in range(10):
+    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>This review web app is for educational purposes only. The 'mock exam' does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.</p>", unsafe_allow_html=True)
+    for _ in range(2):
             st.write(" ")
     
     st.markdown(
@@ -335,8 +335,10 @@ elif options == "About":
         """,
         unsafe_allow_html=True
     )
-
-
+    for _ in range(2):
+        st.write(" ")
+    st.markdown(f"<p style='color:#FFC0CB; font-style: italic;'>Sincerely,<br>Devon Daquioag</p>Lead Developer<br>AWS Academy Graduate - Data Engineering<br>Undergraduate, BSCpE<br>Centro Escolar University Manila", unsafe_allow_html=True)
+    
 elif options == "References":
     with open('references.json') as f:
         data = json.load(f)
@@ -394,3 +396,25 @@ elif options == "Reviewers and Notes":
         )
     else:
         st.warning("No PDF files found in the folder. Please add some PDFs to display.")
+
+elif options == "R.Chatbot":
+    st.markdown("<h2 style='margin: 0; color:#FC8EAC;'>R.ChatBot is still under development</h2>", unsafe_allow_html=True)
+    for _ in range(2):
+        st.write(" ")
+    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>This feature requires intensive effort and resources like API. Ret assured that the developer is doing the best he could to produce this page soon.</p>", unsafe_allow_html=True)
+    st.write("In the meantime, you can try the R.ChatBot prototype by opening the link below. The chatbot is powered by Ollama, a local LLM server.")
+    st.markdown("<p style='color:#FFC0CB;'>https://42ffae807d33.ngrok-free.app</p>", unsafe_allow_html=True)
+    for _ in range(2):
+            st.write(" ")
+    
+    st.markdown(
+        """
+        <p style='color:#FFC0CB; font-style: italic; opacity: 1; text-align: center; font-family: "Times New Roman", serif; font-size: 20px;'>
+        To God be all the glory!
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+    for _ in range(2):
+        st.write(" ")
+    st.markdown(f"<p style='color:#FFC0CB; font-style: italic;'>Sincerely,<br>Devon Daquioag</p>Lead Developer<br>AWS Academy Graduate - Data Engineering<br>Undergraduate, BSCpE<br>Centro Escolar University Manila", unsafe_allow_html=True)
