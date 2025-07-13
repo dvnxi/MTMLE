@@ -3,8 +3,21 @@ import json
 import random
 import os
 import pandas as pd
+import base64
 
 st.set_page_config(layout="wide")
+
+st.markdown("""
+    <style>
+    a, a:visited {
+        color: #FFC0CB !important;
+    }
+    a:hover {
+        color: #ffaad0 !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 
 # -------------------------
 # Account configuration
@@ -28,23 +41,35 @@ if 'username' not in st.session_state:
 # Login page
 # -------------------------
 def login():
-    st.header("Login")
+    st.markdown("<h2 style='margin: 0; color: #FC8EAC;'>Login</h2>", unsafe_allow_html=True)
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
+    
     if st.button("Login"):
         if username in ACCOUNTS and ACCOUNTS[username] == password:
             st.session_state.logged_in = True
             st.session_state.username = username
-            st.success(f"Welcome, {username}!")
             st.rerun()
         else:
             st.error("Incorrect username or password.")
+
+    for _ in range(30):
+            st.write(" ")
+    
+    st.markdown(
+        """
+        <p style='color:#FFC0CB; font-style: italic; opacity: 1; text-align: center; font-family: "Times New Roman", serif; font-size: 20px;'>
+        To God be all the glory!
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
 
 # -------------------------
 # Question display
 # -------------------------
 def show_question(question, disp_number, section_name, q_idx, answers, answers_key):
-    st.subheader(f"Question {disp_number + 1}")
+    st.markdown(f"<h3><span style='color:#FC8EAC;'>Question {disp_number + 1}</span> </h3>", unsafe_allow_html=True)
     st.markdown(f"<div style='text-align:right; font-size:14px; color:gray;'>Section: {section_name}</div>", unsafe_allow_html=True)
 
     if "image" in question and question["image"]:
@@ -168,30 +193,49 @@ def load_div_questions(div_key, files_sections):
 # Main logic
 # -------------------------
 st.sidebar.title("Navigation")
-options = st.sidebar.radio("Choose a section:", ["Home", "Mock Exam", "About", "References"])
+options = st.sidebar.radio("Choose a section:", ["Home", "Mock Exam", "About", "References", "Reviewers and Notes"])
 
 if options == "Home":
     if not st.session_state.logged_in:
         login()
     else:
-        st.header("Welcome to the MT Review - Mock Exam")
-        st.write(f"Hello, {st.session_state.username}! You are logged in.")
+        st.markdown("<h2 style='margin: 0; color:#FC8EAC;'>Welcome to MTLE Review Web App</h2>", unsafe_allow_html=True)
+    
+        # ✅ Username in flamingo pink
+        st.markdown(f"Hello, <span style='color:#FFC0CB; font-style:italic; font-family:Times New Roman, serif;'>{st.session_state.username}!</span> You are logged in.", unsafe_allow_html=True)
+
         st.write("Use the sidebar to start your exam or learn more.")
         st.write("This app is still under development, so please check back later for more features and content.")
-        st.write("For any issues or suggestions, please contact: daquiogjairo30@gmail.com.")
+        st.write("For any issues or suggestions, please contact: daquioagjairodevon@gmail.com.")
         st.write("The contents of this app are for educational purposes only and do not reflect the actual PRC Board of Medical Technology exam in the Philippines. Always refer to official resources and consult with licensed professionals for accurate information.")
         st.write("This app used various sources, such as articles, books, and online resources. Please refer to the 'References' section for more details.")
+
+        # You can remove or reduce these empty writes if you like
+        for _ in range(30):
+            st.write(" ")
+
+        st.markdown(
+            """
+            <p style='color:#FFC0CB; font-style: italic; opacity: 1; text-align: center; font-family: "Times New Roman", serif; font-size: 20px;'>
+            To God be all the glory!
+            </p>
+            """,
+            unsafe_allow_html=True
+        )
 
 elif options == "Mock Exam":
     if not st.session_state.logged_in:
         login()
     else:
-        div = st.selectbox("Select:", ["Introduction", "Div 1", "Div 2", "Div 3", "Div 4", "Div 5", "Div 6"])
-        st.write("Disclaimer: This mock exam is for educational purposes only. The exam does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.")
+        st.markdown("<h2 style='margin: 0; color:#FC8EAC;'>MTLE Mock Exam</h2>", unsafe_allow_html=True)
+        st.write("Select a division:")
+        div = st.selectbox("", ["Introduction", "Div 1", "Div 2", "Div 3", "Div 4", "Div 5", "Div 6"])
+
+        st.markdown("<p style='color:#FFC0CB;'>Disclaimer: This review web app is for educational purposes only. The 'mock exam' does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.</p>", unsafe_allow_html=True)
 
         if div == "Introduction":
             st.write("The developer divided the mock exam into 6 divisions, each with the same distribution of sections/questions.")
-            st.write("Why? Because it's difficult to cram all the questions into one division. It's hard to debug and manage a large number of questions in a single JSON file.")
+            st.write("It is impractical to cram all the questions into one division. It's hard to debug and manage a large number of questions in a single JSON file.")
             st.write("In each division, the distribution of sections/questions is as follows:")
 
             df_dis = pd.read_csv('d1_dis.csv')
@@ -200,6 +244,7 @@ elif options == "Mock Exam":
             st.write("This data is based on PRC Board of Medical Technology Resolution No. 15 Series of 1996: https://www.prc.gov.ph/sites/default/files/Board%20of%20Medical%20Technology%20-%20Syllabi_0.pdf")
             df_per = pd.read_csv('clinical_microscopy_per.csv')
             st.dataframe(df_per, hide_index=True, use_container_width=True, height=2487)
+            st.markdown("<p style='color:#FFC0CB; font-style: italic;'>password: rmtako (huge thanks to Doc Krizza-Almond)</p>", unsafe_allow_html=True)
 
         elif div in ["Div 1", "Div 2", "Div 3"]:
             div_key = div.lower().replace(" ", "")
@@ -268,27 +313,83 @@ elif options == "Mock Exam":
             st.info(f"{div} content coming soon! Please check back later.")
 
 elif options == "About":
-    st.header("About")
-    st.write("Developed by Devon Daquioag, a Computer Engineering undergraduate at Centro Escolar University, Manila.")
-    st.write("This app was developed with the hopes of helping the developer's friends in the Medical Technology program with their endeavors in their field.")
-    st.write("This app is still under development (<10%), so please check back later for more features and content.")
-    st.write("For any issues or suggestions, please contact: daquiogjairo30@gmail.com.")
-    st.write("Disclaimer: This is a mock exam for educational purposes only. The exam does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.")
+    st.markdown("<h2 style='margin: 0; color:#FC8EAC;'>About</h2>", unsafe_allow_html=True)
+    
+    st.write("Developed by Devon Daquioag, a Computer Engineering undergraduate from Centro Escolar University, Manila.")
+    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>The development of this app was inspired by a certain someone who is currently taking a Bachelor of Science in Medical Technology program at Centro Escolar University Manila, Philippines.</p>", unsafe_allow_html=True)
+    st.write("This app is still under development (<30%), so please check back later for more features and content.")
+    st.write("For any issues or suggestions, please contact: daquioagjairo30@gmail.com.")
     st.write("This app used various sources, such as articles, books, and online resources. Please refer to the 'References' section for more details.")
     st.write("All rights reserved. This app is not affiliated with the Professional Regulation Commission (PRC) or any official medical technology board review programs.")
 
+    st.markdown("<p style='color:#FFC0CB;'>Disclaimer: This review web app is for educational purposes only. The 'mock exam' does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.</p>", unsafe_allow_html=True)
+    for _ in range(15):
+            st.write(" ")
+    
     st.markdown(
         """
-        <p style='font-style: italic; opacity: 0.5; text-align: center; font-family: "Times New Roman", serif; font-size: 12px;'>
+        <p style='color:#FFC0CB; font-style: italic; opacity: 1; text-align: center; font-family: "Times New Roman", serif; font-size: 20px;'>
         To God be all the glory!
         </p>
         """,
         unsafe_allow_html=True
     )
 
+
 elif options == "References":
     with open('references.json') as f:
         data = json.load(f)
-        st.header("References")
+        st.markdown("<h2 style='margin: 0; color:#FC8EAC;'>References</h2>", unsafe_allow_html=True)
         for ref in data["references"]:
-            st.markdown(f"- **{ref['author']}** ({ref['year']}). {ref['title']}. {ref['link']}")
+            st.markdown(
+                f"<span style='color:#cccccc;'><b>{ref['author']}</b> ({ref['year']}). {ref['title']}.</span> "
+                f"<a href='{ref['link']}' target='_blank' style='color:#FC8EAC;'>{ref['link']}</a>",
+                unsafe_allow_html=True
+            )
+ 
+
+elif options == "Reviewers and Notes":
+    st.markdown("<h2 style='margin: 0; color: #FC8EAC;'>Reviewers and Notes</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='color:#FFC0CB;'>Disclaimer: I do not claim ownership of any of the materials included in this website. This website is for educational purposes only and is not intended for commercial use.</p>", unsafe_allow_html=True)
+    st.write("If you ever need more reference materials, you can check out the following files/links: ")
+    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>link(s) at the bottom of the page</p>", unsafe_allow_html=True)
+
+    pdf_folder = r"C:\Users\Jairo\Documents\MT Mock Board Review\pdfs"  # Change this to your actual folder
+
+    # ✅ List all PDF files in the folder
+    pdf_files = [f for f in os.listdir(pdf_folder) if f.endswith(".pdf")]
+
+    if pdf_files:
+        selected_pdf = st.selectbox("Select a PDF to view/download:", pdf_files)
+
+        pdf_path = os.path.join(pdf_folder, selected_pdf)
+
+        # Read bytes
+        with open(pdf_path, "rb") as f:
+            pdf_bytes = f.read()
+
+        # Download button
+        st.download_button(label="Download PDF", data=pdf_bytes, file_name=selected_pdf, mime="application/pdf")
+
+        # Embed PDF viewer (centered & fullscreen enabled)
+        base64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
+        pdf_display = f"""
+            <div style="display: flex; justify-content: center;">
+                <iframe 
+                    src="data:application/pdf;base64,{base64_pdf}" 
+                    width="1500" 
+                    height="1000" 
+                    type="application/pdf"
+                    allowfullscreen
+                    style="border: none;"
+                ></iframe>
+            </div>
+        """
+        st.markdown(pdf_display, unsafe_allow_html=True)
+        st.write(" ")
+        st.write("1. Med Tech Notes by Doc Krizza-Almond https://krizzaalmond.com/2020/05/01/mymedtechnotesforfree/")
+        st.markdown("<p style='color:#FFC0CB; font-style: italic;'>The password for Doc Krizza-Almond's PDF files is at the bottom of the Introduction section in the Mock Test Page.</p>", unsafe_allow_html=True)
+        st.write("That's why the app requires an exclusive account to access the mock exam page. ")
+
+    else:
+        st.warning("No PDF files found in the folder. Please add some PDFs to display.")
