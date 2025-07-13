@@ -53,7 +53,7 @@ def login():
         else:
             st.error("Incorrect username or password.")
 
-    for _ in range(20):
+    for _ in range(10):
             st.write(" ")
     
     st.markdown(
@@ -211,7 +211,7 @@ if options == "Home":
         st.write("This app used various sources, such as articles, books, and online resources. Please refer to the 'References' section for more details.")
 
         # You can remove or reduce these empty writes if you like
-        for _ in range(20):
+        for _ in range(10):
             st.write(" ")
 
         st.markdown(
@@ -323,8 +323,8 @@ elif options == "About":
     st.write("This app used various sources, such as articles, books, and online resources. Please refer to the 'References' section for more details.")
     st.write("All rights reserved. This app is not affiliated with the Professional Regulation Commission (PRC) or any official medical technology board review programs.")
 
-    st.markdown("<p style='color:#FFC0CB;'>Disclaimer: This review web app is for educational purposes only. The 'mock exam' does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.</p>", unsafe_allow_html=True)
-    for _ in range(15):
+    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>Disclaimer: This review web app is for educational purposes only. The 'mock exam' does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.</p>", unsafe_allow_html=True)
+    for _ in range(10):
             st.write(" ")
     
     st.markdown(
@@ -351,9 +351,13 @@ elif options == "References":
 
 elif options == "Reviewers and Notes":
     st.markdown("<h2 style='margin: 0; color: #FC8EAC;'>Reviewers and Notes</h2>", unsafe_allow_html=True)
-    st.markdown("<p style='color:#FFC0CB;'>Disclaimer: I do not claim ownership of any of the materials included in this website. This website is for educational purposes only and is not intended for commercial use.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>Disclaimer: I do not claim ownership of any of the materials included in this website. This website is for educational purposes only and is not intended for commercial use.</p>", unsafe_allow_html=True)
     st.write("If you ever need more reference materials, you can check out the following files/links: ")
-    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>link(s) at the bottom of the page</p>", unsafe_allow_html=True)
+    st.write("1. Med Tech Notes by Doc Krizza-Almond https://krizzaalmond.com/2020/05/01/mymedtechnotesforfree/")
+    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>The password for Doc Krizza-Almond's PDF files is at the bottom of the Introduction section in the Mock Test Page. That's why the app requires an exclusive account to access the mock exam page. </p>", unsafe_allow_html=True)
+    st.write("2. Other materials: https://drive.google.com/drive/u/0/folders/18eTwXcgZGYX6zsa6pnd6AbWeGZz5JNyf")
+
+    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>or</p>", unsafe_allow_html=True)
 
     pdf_folder = "pdfs"
 
@@ -372,7 +376,7 @@ elif options == "Reviewers and Notes":
         github_raw_base = "https://raw.githubusercontent.com/dvnxi/MTMLE/main/pdfs/"
         pdf_url = github_raw_base + selected_pdf
 
-        # --- Use PDF.js viewer ---
+        # Use PDF.js viewer with responsive iframe
         viewer_url = f"https://mozilla.github.io/pdf.js/web/viewer.html?file={pdf_url}"
 
         st.markdown(
@@ -380,19 +384,13 @@ elif options == "Reviewers and Notes":
             <div style="display: flex; justify-content: center;">
                 <iframe 
                     src="{viewer_url}" 
-                    width="1500" 
-                    height="1000" 
-                    style="border: none;">
-                </iframe>
+                    width="100%" 
+                    height="700px" 
+                    style="border: none; max-width: 100%;"
+                ></iframe>
             </div>
             """,
             unsafe_allow_html=True
         )
-
-        st.write(" ")
-        st.write("1. Med Tech Notes by Doc Krizza-Almond https://krizzaalmond.com/2020/05/01/mymedtechnotesforfree/")
-        st.markdown("<p style='color:#FFC0CB; font-style: italic;'>The password for Doc Krizza-Almond's PDF files is at the bottom of the Introduction section in the Mock Test Page.</p>", unsafe_allow_html=True)
-        st.write("That's why the app requires an exclusive account to access the mock exam page. ")
-
     else:
         st.warning("No PDF files found in the folder. Please add some PDFs to display.")
