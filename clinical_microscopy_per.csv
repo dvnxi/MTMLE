@@ -1,0 +1,71 @@
+Section,Subsection,Topic,Percentage
+Clinical Microscopy,Urine, ,40%
+Clinical Microscopy,Feces, ,10%
+Clinical Microscopy,Seminal Fluid, ,8%
+Clinical Microscopy,CSF, ,10%
+Clinical Microscopy,Transudate & Exudate, ,8%
+Clinical Microscopy,Synovial Fluid, ,2%
+Clinical Microscopy,Amniotic Fluid, ,2%
+Clinical Microscopy,Gastric fluid & Duodenal drainage, ,4%
+Clinical Microscopy,Sputum, ,5%
+Clinical Microscopy,Bronchial washings, ,2%
+Clinical Microscopy,"Peritoneal, Pleural, Pericardial fluid", ,5%
+Clinical Microscopy,Quality Control, ,4%
+Histopathology Laws & Ethics,"Histopathologic techniques 85%", , 
+Histopathology Laws & Ethics,Histopathologic techniques,"Tissue Processing - Routine",30%
+Histopathology Laws & Ethics,Histopathologic techniques,"Tissue Processing - Special",10%
+Histopathology Laws & Ethics,Histopathologic techniques,Cytology,10%
+Histopathology Laws & Ethics,Histopathologic techniques,"Staining - Routine",15%
+Histopathology Laws & Ethics,Histopathologic techniques,"Staining - Special",5%
+Histopathology Laws & Ethics,Histopathologic techniques,Autopsy,5%
+Histopathology Laws & Ethics,Histopathologic techniques,"Special procedures",5%
+Histopathology Laws & Ethics,Histopathologic techniques,"Clerical/Logging",5%
+Histopathology Laws & Ethics,"Med. Tech. Laws"," Med. Tech. Laws",10%
+Histopathology Laws & Ethics,"Med. Tech. Laws"," Related Laws",3%
+Histopathology Laws & Ethics,"Med. Tech. Laws"," Code of Ethics",2%
+Hematology,"Blood collection, anticoagulants", ,10%
+Hematology,"Cell counts (rbc, wbc, platelet, reticulocytes)", ,30%
+Hematology,"Blood tests (hemoglobin, hematocrit, etc.)", ,15%
+Hematology,"Cell morphology (normal and abnormal)", ,20%
+Hematology,"Coagulation tests (BT, CT, PT, RBC fragility tests, etc.)", ,15%
+Hematology,Special tests, ,5%
+Hematology,Quality control, ,5%
+Microbiology/Parasitology,"Microbiology 70% (Bacteria 80%, Fungi 5%, Viruses 10%, Rickettsiae 5%)", , 
+Microbiology/Parasitology,"Microbiology - Collection", ,10%
+Microbiology/Parasitology,"Microbiology - Preparation and Staining", ,15%
+Microbiology/Parasitology,"Microbiology - Culture and Identification", ,40%
+Microbiology/Parasitology,"Microbiology - Sensitivity", ,10%
+Microbiology/Parasitology,"Microbiology - Media Preparation", ,10%
+Microbiology/Parasitology,"Microbiology - Sterilization", ,5%
+Microbiology/Parasitology,"Microbiology - Water, food, milk, utensils", ,5%
+Microbiology/Parasitology,"Microbiology - Quality Control", ,5%
+Microbiology/Parasitology,"Parasitology - Life Cycle", ,10%
+Microbiology/Parasitology,"Parasitology - Morphology", ,50%
+Microbiology/Parasitology,"Parasitology - Tests", ,25%
+Microbiology/Parasitology,"Parasitology - Fecal", ,10%
+Microbiology/Parasitology,"Parasitology - Blood and Tests", ,5%
+Blood Banking and Serology,"Blood Banking 50%", , 
+Blood Banking and Serology,Blood Banking," Typing & Crossmatching, Antiglobulin test",20%
+Blood Banking and Serology,Blood Banking," Blood types",20%
+Blood Banking and Serology,Blood Banking," Genetics (Principles and Testing)",5%
+Blood Banking and Serology,Blood Banking," Blood storage and transport",10%
+Blood Banking and Serology,Blood Banking," Donor recruitment and bleeding",15%
+Blood Banking and Serology,Blood Banking," Blood components",15%
+Blood Banking and Serology,Blood Banking," Transfusion practice",10%
+Blood Banking and Serology,Blood Banking," Special procedures (Elution, etc.)",5%
+Blood Banking and Serology,Serology," Immune system",20%
+Blood Banking and Serology,Serology," Antigen, antibodies, complement, HLA",20%
+Blood Banking and Serology,Serology," General principles",10%
+Blood Banking and Serology,Serology," Methods, procedures, interpretation",45%
+Blood Banking and Serology,Serology," Updates (HIV tests, etc.)",5%
+Clinical Chemistry,"Specimen collection", ,5%
+Clinical Chemistry,"Instrumentation and calibration", ,5%
+Clinical Chemistry,"Reagent preparation and lab math", ,5%
+Clinical Chemistry,"Quality control", ,10%
+Clinical Chemistry,"Clinical Chemistry proper"," Biochemistry",10%
+Clinical Chemistry,"Clinical Chemistry proper"," Principles and Methods",20%
+Clinical Chemistry,"Clinical Chemistry proper"," Interpretation",10%
+Clinical Chemistry,"Clinical Chemistry proper"," Normal values (SI)",10%
+Clinical Chemistry,"Endocrinology and Toxicology", ,10%
+Clinical Chemistry,"Blood gas analysis", ,10%
+Clinical Chemistry,"Laboratory safety", ,5%

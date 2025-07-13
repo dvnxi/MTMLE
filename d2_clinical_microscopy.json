@@ -1,0 +1,75 @@
+{
+  "subject": "Clinical Microscopy",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the recommended time frame for urine specimen analysis to avoid significant changes?",
+      "options": ["Within 30 minutes", "Within 1 hour", "Within 2 hours", "Within 4 hours"],
+      "answer": "Within 2 hours",
+      "explanation": "Urine should be examined within 2 hours to prevent bacterial growth and cell degradation."
+    },
+    {
+      "id": 2,
+      "question": "Which urinary cast is most indicative of glomerulonephritis?",
+      "options": ["Hyaline cast", "Red blood cell cast", "Granular cast", "Waxy cast"],
+      "answer": "Red blood cell cast",
+      "explanation": "RBC casts signify bleeding from the glomeruli, characteristic of glomerulonephritis."
+    },
+    {
+      "id": 3,
+      "question": "What is the main constituent of urinary casts?",
+      "options": ["Albumin", "Fibrin", "Tamm-Horsfall protein", "Globulin"],
+      "answer": "Tamm-Horsfall protein",
+      "explanation": "Tamm-Horsfall protein secreted by tubular cells forms the matrix of casts."
+    },
+    {
+      "id": 4,
+      "question": "Which stain is used to detect fecal fat?",
+      "options": ["Gram stain", "Sudan III stain", "Trichrome stain", "Giemsa stain"],
+      "answer": "Sudan III stain",
+      "explanation": "Sudan III stain is used to identify neutral fat droplets in fecal specimens."
+    },
+    {
+      "id": 5,
+      "question": "What CSF cell type predominates in viral meningitis?",
+      "options": ["Neutrophils", "Lymphocytes", "Monocytes", "Eosinophils"],
+      "answer": "Lymphocytes",
+      "explanation": "Lymphocytic pleocytosis is typical in viral (aseptic) meningitis."
+    },
+    {
+      "id": 6,
+      "question": "What is a common finding in urine sediment of nephrotic syndrome?",
+      "options": ["RBC casts", "Fatty casts", "Bacteria", "Transitional cells"],
+      "answer": "Fatty casts",
+      "explanation": "Fatty casts and oval fat bodies are characteristic findings in nephrotic syndrome."
+    },
+    {
+      "id": 7,
+      "question": "Which parasite is diagnosed through urine examination in endemic areas?",
+      "options": ["Trichomonas vaginalis", "Schistosoma haematobium", "Giardia lamblia", "Entamoeba histolytica"],
+      "answer": "Schistosoma haematobium",
+      "explanation": "Eggs of Schistosoma haematobium can be detected in urine samples."
+    },
+    {
+      "id": 8,
+      "question": "Which fluid has a milky appearance due to high triglycerides?",
+      "options": ["Exudate", "Transudate", "Chylous effusion", "Hemorrhagic fluid"],
+      "answer": "Chylous effusion",
+      "explanation": "Chylous fluids appear milky from lymphatic leakage rich in triglycerides."
+    },
+    {
+      "id": 9,
+      "question": "What is the expected normal sperm motility percentage in semen analysis?",
+      "options": ["≥30%", "≥40%", "≥50%", "≥60%"],
+      "answer": "≥50%",
+      "explanation": "WHO criteria require at least 50% progressive motility for normal semen analysis."
+    },
+    {
+      "id": 10,
+      "question": "What is the effect of light on urine bilirubin measurement?",
+      "options": ["Increase bilirubin", "Decrease bilirubin", "No change", "Increase urobilinogen"],
+      "answer": "Decrease bilirubin",
+      "explanation": "Bilirubin is light-sensitive and degrades on exposure, lowering measured values."
+    }
+  ]
+}

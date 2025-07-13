@@ -1,0 +1,185 @@
+{
+  "subject": "Hematology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which type of anemia is characterized by hypersegmented neutrophils and macrocytes?",
+      "options": ["Megaloblastic anemia", "Iron deficiency anemia", "Aplastic anemia", "Hemolytic anemia"],
+      "answer": "Megaloblastic anemia",
+      "explanation": "Megaloblastic anemia, often due to vitamin B12 or folate deficiency, shows macrocytosis and hypersegmented neutrophils.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 2,
+      "question": "What is the normal range for hemoglobin in adult females?",
+      "options": ["12–16 g/dL", "10–14 g/dL", "14–18 g/dL", "8–12 g/dL"],
+      "answer": "12–16 g/dL",
+      "explanation": "Adult females typically have hemoglobin levels between 12 and 16 grams per deciliter.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 3,
+      "question": "Which anticoagulant is preferred for coagulation studies?",
+      "options": ["Sodium citrate", "Ethylenediaminetetraacetic acid (EDTA)", "Heparin", "Sodium fluoride"],
+      "answer": "Sodium citrate",
+      "explanation": "Sodium citrate preserves labile coagulation factors by binding calcium reversibly.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 4,
+      "question": "What cell type is increased in allergic reactions and parasitic infections?",
+      "options": ["Eosinophils", "Neutrophils", "Basophils", "Monocytes"],
+      "answer": "Eosinophils",
+      "explanation": "Eosinophils play a role in defense against parasites and are elevated in allergic responses.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 5,
+      "question": "Which test measures the extrinsic pathway of coagulation?",
+      "options": ["Prothrombin time (PT)", "Activated partial thromboplastin time (APTT)", "Bleeding time", "Thrombin time"],
+      "answer": "Prothrombin time (PT)",
+      "explanation": "Prothrombin time evaluates factors VII, X, V, II, and fibrinogen in the extrinsic and common pathways.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 6,
+      "question": "Which red cell inclusion is composed of denatured hemoglobin and seen after Heinz body staining?",
+      "options": ["Heinz bodies", "Howell-Jolly bodies", "Pappenheimer bodies", "Basophilic stippling"],
+      "answer": "Heinz bodies",
+      "explanation": "Heinz bodies are seen in unstable hemoglobinopathies and after oxidant damage.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 7,
+      "question": "What is the most common cause of iron deficiency anemia worldwide?",
+      "options": ["Chronic blood loss", "Dietary deficiency", "Malabsorption", "Chronic hemolysis"],
+      "answer": "Chronic blood loss",
+      "explanation": "Chronic blood loss, often from gastrointestinal or gynecologic sources, is the main cause globally.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 8,
+      "question": "What is the characteristic appearance of red cells in hereditary spherocytosis?",
+      "options": ["Spherocytes", "Target cells", "Schistocytes", "Teardrop cells"],
+      "answer": "Spherocytes",
+      "explanation": "Spherocytes are small, dense, and lack central pallor, typical of hereditary spherocytosis.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 9,
+      "question": "Which parameter reflects the average size of red blood cells?",
+      "options": ["Mean corpuscular volume (MCV)", "Mean corpuscular hemoglobin (MCH)", "Mean corpuscular hemoglobin concentration (MCHC)", "Red cell distribution width (RDW)"],
+      "answer": "Mean corpuscular volume (MCV)",
+      "explanation": "MCV is used to classify anemias as microcytic, normocytic, or macrocytic.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 10,
+      "question": "Which stage of neutrophil maturation is characterized by a kidney-shaped nucleus?",
+      "options": ["Band cell", "Myelocyte", "Metamyelocyte", "Promyelocyte"],
+      "answer": "Band cell",
+      "explanation": "Band cells have an unsegmented, curved nucleus and are slightly more mature than metamyelocytes.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 11,
+      "question": "Which test evaluates platelet function in vivo?",
+      "options": ["Bleeding time", "Prothrombin time", "Activated partial thromboplastin time", "Thrombin time"],
+      "answer": "Bleeding time",
+      "explanation": "Bleeding time measures primary hemostasis, reflecting platelet plug formation.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 12,
+      "question": "Which hemoglobin variant is most prevalent in sickle cell disease?",
+      "options": ["Hemoglobin S", "Hemoglobin C", "Hemoglobin F", "Hemoglobin A2"],
+      "answer": "Hemoglobin S",
+      "explanation": "Hemoglobin S results from a single amino acid substitution in beta-globin chains.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 13,
+      "question": "What is the significance of the reticulocyte count?",
+      "options": ["Indicator of bone marrow erythropoietic activity", "Marker for leukocyte turnover", "Indicator of platelet function", "Measure of iron stores"],
+      "answer": "Indicator of bone marrow erythropoietic activity",
+      "explanation": "Reticulocytes are immature red cells, reflecting recent marrow response.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 14,
+      "question": "Which test is used to detect red cell membrane fragility?",
+      "options": ["Osmotic fragility test", "Sucrose hemolysis test", "Ham’s test", "Direct antiglobulin test"],
+      "answer": "Osmotic fragility test",
+      "explanation": "This test assesses red cells’ resistance to hypotonic saline and is increased in hereditary spherocytosis.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 15,
+      "question": "What is the main iron storage protein in the body?",
+      "options": ["Ferritin", "Transferrin", "Hemosiderin", "Ceruloplasmin"],
+      "answer": "Ferritin",
+      "explanation": "Ferritin reflects body iron stores and is an acute-phase reactant.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 16,
+      "question": "Which finding is characteristic of chronic myelogenous leukemia (CML)?",
+      "options": ["Philadelphia chromosome", "JAK2 mutation", "Bence Jones protein", "Dacrocytes"],
+      "answer": "Philadelphia chromosome",
+      "explanation": "CML is associated with t(9;22) translocation forming the BCR-ABL fusion gene.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 17,
+      "question": "Which clotting factor is deficient in Hemophilia A?",
+      "options": ["Factor VIII", "Factor IX", "Factor XI", "Factor VII"],
+      "answer": "Factor VIII",
+      "explanation": "Hemophilia A is caused by a deficiency of factor VIII, leading to prolonged bleeding.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 18,
+      "question": "Which type of cell is most commonly seen in reactive lymphocytosis, such as in infectious mononucleosis?",
+      "options": ["Atypical lymphocytes", "Plasma cells", "Smudge cells", "Myeloblasts"],
+      "answer": "Atypical lymphocytes",
+      "explanation": "Infectious mononucleosis shows large, irregular, basophilic cytoplasm in atypical lymphocytes.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 19,
+      "question": "What is the normal reference range for platelet count in adults?",
+      "options": ["150,000–400,000/µL", "50,000–150,000/µL", "400,000–600,000/µL", "20,000–100,000/µL"],
+      "answer": "150,000–400,000/µL",
+      "explanation": "Platelets help maintain hemostasis; normal counts are crucial for adequate clotting.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 20,
+      "question": "Which abnormal red cell shape is commonly seen in liver disease?",
+      "options": ["Acanthocytes (spur cells)", "Target cells", "Schistocytes", "Elliptocytes"],
+      "answer": "Acanthocytes (spur cells)",
+      "explanation": "Acanthocytes are irregularly spiculated cells associated with liver dysfunction.",
+      "image": null,
+      "image_comment": null
+    }
+  ]
+}

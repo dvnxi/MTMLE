@@ -1,0 +1,185 @@
+{
+  "subject": "Blood Banking and Serology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which blood component is most appropriate for a patient with thrombocytopenia and active bleeding?",
+      "options": ["Platelet concentrate", "Fresh frozen plasma", "Cryoprecipitate", "Packed red blood cells"],
+      "answer": "Platelet concentrate",
+      "explanation": "Platelet concentrate is indicated to increase platelet count in bleeding thrombocytopenic patients.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 2,
+      "question": "What is the major immunoglobulin class responsible for immediate hemolytic transfusion reactions?",
+      "options": ["Immunoglobulin M (IgM)", "Immunoglobulin G (IgG)", "Immunoglobulin A (IgA)", "Immunoglobulin E (IgE)"],
+      "answer": "Immunoglobulin M (IgM)",
+      "explanation": "IgM antibodies can activate complement, causing rapid intravascular hemolysis.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 3,
+      "question": "Which antigen is most immunogenic and causes the most severe hemolytic disease of the fetus and newborn?",
+      "options": ["D antigen (Rh)", "K antigen (Kell)", "Fya antigen (Duffy)", "Jka antigen (Kidd)"],
+      "answer": "D antigen (Rh)",
+      "explanation": "The Rh D antigen is highly immunogenic and commonly implicated in severe hemolytic disease.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 4,
+      "question": "What is the storage temperature for cryoprecipitate?",
+      "options": ["-18 °C or lower", "1–6 °C", "20–24 °C", "-80 °C"],
+      "answer": "-18 °C or lower",
+      "explanation": "Cryoprecipitate is stored frozen at -18 °C or lower to preserve clotting factors.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 5,
+      "question": "Which test detects weak D antigen in Rh typing?",
+      "options": ["Indirect antiglobulin test", "Direct antiglobulin test", "Enzyme-linked immunosorbent assay (ELISA)", "Hemagglutination inhibition test"],
+      "answer": "Indirect antiglobulin test",
+      "explanation": "Weak D testing uses the indirect antiglobulin test to detect incomplete D expression.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 6,
+      "question": "Which blood group system is known as the universal donor for red blood cells?",
+      "options": ["Group O", "Group A", "Group B", "Group AB"],
+      "answer": "Group O",
+      "explanation": "Group O individuals lack A and B antigens, making them universal RBC donors.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 7,
+      "question": "What is the minimum hemoglobin level required for whole blood donation?",
+      "options": ["12.5 g/dL", "10.0 g/dL", "13.5 g/dL", "15.0 g/dL"],
+      "answer": "12.5 g/dL",
+      "explanation": "A minimum hemoglobin of 12.5 g/dL ensures donor safety and adequate oxygen delivery.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 8,
+      "question": "Which test is performed to detect unexpected antibodies in the recipient’s serum?",
+      "options": ["Antibody screen", "Crossmatch", "ABO typing", "Direct antiglobulin test"],
+      "answer": "Antibody screen",
+      "explanation": "An antibody screen identifies unexpected alloantibodies that may cause transfusion reactions.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 9,
+      "question": "Which immunoglobulin class is primarily responsible for hemolytic disease of the fetus and newborn?",
+      "options": ["Immunoglobulin G (IgG)", "Immunoglobulin M (IgM)", "Immunoglobulin A (IgA)", "Immunoglobulin D (IgD)"],
+      "answer": "Immunoglobulin G (IgG)",
+      "explanation": "IgG can cross the placenta and cause fetal red cell destruction.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 10,
+      "question": "What is the shelf life of irradiated red blood cells?",
+      "options": ["28 days from irradiation or original expiration, whichever is sooner", "42 days", "35 days", "21 days"],
+      "answer": "28 days from irradiation or original expiration, whichever is sooner",
+      "explanation": "Irradiation limits T-cell viability to prevent graft-versus-host disease, shortening shelf life.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of leukoreduction in blood products?",
+      "options": ["Reduce febrile reactions and CMV transmission", "Increase shelf life", "Enhance oxygen carrying capacity", "Prevent ABO incompatibility"],
+      "answer": "Reduce febrile reactions and CMV transmission",
+      "explanation": "Leukoreduction removes white cells to minimize immune reactions and reduce cytomegalovirus risk.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 12,
+      "question": "What test is used to confirm fetal-maternal hemorrhage?",
+      "options": ["Kleihauer-Betke test", "Rouleaux formation test", "Sucrose hemolysis test", "Ham’s test"],
+      "answer": "Kleihauer-Betke test",
+      "explanation": "The Kleihauer-Betke acid elution test quantifies fetal red cells in maternal circulation.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 13,
+      "question": "Which blood group is known as the universal plasma donor?",
+      "options": ["Group AB", "Group O", "Group A", "Group B"],
+      "answer": "Group AB",
+      "explanation": "Group AB plasma lacks anti-A and anti-B antibodies, so it can be given to any recipient.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 14,
+      "question": "Which serologic reaction is detected in the antiglobulin (Coombs) test?",
+      "options": ["Incomplete (sensitized) antibody-coated red cells", "Complete agglutination", "Cold agglutinin reactions", "Passive hemagglutination"],
+      "answer": "Incomplete (sensitized) antibody-coated red cells",
+      "explanation": "The antiglobulin test detects red cells coated with IgG or complement in vivo or in vitro.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 15,
+      "question": "Which antibody is most commonly implicated in delayed hemolytic transfusion reactions?",
+      "options": ["Anti-Kidd (Jka)", "Anti-A", "Anti-D", "Anti-M"],
+      "answer": "Anti-Kidd (Jka)",
+      "explanation": "Kidd antibodies are notorious for causing delayed hemolytic reactions due to transient low titers.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 16,
+      "question": "What is the main component in cryoprecipitate?",
+      "options": ["Fibrinogen", "Albumin", "Immunoglobulin G (IgG)", "Factor IX"],
+      "answer": "Fibrinogen",
+      "explanation": "Cryoprecipitate is rich in fibrinogen, factor VIII, factor XIII, von Willebrand factor, and fibronectin.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 17,
+      "question": "Which test is used to differentiate between rouleaux formation and true agglutination?",
+      "options": ["Saline replacement technique", "Indirect antiglobulin test", "Adsorption test", "Enzyme treatment"],
+      "answer": "Saline replacement technique",
+      "explanation": "Adding saline disperses rouleaux but not true antibody-mediated agglutination.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 18,
+      "question": "What is the most appropriate initial test to investigate hemolytic transfusion reactions?",
+      "options": ["Direct antiglobulin test", "Indirect antiglobulin test", "ABO retyping", "Rh phenotyping"],
+      "answer": "Direct antiglobulin test",
+      "explanation": "The direct antiglobulin test identifies antibody or complement on transfused red cells.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 19,
+      "question": "Which immunoglobulin class is most efficient at complement activation?",
+      "options": ["Immunoglobulin M (IgM)", "Immunoglobulin G (IgG)", "Immunoglobulin A (IgA)", "Immunoglobulin E (IgE)"],
+      "answer": "Immunoglobulin M (IgM)",
+      "explanation": "IgM is a pentamer and highly efficient at initiating the classical complement pathway.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 20,
+      "question": "Which condition is an indication for the use of washed red blood cells?",
+      "options": ["Severe allergic transfusion reactions", "Massive hemorrhage", "Iron deficiency anemia", "Autoimmune hemolytic anemia"],
+      "answer": "Severe allergic transfusion reactions",
+      "explanation": "Washed red blood cells are used to remove plasma proteins and reduce allergic reactions.",
+      "image": null,
+      "image_comment": null
+    }
+  ]
+}

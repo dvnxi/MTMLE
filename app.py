@@ -3,6 +3,9 @@ import json
 import random
 import os
 import pandas as pd
+
+st.set_page_config(layout="wide")
+
 # -------------------------
 # Account configuration
 # -------------------------
@@ -20,18 +23,6 @@ if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
 if 'username' not in st.session_state:
     st.session_state.username = ""
-if 'question_idx' not in st.session_state:
-    st.session_state.question_idx = 0
-if 'questions' not in st.session_state:
-    st.session_state.questions = []
-if 'answers' not in st.session_state:
-    st.session_state.answers = {}
-if 'completed' not in st.session_state:
-    st.session_state.completed = False
-if 'order_list' not in st.session_state:
-    st.session_state.order_list = []
-if 'section_map' not in st.session_state:
-    st.session_state.section_map = []
 
 # -------------------------
 # Login page
@@ -45,46 +36,14 @@ def login():
             st.session_state.logged_in = True
             st.session_state.username = username
             st.success(f"Welcome, {username}!")
-            load_progress()
             st.rerun()
         else:
             st.error("Incorrect username or password.")
 
 # -------------------------
-# Save & load progress
-# -------------------------
-def save_progress():
-    save_data = {
-        "answers": st.session_state.answers,
-        "question_idx": st.session_state.question_idx,
-        "completed": st.session_state.completed,
-        "order_list": st.session_state.order_list,
-        "section_map": st.session_state.section_map
-    }
-    with open(f"{st.session_state.username}_div1_progress.json", "w") as f:
-        json.dump(save_data, f)
-
-def load_progress():
-    filename = f"{st.session_state.username}_div1_progress.json"
-    if os.path.exists(filename):
-        with open(filename, "r") as f:
-            data = json.load(f)
-            st.session_state.answers = data.get("answers", {})
-            st.session_state.question_idx = data.get("question_idx", 0)
-            st.session_state.completed = data.get("completed", False)
-            st.session_state.order_list = data.get("order_list", [])
-            st.session_state.section_map = data.get("section_map", [])
-    else:
-        st.session_state.answers = {}
-        st.session_state.question_idx = 0
-        st.session_state.completed = False
-        st.session_state.order_list = []
-        st.session_state.section_map = []
-
-# -------------------------
 # Question display
 # -------------------------
-def show_question(question, disp_number, section_name, q_idx):
+def show_question(question, disp_number, section_name, q_idx, answers, answers_key):
     st.subheader(f"Question {disp_number + 1}")
     st.markdown(f"<div style='text-align:right; font-size:14px; color:gray;'>Section: {section_name}</div>", unsafe_allow_html=True)
 
@@ -110,8 +69,8 @@ def show_question(question, disp_number, section_name, q_idx):
     """
     st.markdown(css, unsafe_allow_html=True)
 
-    if q_idx in st.session_state.answers:
-        selected = st.session_state.answers[q_idx]
+    if q_idx in answers:
+        selected = answers[q_idx]
         st.radio("Your answer:", options, index=options.index(selected), disabled=True, key=f"answer_radio_{q_idx}")
         st.markdown(f"**Correct answer:** {correct}")
         st.info(f"Explanation: {question.get('explanation', 'No explanation provided.')}")
@@ -119,21 +78,21 @@ def show_question(question, disp_number, section_name, q_idx):
         selected = st.radio("Choose your answer:", options, key=f"answer_radio_{q_idx}")
 
         if st.button("Confirm", key=f"confirm_{q_idx}"):
-            if q_idx not in st.session_state.answers:
-                st.session_state.answers[q_idx] = selected
-                save_progress()
+            if q_idx not in answers:
+                answers[q_idx] = selected
+                st.session_state[answers_key] = answers
                 st.rerun()
 
 # -------------------------
 # Sidebar navigation
 # -------------------------
-def question_sidebar(questions):
+def question_sidebar(questions, order_list, answers):
     st.sidebar.title("Questions")
-    for idx, q_idx in enumerate(st.session_state.order_list):
+    for idx, q_idx in enumerate(order_list):
         btn_label = f"Question {idx + 1}"
-        if q_idx in st.session_state.answers:
+        if q_idx in answers:
             correct = questions[q_idx]["answer"]
-            chosen = st.session_state.answers[q_idx]
+            chosen = answers[q_idx]
             color = "#2E8B57" if chosen == correct else "#DC143C"
             st.sidebar.markdown(
                 f"""
@@ -151,8 +110,50 @@ def question_sidebar(questions):
             )
         else:
             if st.sidebar.button(btn_label, key=f"nav_{idx}"):
-                st.session_state.question_idx = idx
+                st.session_state[f"question_idx_{div_key}"] = idx
                 st.rerun()
+
+# -------------------------
+# Load questions per division
+# -------------------------
+def load_div_questions(div_key, files_sections):
+    questions_key = f"questions_{div_key}"
+    order_list_key = f"order_list_{div_key}"
+    section_map_key = f"section_map_{div_key}"
+    answers_key = f"answers_{div_key}"
+    question_idx_key = f"question_idx_{div_key}"
+    completed_key = f"completed_{div_key}"
+
+    if questions_key not in st.session_state:
+        questions = []
+        section_names = []
+        order_list = []
+
+        for file, sec_name in files_sections:
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                sec_questions = data["questions"]
+                questions.extend(sec_questions)
+                section_names.extend([sec_name] * len(sec_questions))
+
+        order_list = list(range(len(questions)))
+        random.shuffle(order_list)
+
+        st.session_state[questions_key] = questions
+        st.session_state[section_map_key] = section_names
+        st.session_state[order_list_key] = order_list
+        st.session_state[answers_key] = {}
+        st.session_state[question_idx_key] = 0
+        st.session_state[completed_key] = False
+
+    return (
+        st.session_state[questions_key],
+        st.session_state[order_list_key],
+        st.session_state[section_map_key],
+        st.session_state[answers_key],
+        st.session_state[question_idx_key],
+        st.session_state[completed_key]
+    )
 
 # -------------------------
 # Main logic
@@ -169,139 +170,93 @@ if options == "Home":
         st.write("Use the sidebar to start your exam or learn more.")
         st.write("This app is still under development, so please check back later for more features and content.")
         st.write("For any issues or suggestions, please contact: daquiogjairo30@gmail.com.")
-        st.write("The contents of this app are for educational purposes only and do not reflect the actual PRC Board of Medical Technology exam in the Philippines." \
-                 "Always refer to official resources and consult with licensed professionals for accurate information." \
-                 "This app used various sources, such as articles, books, and online resources. Please refer to the 'References' section for more details.")
-        st.markdown(
-        """
-        <style>
-        .footer-text {
-            position: fixed;
-            bottom: 30px;
-            width: 36%;
-            text-align: center;
-            font-family: "Playfair Display", serif;
-            font-style: italic;
-            opacity: 0.08;
-            font-size: 18px;
-        }
-        </style>
-        <div class="footer-text">
-            R
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+        st.write("The contents of this app are for educational purposes only and do not reflect the actual PRC Board of Medical Technology exam in the Philippines. Always refer to official resources and consult with licensed professionals for accurate information.")
+        st.write("This app used various sources, such as articles, books, and online resources. Please refer to the 'References' section for more details.")
 
 elif options == "Mock Exam":
     if not st.session_state.logged_in:
         login()
     else:
-        st.header("Mock Exam")
         div = st.selectbox("Select div", ["Introduction", "Div 1", "Div 2", "Div 3", "Div 4", "Div 5", "Div 6"])
-
-        st.write("Disclaimer: This is a mock exam for educational purposes only. The exam does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.")
+        st.write("Disclaimer: This mock exam is for educational purposes only. The exam does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.")
 
         if div == "Introduction":
-            st.write("The developer divided the mock exam into 6 divisions, each with the same distribution of questions sections.")
-            st.write("WHY? Because it's difficult to cram all the questions into one division, and it would be too long to answer in one sitting and I don't actually know the actual distribution of questions in the PRC Board of Medical Technology exam.")
+            st.write("The developer divided the mock exam into 6 divisions, each with the same distribution of sections/questions.")
+            st.write("Why? Because it's difficult to cram all the questions into one division. It's hard to debug and manage a large number of questions in a single JSON file.")
             st.write("In each division, the distribution of sections/questions is as follows:")
 
             df_dis = pd.read_csv('d1_dis.csv')
-            st.dataframe(df_dis, hide_index=True)
+            st.dataframe(df_dis, hide_index=True, use_container_width=True)
 
-            st.write("This data is based from PRC Board of Medical Technology Resolution No. 15 Series of 1996 https://www.prc.gov.ph/sites/default/files/Board%20of%20Medical%20Technology%20-%20Syllabi_0.pdf")
+            st.write("This data is based on PRC Board of Medical Technology Resolution No. 15 Series of 1996: https://www.prc.gov.ph/sites/default/files/Board%20of%20Medical%20Technology%20-%20Syllabi_0.pdf")
+            df_per = pd.read_csv('clinical_microscopy_per.csv')
+            st.dataframe(df_per, hide_index=True, use_container_width=True, height=2487)
 
-        elif div == "Div 1":
-            st.subheader("Div 1: Mock Exam Questions")
-            files_sections = [
-                ("d1_clinical_chem.json", "Clinical Chemistry"),
-                ("d1_microb_parasi.json", "Microbiology & Parasitology"),
-                ("d1_hematology.json", "Hematology"),
-                ("d1_blood_banking.json", "Blood Banking & Serology"),
-                ("d1_clinical_microscopy.json", "Clinical Microscopy"),
-                ("d1_histopath_law_ethics.json", "Histopath, Laws & Ethics")
-            ]
+        elif div in ["Div 1", "Div 2", "Div 3"]:
+            div_key = div.lower().replace(" ", "")
+            files_map = {
+                "div1": [
+                    ("d1_clinical_chem.json", "Clinical Chemistry"),
+                    ("d1_microb_parasi.json", "Microbiology & Parasitology"),
+                    ("d1_hematology.json", "Hematology"),
+                    ("d1_blood_banking.json", "Blood Banking & Serology"),
+                    ("d1_clinical_microscopy.json", "Clinical Microscopy"),
+                    ("d1_histopath_law_ethics.json", "Histopath, Laws & Ethics")
+                ],
+                "div2": [
+                    ("d2_clinical_chem.json", "Clinical Chemistry"),
+                    ("d2_microb_parasi.json", "Microbiology & Parasitology"),
+                    ("d2_hematology.json", "Hematology"),
+                    ("d2_blood_banking.json", "Blood Banking & Serology"),
+                    ("d2_clinical_microscopy.json", "Clinical Microscopy"),
+                    ("d2_histopath_law_ethics.json", "Histopath, Laws & Ethics")
+                ],
+                "div3": [
+                    ("d3_clinical_chem.json", "Clinical Chemistry"),
+                    ("d3_microb_parasi.json", "Microbiology & Parasitology"),
+                    ("d3_hematology.json", "Hematology"),
+                    ("d3_blood_banking.json", "Blood Banking & Serology"),
+                    ("d3_clinical_microscopy.json", "Clinical Microscopy"),
+                    ("d3_histopath_law_ethics.json", "Histopath, Laws & Ethics")
+                ]
+            }
 
-            if not st.session_state.questions or not st.session_state.order_list:
-                questions = []
-                section_names = []
-                order_list = []
+            questions, order_list, section_names, answers, question_idx, completed = load_div_questions(div_key, files_map[div_key])
 
-                for file, sec_name in files_sections:
-                    with open(file, "r", encoding="utf-8") as f:
-                        data = json.load(f)
-                        sec_questions = data["questions"]
-                        sec_indices = list(range(len(questions), len(questions) + len(sec_questions)))
-                        random.shuffle(sec_indices)
-                        questions.extend(sec_questions)
-                        section_names.extend([sec_name] * len(sec_questions))
-                        order_list.extend(sec_indices)
+            question_sidebar(questions, order_list, answers)
 
-                st.session_state.questions = questions
-                st.session_state.section_map = section_names
-                st.session_state.order_list = order_list
-                st.session_state.answers = {}
-                st.session_state.question_idx = 0
-                st.session_state.completed = False
-                save_progress()
-
-            questions = st.session_state.questions
-            section_names = st.session_state.section_map
-            order_list = st.session_state.order_list
-
-            question_sidebar(questions)
-
-            if st.session_state.completed:
-                st.success("You finished Div 1!")
-                score = sum(1 for idx, ans in st.session_state.answers.items() if ans == questions[order_list[idx]]["answer"])
+            if completed:
+                st.success(f"You finished {div}!")
+                score = sum(1 for idx, ans in answers.items() if ans == questions[order_list[idx]]["answer"])
                 st.write(f"Your score: {score}/{len(questions)}")
-
-                if st.button("Retake Exam"):
-                    st.session_state.questions = []
-                    st.session_state.order_list = []
-                    st.session_state.section_map = []
-                    st.session_state.answers = {}
-                    st.session_state.question_idx = 0
-                    st.session_state.completed = False
-                    save_progress()
-                    st.experimental_rerun()
-
-                if st.button("Download Results as PDF"):
-                    filename = generate_pdf(questions, section_names)
-                    with open(filename, "rb") as f:
-                        st.download_button("Download PDF", f, file_name=filename)
             else:
-                current_q_idx = st.session_state.question_idx
-                actual_idx = order_list[current_q_idx]
-                section_name = section_names[actual_idx]
+                current_q_idx = question_idx
+                if current_q_idx < len(order_list):
+                    actual_idx = order_list[current_q_idx]
+                    section_name = section_names[actual_idx]
+                    show_question(questions[actual_idx], current_q_idx, section_name, actual_idx, answers, f"answers_{div_key}")
 
-                show_question(questions[actual_idx], current_q_idx, section_name, actual_idx)
-
-                if st.button("Next"):
-                    if current_q_idx + 1 < len(order_list):
-                        st.session_state.question_idx += 1
-                    else:
-                        st.session_state.completed = True
-                    save_progress()
-                    st.rerun()
-
-                prev_unanswered = None
-                for i in range(current_q_idx - 1, -1, -1):
-                    if order_list[i] not in st.session_state.answers:
-                        prev_unanswered = i
-                        break
-
-                if prev_unanswered is not None:
-                    if st.button("Previous"):
-                        st.session_state.question_idx = prev_unanswered
-                        save_progress()
+                    if st.button("Next"):
+                        if current_q_idx + 1 < len(order_list):
+                            st.session_state[f"question_idx_{div_key}"] += 1
+                        else:
+                            st.session_state[f"completed_{div_key}"] = True
                         st.rerun()
-                else:
-                    st.button("Previous", disabled=True)
+
+                    prev_unanswered = None
+                    for i in range(current_q_idx - 1, -1, -1):
+                        if order_list[i] not in answers:
+                            prev_unanswered = i
+                            break
+                    if prev_unanswered is not None:
+                        if st.button("Previous"):
+                            st.session_state[f"question_idx_{div_key}"] = prev_unanswered
+                            st.rerun()
+                    else:
+                        st.button("Previous", disabled=True)
 
         else:
-            st.info(f"{div} content coming soon!")
+            st.info(f"{div} content coming soon! Please check back later.")
 
 elif options == "About":
     st.header("About")
@@ -318,27 +273,6 @@ elif options == "About":
         <p style='font-style: italic; opacity: 0.5; text-align: center; font-family: "Times New Roman", serif; font-size: 12px;'>
         To God be all the glory!
         </p>
-        """,
-        unsafe_allow_html=True
-    )
-
-    st.markdown(
-        """
-        <style>
-        .footer-text {
-            position: fixed;
-            bottom: 30px;
-            width: 36%;
-            text-align: center;
-            font-family: "Playfair Display", serif;
-            font-style: italic;
-            opacity: 0.08;
-            font-size: 18px;
-        }
-        </style>
-        <div class="footer-text">
-            R
-        </div>
         """,
         unsafe_allow_html=True
     )

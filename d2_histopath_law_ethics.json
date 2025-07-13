@@ -1,0 +1,95 @@
+{
+  "subject": "Histopathology, Cytotechnology, Laws & Ethics",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which fixative is most suitable for preserving cytologic specimens obtained from fine needle aspiration (FNA)?",
+      "options": ["10% neutral buffered formalin", "95% ethanol", "Bouin's solution", "Glutaraldehyde"],
+      "answer": "95% ethanol",
+      "explanation": "95% ethanol is commonly used to preserve cellular detail in cytology specimens like FNA samples.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 2,
+      "question": "What is the most appropriate embedding medium for routine histopathologic tissue sections?",
+      "options": ["Gelatin", "Agar", "Paraffin wax", "Celoidin"],
+      "answer": "Paraffin wax",
+      "explanation": "Paraffin wax is the standard embedding medium used for most routine histopathologic tissue sections.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 3,
+      "question": "Which staining technique is most useful for detecting fungal organisms in tissue sections?",
+      "options": ["Hematoxylin and eosin", "Periodic acid-Schiff (PAS)", "Masson's trichrome", "Silver stain (Grocott's methenamine silver)"],
+      "answer": "Silver stain (Grocott's methenamine silver)",
+      "explanation": "Grocott's methenamine silver stain is excellent for visualizing fungi in tissue sections.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 4,
+      "question": "Which of the following best describes autolysis?",
+      "options": ["Active enzymatic digestion of cells after death", "Fixative-induced tissue hardening", "Artifact formation during embedding", "Stain precipitation on slides"],
+      "answer": "Active enzymatic digestion of cells after death",
+      "explanation": "Autolysis refers to self-digestion or breakdown of cells by their own enzymes after death.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 5,
+      "question": "Which type of cytology preparation is used for cervical cancer screening?",
+      "options": ["Frozen section", "Touch preparation", "Pap smear", "Cell block"],
+      "answer": "Pap smear",
+      "explanation": "The Papanicolaou (Pap) smear is the primary cytologic test for cervical cancer screening.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 6,
+      "question": "Which Philippine law governs the practice of medical technology?",
+      "options": ["RA 1517", "RA 4688", "RA 5527", "RA 9165"],
+      "answer": "RA 5527",
+      "explanation": "Republic Act No. 5527, also known as the Philippine Medical Technology Act of 1969, governs the practice of medical technology in the Philippines.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of decalcification in histopathology?",
+      "options": ["To prevent bacterial contamination", "To soften hard tissues for sectioning", "To enhance nuclear staining", "To preserve lipids"],
+      "answer": "To soften hard tissues for sectioning",
+      "explanation": "Decalcification is performed to soften bone and calcified tissues so they can be cut into thin sections.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 8,
+      "question": "In the MedTech Code of Ethics, which value is emphasized when refusing to issue falsified laboratory results?",
+      "options": ["Loyalty", "Honesty", "Humility", "Confidentiality"],
+      "answer": "Honesty",
+      "explanation": "Upholding honesty is crucial to maintain integrity and public trust in laboratory services.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 9,
+      "question": "Which act regulates clinical laboratories in the Philippines to ensure proper standards?",
+      "options": ["RA 4688", "RA 7719", "RA 10918", "RA 9165"],
+      "answer": "RA 4688",
+      "explanation": "Republic Act No. 4688 governs the regulation and licensure of clinical laboratories in the Philippines.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 10,
+      "question": "What is the main reason for logging and proper labeling of specimens in the histopathology laboratory?",
+      "options": ["To save time during analysis", "To prevent specimen mix-up and ensure accurate diagnosis", "To comply with waste disposal laws", "To maintain laboratory aesthetics"],
+      "answer": "To prevent specimen mix-up and ensure accurate diagnosis",
+      "explanation": "Accurate logging and labeling prevent errors, ensure patient safety, and support reliable diagnoses.",
+      "image": null,
+      "image_comment": null
+    }
+  ]
+}

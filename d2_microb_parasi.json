@@ -1,0 +1,185 @@
+{
+  "subject": "Microbiology & Parasitology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which bacterial genus is the most common cause of urinary tract infections?",
+      "options": ["Escherichia coli", "Klebsiella pneumoniae", "Pseudomonas aeruginosa", "Proteus mirabilis"],
+      "answer": "Escherichia coli",
+      "explanation": "Escherichia coli is responsible for about 80% of community-acquired urinary tract infections.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 2,
+      "question": "What is the function of MacConkey agar?",
+      "options": ["Differentiates lactose fermenters from non-fermenters", "Supports fungal growth", "Selects for Gram-positive bacteria", "Used for anaerobic culture"],
+      "answer": "Differentiates lactose fermenters from non-fermenters",
+      "explanation": "MacConkey agar contains lactose and indicators to differentiate lactose fermenters (pink colonies) from non-fermenters.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 3,
+      "question": "Which staining method is used to identify Mycobacterium tuberculosis?",
+      "options": ["Ziehl-Neelsen stain (acid-fast stain)", "Gram stain", "Wright-Giemsa stain", "India ink preparation"],
+      "answer": "Ziehl-Neelsen stain (acid-fast stain)",
+      "explanation": "Mycobacterium tuberculosis is acid-fast and stains red with Ziehl-Neelsen staining.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 4,
+      "question": "What is the primary vector of Plasmodium species causing malaria?",
+      "options": ["Anopheles mosquito", "Aedes mosquito", "Culex mosquito", "Sandfly"],
+      "answer": "Anopheles mosquito",
+      "explanation": "Only female Anopheles mosquitoes transmit malaria parasites.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 5,
+      "question": "Which test is used for detecting bacterial endotoxin in pharmaceutical products?",
+      "options": ["Limulus Amebocyte Lysate (LAL) test", "Catalase test", "Coagulase test", "Lecithinase test"],
+      "answer": "Limulus Amebocyte Lysate (LAL) test",
+      "explanation": "The LAL test is very sensitive and detects endotoxins from Gram-negative bacteria.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 6,
+      "question": "Which fungus is the most common cause of systemic fungal infections in AIDS patients?",
+      "options": ["Cryptococcus neoformans", "Candida albicans", "Histoplasma capsulatum", "Aspergillus fumigatus"],
+      "answer": "Cryptococcus neoformans",
+      "explanation": "Cryptococcus neoformans causes meningoencephalitis in immunocompromised patients, especially those with AIDS.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 7,
+      "question": "Which bacterial enzyme converts fibrinogen to fibrin and helps in clot formation?",
+      "options": ["Coagulase", "Catalase", "Urease", "Hyaluronidase"],
+      "answer": "Coagulase",
+      "explanation": "Coagulase is produced by Staphylococcus aureus and is used to differentiate it from other staphylococci.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 8,
+      "question": "Which virus is known for causing congenital infections and is a member of the Herpesviridae family?",
+      "options": ["Cytomegalovirus (CMV)", "Epstein-Barr virus (EBV)", "Varicella-zoster virus (VZV)", "Herpes simplex virus (HSV)"],
+      "answer": "Cytomegalovirus (CMV)",
+      "explanation": "CMV causes severe congenital infections, leading to hearing loss and neurodevelopmental delay.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 9,
+      "question": "What is the characteristic morphology of Plasmodium falciparum gametocytes?",
+      "options": ["Crescent or banana-shaped", "Round with Schüffner’s dots", "Oval with fimbriated edges", "Compact and round"],
+      "answer": "Crescent or banana-shaped",
+      "explanation": "P. falciparum gametocytes have a distinctive crescent shape.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 10,
+      "question": "Which bacterium is associated with pseudomembranous colitis?",
+      "options": ["Clostridioides difficile", "Escherichia coli", "Salmonella enterica", "Shigella dysenteriae"],
+      "answer": "Clostridioides difficile",
+      "explanation": "C. difficile produces toxins that cause pseudomembrane formation in the colon.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 11,
+      "question": "Which helminth causes iron deficiency anemia due to intestinal blood loss?",
+      "options": ["Ancylostoma duodenale", "Ascaris lumbricoides", "Enterobius vermicularis", "Trichuris trichiura"],
+      "answer": "Ancylostoma duodenale",
+      "explanation": "This hookworm attaches to the intestinal mucosa and causes chronic blood loss.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 12,
+      "question": "What is the best sample for diagnosing pulmonary tuberculosis?",
+      "options": ["Early morning sputum", "Throat swab", "Blood", "Urine"],
+      "answer": "Early morning sputum",
+      "explanation": "Early morning sputum has the highest concentration of Mycobacterium tuberculosis bacilli.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 13,
+      "question": "Which medium is used for the selective isolation of Neisseria gonorrhoeae?",
+      "options": ["Thayer-Martin medium", "MacConkey agar", "Sabouraud dextrose agar", "Blood agar"],
+      "answer": "Thayer-Martin medium",
+      "explanation": "Thayer-Martin medium contains antibiotics that suppress contaminant flora.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 14,
+      "question": "Which life stage of Schistosoma species is infective to humans?",
+      "options": ["Cercariae", "Miracidium", "Egg", "Sporocyst"],
+      "answer": "Cercariae",
+      "explanation": "Cercariae penetrate human skin during water contact.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of the catalase test in microbiology?",
+      "options": ["To differentiate staphylococci (positive) from streptococci (negative)", "To identify lactose fermentation", "To detect urease activity", "To test for beta-lactamase production"],
+      "answer": "To differentiate staphylococci (positive) from streptococci (negative)",
+      "explanation": "Catalase test detects production of oxygen bubbles upon addition of hydrogen peroxide.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 16,
+      "question": "Which intestinal protozoan is known for its characteristic 'falling leaf' motility?",
+      "options": ["Giardia lamblia", "Entamoeba histolytica", "Balantidium coli", "Trichomonas hominis"],
+      "answer": "Giardia lamblia",
+      "explanation": "Giardia trophozoites move in a 'falling leaf' fashion under microscopy.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 17,
+      "question": "What is the preferred method for detecting Cryptosporidium oocysts in stool?",
+      "options": ["Modified acid-fast staining", "Gram staining", "India ink preparation", "Loeffler’s methylene blue"],
+      "answer": "Modified acid-fast staining",
+      "explanation": "Oocysts appear red against a blue background in acid-fast staining.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 18,
+      "question": "Which nematode causes perianal itching, especially at night?",
+      "options": ["Enterobius vermicularis", "Ascaris lumbricoides", "Strongyloides stercoralis", "Ancylostoma duodenale"],
+      "answer": "Enterobius vermicularis",
+      "explanation": "Pinworm females migrate to perianal area at night to lay eggs, causing pruritus.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 19,
+      "question": "Which virus is the primary cause of cervical cancer?",
+      "options": ["Human papillomavirus (HPV)", "Epstein-Barr virus (EBV)", "Hepatitis B virus (HBV)", "Human herpesvirus 6 (HHV-6)"],
+      "answer": "Human papillomavirus (HPV)",
+      "explanation": "High-risk HPV types (16, 18) are strongly associated with cervical cancer.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 20,
+      "question": "What is the main reservoir for Leptospira interrogans?",
+      "options": ["Rodents", "Dogs", "Cattle", "Birds"],
+      "answer": "Rodents",
+      "explanation": "Rodents excrete Leptospira in urine, contaminating water and soil.",
+      "image": null,
+      "image_comment": null
+    }
+  ]
+}

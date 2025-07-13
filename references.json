@@ -79,6 +79,12 @@
       "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4144284/"
     },
     {
+    "author": "Professional Regulation Commission",
+    "year": "1996",
+    "title": "Board of Medical Technology syllabus (Resolution No. 15, series of 1996)",
+    "link": "https://www.prc.gov.ph/sites/default/files/Board%20of%20Medical%20Technology%20-%20Syllabi_0.pdf"
+    },
+    {
       "author": "Philippine Society of Pathology",
       "year": "2016",
       "title": "External quality assessment scheme for transfusion-transmissible infections among blood service facilities in the Philippines",
@@ -102,5 +108,6 @@
       "title": "Garcia v. Clinical Diagnostic Center, Inc. (GR No. 168512)",
       "link": "https://lawphil.net/judjuris/juri2007/mar2007/gr_168512_2007.html"
     }
+    
   ]
 }
