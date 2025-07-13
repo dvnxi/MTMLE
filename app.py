@@ -53,7 +53,7 @@ def login():
         else:
             st.error("Incorrect username or password.")
 
-    for _ in range(30):
+    for _ in range(20):
             st.write(" ")
     
     st.markdown(
@@ -211,7 +211,7 @@ if options == "Home":
         st.write("This app used various sources, such as articles, books, and online resources. Please refer to the 'References' section for more details.")
 
         # You can remove or reduce these empty writes if you like
-        for _ in range(30):
+        for _ in range(20):
             st.write(" ")
 
         st.markdown(
@@ -236,11 +236,12 @@ elif options == "Mock Exam":
         if div == "Introduction":
             st.write("The developer divided the mock exam into 6 divisions, each with the same distribution of sections/questions.")
             st.write("It is impractical to cram all the questions into one division. It's hard to debug and manage a large number of questions in a single JSON file.")
-            st.write("In each division, the distribution of sections/questions is as follows:")
+            st.write("In each division, the distribution of questions per section is as follows:")
 
             df_dis = pd.read_csv('d1_dis.csv')
             st.dataframe(df_dis, hide_index=True, use_container_width=True)
 
+            st.write("The following are the topics and subtopics covered in each division, based on the syllabi of the PRC Board of Medical Technology:")
             st.write("This data is based on PRC Board of Medical Technology Resolution No. 15 Series of 1996: https://www.prc.gov.ph/sites/default/files/Board%20of%20Medical%20Technology%20-%20Syllabi_0.pdf")
             df_per = pd.read_csv('clinical_microscopy_per.csv')
             st.dataframe(df_per, hide_index=True, use_container_width=True, height=2487)
