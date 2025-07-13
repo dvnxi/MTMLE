@@ -355,9 +355,8 @@ elif options == "Reviewers and Notes":
     st.write("If you ever need more reference materials, you can check out the following files/links: ")
     st.markdown("<p style='color:#FFC0CB; font-style: italic;'>link(s) at the bottom of the page</p>", unsafe_allow_html=True)
 
-    pdf_folder = "pdfs"  # Change this to your actual folder
+    pdf_folder = "pdfs"
 
-    # ✅ List all PDF files in the folder
     pdf_files = [f for f in os.listdir(pdf_folder) if f.endswith(".pdf")]
 
     if pdf_files:
@@ -365,28 +364,31 @@ elif options == "Reviewers and Notes":
 
         pdf_path = os.path.join(pdf_folder, selected_pdf)
 
-        # Read bytes
         with open(pdf_path, "rb") as f:
             pdf_bytes = f.read()
 
-        # Download button
         st.download_button(label="Download PDF", data=pdf_bytes, file_name=selected_pdf, mime="application/pdf")
 
-        # Embed PDF viewer (centered & fullscreen enabled)
-        base64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
-        pdf_display = f"""
+        github_raw_base = "https://raw.githubusercontent.com/dvnxi/MTMLE/main/pdfs/"
+        pdf_url = github_raw_base + selected_pdf
+
+        # --- Use PDF.js viewer ---
+        viewer_url = f"https://mozilla.github.io/pdf.js/web/viewer.html?file={pdf_url}"
+
+        st.markdown(
+            f"""
             <div style="display: flex; justify-content: center;">
                 <iframe 
-                    src="data:application/pdf;base64,{base64_pdf}" 
+                    src="{viewer_url}" 
                     width="1500" 
                     height="1000" 
-                    type="application/pdf"
-                    allowfullscreen
-                    style="border: none;"
-                ></iframe>
+                    style="border: none;">
+                </iframe>
             </div>
-        """
-        st.markdown(pdf_display, unsafe_allow_html=True)
+            """,
+            unsafe_allow_html=True
+        )
+
         st.write(" ")
         st.write("1. Med Tech Notes by Doc Krizza-Almond https://krizzaalmond.com/2020/05/01/mymedtechnotesforfree/")
         st.markdown("<p style='color:#FFC0CB; font-style: italic;'>The password for Doc Krizza-Almond's PDF files is at the bottom of the Introduction section in the Mock Test Page.</p>", unsafe_allow_html=True)
