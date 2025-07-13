@@ -52,8 +52,16 @@ def show_question(question, disp_number, section_name, q_idx, answers, answers_k
             st.image(question["image"], use_container_width=True)
 
     st.write(question["question"])
-    options = question["options"]
-    correct = question["answer"]
+
+    # --- Shuffle options and track correct answer ---
+    options = question["options"].copy()
+    correct_answer = question["answer"]
+
+    if f"shuffled_{q_idx}" not in st.session_state:
+        random.shuffle(options)
+        st.session_state[f"shuffled_{q_idx}"] = options
+    else:
+        options = st.session_state[f"shuffled_{q_idx}"]
 
     css = """
     <style>
@@ -72,7 +80,7 @@ def show_question(question, disp_number, section_name, q_idx, answers, answers_k
     if q_idx in answers:
         selected = answers[q_idx]
         st.radio("Your answer:", options, index=options.index(selected), disabled=True, key=f"answer_radio_{q_idx}")
-        st.markdown(f"**Correct answer:** {correct}")
+        st.markdown(f"**Correct answer:** {correct_answer}")
         st.info(f"Explanation: {question.get('explanation', 'No explanation provided.')}")
     else:
         selected = st.radio("Choose your answer:", options, key=f"answer_radio_{q_idx}")
@@ -82,6 +90,7 @@ def show_question(question, disp_number, section_name, q_idx, answers, answers_k
                 answers[q_idx] = selected
                 st.session_state[answers_key] = answers
                 st.rerun()
+
 
 # -------------------------
 # Sidebar navigation
@@ -177,7 +186,7 @@ elif options == "Mock Exam":
     if not st.session_state.logged_in:
         login()
     else:
-        div = st.selectbox("Select div", ["Introduction", "Div 1", "Div 2", "Div 3", "Div 4", "Div 5", "Div 6"])
+        div = st.selectbox("Select:", ["Introduction", "Div 1", "Div 2", "Div 3", "Div 4", "Div 5", "Div 6"])
         st.write("Disclaimer: This mock exam is for educational purposes only. The exam does not directly reflect the actual questions in the MTLE. It is advised to refer to official resources and consult with licensed professionals for accurate information.")
 
         if div == "Introduction":
