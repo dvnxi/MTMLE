@@ -355,7 +355,7 @@ elif options == "Reviewers and Notes":
     st.write("If you ever need more reference materials, you can check out the following files/links: ")
     st.markdown("<p style='color:#FFC0CB; font-style: italic;'>link(s) at the bottom of the page</p>", unsafe_allow_html=True)
 
-    pdf_folder = r"C:\Users\Jairo\Documents\MT Mock Board Review\pdfs"  # Change this to your actual folder
+    pdf_folder = "pdfs"  # Change this to your actual folder
 
     # ✅ List all PDF files in the folder
     pdf_files = [f for f in os.listdir(pdf_folder) if f.endswith(".pdf")]
