@@ -230,7 +230,7 @@ elif options == "Mock Exam":
     if not st.session_state.logged_in:
         login()
     else:
-        st.markdown("<h2 style='margin: 0; color:#FC8EAC;'>MTLE Mock Exam</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='margin: 0; color:#FC8EAC;'>Mock Exam/Review</h2>", unsafe_allow_html=True)
 
         st.write("")
         st.write("Select a division:")
