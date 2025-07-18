@@ -13,8 +13,8 @@
     {
       "id": 2,
       "question": "What is the normal range for hemoglobin in adult females?",
-      "options": ["12–16 g/dL", "10–14 g/dL", "14–18 g/dL", "8–12 g/dL"],
-      "answer": "12–16 g/dL",
+      "options": ["12-16 g/dL", "10-14 g/dL", "14-18 g/dL", "8-12 g/dL"],
+      "answer": "12-16 g/dL",
       "explanation": "Adult females typically have hemoglobin levels between 12 and 16 grams per deciliter.",
       "image": null,
       "image_comment": null
@@ -166,8 +166,8 @@
     {
       "id": 19,
       "question": "What is the normal reference range for platelet count in adults?",
-      "options": ["150,000–400,000/µL", "50,000–150,000/µL", "400,000–600,000/µL", "20,000–100,000/µL"],
-      "answer": "150,000–400,000/µL",
+      "options": ["150,000-400,000/µL", "50,000-150,000/µL", "400,000-600,000/µL", "20,000-100,000/µL"],
+      "answer": "150,000-400,000/µL",
       "explanation": "Platelets help maintain hemostasis; normal counts are crucial for adequate clotting.",
       "image": null,
       "image_comment": null

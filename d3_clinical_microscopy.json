@@ -1,10 +1,75 @@
 {
+  "subject": "Clinical Microscopy",
   "questions": [
     {
-      "question": "Example question?",
-      "options": ["A", "B", "C", "D"],
-      "answer": "A",
-      "explanation": "Example explanation."
+      "id": 1,
+      "question": "Which urinary crystal is commonly seen in acidic urine and appears as envelope-shaped under the microscope?",
+      "options": ["Triple phosphate", "Calcium oxalate", "Ammonium biurate", "Cystine"],
+      "answer": "Calcium oxalate",
+      "explanation": "Calcium oxalate crystals are commonly found in acidic urine and appear as colorless, envelope-shaped structures."
+    },
+    {
+      "id": 2,
+      "question": "What is the most reliable method for quantifying protein in cerebrospinal fluid (CSF)?",
+      "options": ["Refractometry", "Dipstick", "Turbidimetric method", "Biuret method"],
+      "answer": "Turbidimetric method",
+      "explanation": "The turbidimetric method is considered reliable for cerebrospinal fluid (CSF) protein quantitation, typically using sulfosalicylic acid."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is the most appropriate preservative for urine cytology if immediate analysis is not possible?",
+      "options": ["Formalin", "Toluene", "Boric acid", "Ethanol"],
+      "answer": "Ethanol",
+      "explanation": "Ethanol is used as a preservative in urine cytology to maintain cellular detail when immediate processing is not possible."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following physical properties is most affected in a urine specimen left at room temperature for more than 2 hours?",
+      "options": ["Color", "Transparency", "Odor", "Specific gravity"],
+      "answer": "Odor",
+      "explanation": "Odor is significantly affected due to bacterial growth and ammonia production in urine left unrefrigerated."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following body fluids is analyzed to differentiate transudate from exudate using Light's criteria?",
+      "options": ["Urine", "Synovial fluid", "Cerebrospinal fluid", "Pleural fluid"],
+      "answer": "Pleural fluid",
+      "explanation": "Pleural fluid analysis using Light's criteria helps differentiate transudates from exudates in cases of pleural effusion."
+    },
+    {
+      "id": 6,
+      "question": "Which urinary cast appears as a broad, waxy, and highly refractile structure, often seen in chronic renal failure?",
+      "options": ["Hyaline cast", "Red blood cell cast", "Granular cast", "Waxy cast"],
+      "answer": "Waxy cast",
+      "explanation": "Waxy casts are broad and refractile, indicating severe stasis of urine flow and chronic renal disease."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following indicates a positive result in the chemical test for fecal occult blood using guaiac-based methods?",
+      "options": ["Red color", "Green color", "Blue color", "Yellow color"],
+      "answer": "Blue color",
+      "explanation": "A blue coloration indicates the presence of hemoglobin in guaiac-based fecal occult blood testing."
+    },
+    {
+      "id": 8,
+      "question": "Which crystal is hexagonal and may be indicative of cystinuria when found in acidic urine?",
+      "options": ["Cystine", "Tyrosine", "Leucine", "Cholesterol"],
+      "answer": "Cystine",
+      "explanation": "Cystine crystals are colorless and hexagonal, often found in acidic urine of patients with cystinuria."
+    },
+    {
+      "id": 9,
+      "question": "Which test is used to detect reducing substances in urine, often used in screening for inborn errors of metabolism?",
+      "options": ["Benedict's test", "Clinitest", "Fehling's test", "Sulfur test"],
+      "answer": "Clinitest",
+      "explanation": "Clinitest is a copper reduction test used to detect reducing substances like glucose and galactose in pediatric urine samples."
+    },
+    {
+      "id": 10,
+      "question": "What is the typical appearance of synovial fluid in septic arthritis?",
+      "options": ["Clear and colorless", "Straw-colored and transparent", "Cloudy and yellow-green", "Bloody and viscous"],
+      "answer": "Cloudy and yellow-green",
+      "explanation": "Synovial fluid in septic arthritis appears cloudy to purulent with a yellow-green hue due to neutrophils and bacteria."
     }
   ]
 }

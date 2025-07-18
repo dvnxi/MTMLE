@@ -1,0 +1,145 @@
+{
+  "subject": "Microbiology and Parasitology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which bacterial genus is the most common cause of neonatal meningitis?",
+      "options": ["Escherichia", "Listeria", "Streptococcus", "Neisseria"],
+      "answer": "Escherichia",
+      "explanation": "Escherichia coli, particularly the K1 strain, is the most frequent cause of neonatal meningitis."
+    },
+    {
+      "id": 2,
+      "question": "The presence of sulfur granules in draining sinuses is characteristic of which infection?",
+      "options": ["Nocardiosis", "Actinomycosis", "Tetanus", "Botulism"],
+      "answer": "Actinomycosis",
+      "explanation": "Actinomyces israelii causes actinomycosis, where sulfur granules appear as yellowish clumps of organisms in pus."
+    },
+    {
+      "id": 3,
+      "question": "Which staining technique is best for visualizing Cryptococcus neoformans in CSF?",
+      "options": ["Gram stain", "India ink", "Acid-fast stain", "Lactophenol cotton blue"],
+      "answer": "India ink",
+      "explanation": "India ink stain highlights the capsule of Cryptococcus neoformans, appearing as a clear halo around the yeast."
+    },
+    {
+      "id": 4,
+      "question": "Which organism is best identified using the string test (enterotest)?",
+      "options": ["Giardia lamblia", "Entamoeba histolytica", "Balantidium coli", "Strongyloides stercoralis"],
+      "answer": "Giardia lamblia",
+      "explanation": "The string test recovers duodenal contents to identify motile trophozoites of Giardia lamblia."
+    },
+    {
+      "id": 5,
+      "question": "Which biosafety level is appropriate for handling Mycobacterium tuberculosis?",
+      "options": ["BSL-1", "BSL-2", "BSL-3", "BSL-4"],
+      "answer": "BSL-3",
+      "explanation": "BSL-3 laboratories are required for airborne pathogens like Mycobacterium tuberculosis."
+    },
+    {
+      "id": 6,
+      "question": "What is the most sensitive method for detecting malaria in asymptomatic individuals?",
+      "options": ["Thick smear microscopy", "Thin smear microscopy", "Rapid diagnostic test", "PCR"],
+      "answer": "PCR",
+      "explanation": "PCR detects very low levels of Plasmodium DNA, making it highly sensitive for asymptomatic screening."
+    },
+    {
+      "id": 7,
+      "question": "Which bacterial toxin causes hemolytic uremic syndrome (HUS)?",
+      "options": ["Botulinum toxin", "Shiga-like toxin", "Alpha toxin", "Enterotoxin A"],
+      "answer": "Shiga-like toxin",
+      "explanation": "Shiga-like toxin from E. coli O157:H7 damages endothelial cells, leading to HUS."
+    },
+    {
+      "id": 8,
+      "question": "What is the mode of transmission of Leptospira interrogans?",
+      "options": ["Inhalation", "Fecal-oral", "Contact with contaminated water", "Mosquito bite"],
+      "answer": "Contact with contaminated water",
+      "explanation": "Leptospira is transmitted through mucosal contact with water contaminated by animal urine."
+    },
+    {
+      "id": 9,
+      "question": "What is the infective stage of Trichinella spiralis to humans?",
+      "options": ["Larva in striated muscle", "Cyst in liver", "Encysted larva in undercooked pork", "Egg in soil"],
+      "answer": "Encysted larva in undercooked pork",
+      "explanation": "Humans acquire Trichinella infection by ingesting undercooked pork containing encysted larvae."
+    },
+    {
+      "id": 10,
+      "question": "Which medium is selective for Bordetella pertussis isolation?",
+      "options": ["MacConkey agar", "Chocolate agar", "Loeffler's medium", "Bordet-Gengou agar"],
+      "answer": "Bordet-Gengou agar",
+      "explanation": "Bordet-Gengou agar supports growth of Bordetella pertussis and suppresses contaminants."
+    },
+    {
+      "id": 11,
+      "question": "Which intestinal nematode is associated with iron-deficiency anemia in tropical regions?",
+      "options": ["Ascaris lumbricoides", "Hookworm", "Strongyloides stercoralis", "Enterobius vermicularis"],
+      "answer": "Hookworm",
+      "explanation": "Hookworm infection causes chronic blood loss, leading to iron-deficiency anemia."
+    },
+    {
+      "id": 12,
+      "question": "Which bacterial structure is primarily responsible for motility?",
+      "options": ["Pili", "Capsule", "Flagella", "Fimbriae"],
+      "answer": "Flagella",
+      "explanation": "Flagella enable motility in many bacteria such as Salmonella and E. coli."
+    },
+    {
+      "id": 13,
+      "question": "Which protozoan parasite causes keratitis associated with contact lens use?",
+      "options": ["Acanthamoeba spp.", "Naegleria fowleri", "Giardia lamblia", "Trichomonas vaginalis"],
+      "answer": "Acanthamoeba spp.",
+      "explanation": "Acanthamoeba spp. cause serious corneal infections in contact lens wearers."
+    },
+    {
+      "id": 14,
+      "question": "Which fungus is known to cause 'fungus ball' in pulmonary cavities?",
+      "options": ["Histoplasma capsulatum", "Aspergillus fumigatus", "Cryptococcus neoformans", "Blastomyces dermatitidis"],
+      "answer": "Aspergillus fumigatus",
+      "explanation": "Aspergillus forms a fungal mass or 'fungus ball' (aspergilloma) in pre-existing lung cavities."
+    },
+    {
+      "id": 15,
+      "question": "Which rapid test detects Streptococcus pyogenes in throat swabs?",
+      "options": ["Catalase test", "PYR test", "Rapid antigen detection test", "CAMP test"],
+      "answer": "Rapid antigen detection test",
+      "explanation": "RADTs detect group A Streptococcal antigens directly from throat swabs."
+    },
+    {
+      "id": 16,
+      "question": "Which Plasmodium species may cause relapse due to hypnozoites?",
+      "options": ["P. falciparum", "P. malariae", "P. knowlesi", "P. vivax"],
+      "answer": "P. vivax",
+      "explanation": "P. vivax and P. ovale form hypnozoites in the liver, causing malaria relapse."
+    },
+    {
+      "id": 17,
+      "question": "What is the characteristic stool finding in Cholera infection?",
+      "options": ["Bloody stools", "Greasy stool", "Rice-water stool", "Mucous-laden stool"],
+      "answer": "Rice-water stool",
+      "explanation": "Cholera presents with profuse watery diarrhea resembling rice water due to mucous flecks."
+    },
+    {
+      "id": 18,
+      "question": "What is the common cause of fungal otitis externa ('swimmer's ear')?",
+      "options": ["Candida albicans", "Trichophyton rubrum", "Aspergillus niger", "Cryptococcus neoformans"],
+      "answer": "Aspergillus niger",
+      "explanation": "Aspergillus niger is commonly associated with fungal infections of the external ear canal."
+    },
+    {
+      "id": 19,
+      "question": "Which microorganism causes a characteristic 'clue cell' appearance in vaginal smears?",
+      "options": ["Gardnerella vaginalis", "Trichomonas vaginalis", "Candida albicans", "Neisseria gonorrhoeae"],
+      "answer": "Gardnerella vaginalis",
+      "explanation": "Clue cells are vaginal epithelial cells coated with Gardnerella vaginalis."
+    },
+    {
+      "id": 20,
+      "question": "Which parasitic infection is associated with ingestion of raw freshwater crabs or crayfish?",
+      "options": ["Clonorchiasis", "Paragonimiasis", "Opisthorchiasis", "Schistosomiasis"],
+      "answer": "Paragonimiasis",
+      "explanation": "Paragonimus westermani, the lung fluke, is acquired by eating raw or undercooked freshwater crabs or crayfish."
+    }
+  ]
+}

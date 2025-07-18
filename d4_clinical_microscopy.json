@@ -1,0 +1,75 @@
+{
+  "subject": "Clinical Microscopy",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the maximum recommended time between urine collection and analysis to preserve specimen integrity?",
+      "options": ["Within 30 minutes", "Within 1 hour", "Within 2 hours", "Within 4 hours"],
+      "answer": "Within 2 hours",
+      "explanation": "Urine should be analyzed within 2 hours of collection to prevent bacterial proliferation and cellular degradation."
+    },
+    {
+      "id": 2,
+      "question": "Which urinary cast is most strongly associated with nephrotic syndrome?",
+      "options": ["Hyaline cast", "Waxy cast", "Fatty cast", "Granular cast"],
+      "answer": "Fatty cast",
+      "explanation": "Fatty casts and oval fat bodies are classical findings in nephrotic syndrome due to lipiduria."
+    },
+    {
+      "id": 3,
+      "question": "Which microscopic urine analysis finding indicates glomerular bleeding?",
+      "options": ["Red blood cell cast", "White blood cell cast", "Bacterial clumps", "Mucus threads"],
+      "answer": "Red blood cell cast",
+      "explanation": "RBC casts originate from the renal tubules and are indicative of glomerular origin bleeding."
+    },
+    {
+      "id": 4,
+      "question": "Which stain is used to detect fecal fat in stool samples?",
+      "options": ["Gram stain", "Sudan III stain", "Periodic acid–Schiff stain", "Trichrome stain"],
+      "answer": "Sudan III stain",
+      "explanation": "Sudan III is used to visualize neutral lipids (triglycerides and fatty acids) in feces."
+    },
+    {
+      "id": 5,
+      "question": "What cell type predominates in cerebrospinal fluid during viral meningitis?",
+      "options": ["Neutrophils", "Lymphocytes", "Monocytes", "Eosinophils"],
+      "answer": "Lymphocytes",
+      "explanation": "Lymphocytic pleocytosis is characteristic of viral (aseptic) meningitis."
+    },
+    {
+      "id": 6,
+      "question": "Which body fluid appears milky due to high triglyceride content?",
+      "options": ["Transudate", "Exudate", "Chylous effusion", "Hemorrhagic fluid"],
+      "answer": "Chylous effusion",
+      "explanation": "Chylous effusions contain milky lymph fluid rich in triglycerides due to lymphatic leakage."
+    },
+    {
+      "id": 7,
+      "question": "What is considered normal progressive sperm motility percentage in a semen analysis?",
+      "options": ["≥30%", "≥40%", "≥50%", "≥60%"],
+      "answer": "≥50%",
+      "explanation": "According to WHO guidelines, normal progressive motility is 50% or higher."
+    },
+    {
+      "id": 8,
+      "question": "What effect does light exposure have on measured urine bilirubin?",
+      "options": ["Increases", "Decreases", "No effect", "Converts to urobilinogen"],
+      "answer": "Decreases",
+      "explanation": "Urine bilirubin is light-sensitive and will degrade, causing falsely low readings."
+    },
+    {
+      "id": 9,
+      "question": "Which parasitic egg is commonly found in midday urine specimens in endemic areas?",
+      "options": ["Taenia solium", "Schistosoma haematobium", "Enterobius vermicularis", "Giardia lamblia"],
+      "answer": "Schistosoma haematobium",
+      "explanation": "S. haematobium eggs are best detected in urine collected around midday when egg excretion peaks."
+    },
+    {
+      "id": 10,
+      "question": "Which quality control measure ensures accurate urine microscopy results?",
+      "options": ["Refrigerate all samples", "Use standardized collection containers", "Report immediately without checks", "Use expired reagents for cost-saving"],
+      "answer": "Use standardized collection containers",
+      "explanation": "Standardized containers and proper technique help ensure reproducible and reliable microscopy results."
+    }
+  ]
+}

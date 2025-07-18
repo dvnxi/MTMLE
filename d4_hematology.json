@@ -1,0 +1,145 @@
+{
+  "subject": "Hematology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which anticoagulant is most commonly used for complete blood count (CBC) testing?",
+      "options": ["Heparin", "Sodium citrate", "Ethylenediaminetetraacetic acid (EDTA)", "Oxalate"],
+      "answer": "Ethylenediaminetetraacetic acid (EDTA)",
+      "explanation": "Ethylenediaminetetraacetic acid (EDTA) is the preferred anticoagulant for CBC due to its ability to preserve cellular morphology."
+    },
+    {
+      "id": 2,
+      "question": "Which red blood cell index is calculated using hemoglobin and hematocrit values?",
+      "options": ["Mean corpuscular volume (MCV)", "Mean corpuscular hemoglobin (MCH)", "Mean corpuscular hemoglobin concentration (MCHC)", "Red cell distribution width (RDW)"],
+      "answer": "Mean corpuscular hemoglobin concentration (MCHC)",
+      "explanation": "Mean corpuscular hemoglobin concentration (MCHC) is calculated as hemoglobin divided by hematocrit times 100."
+    },
+    {
+      "id": 3,
+      "question": "Which stage of erythropoiesis is characterized by nuclear extrusion?",
+      "options": ["Proerythroblast", "Basophilic erythroblast", "Polychromatic erythroblast", "Orthochromatic erythroblast"],
+      "answer": "Orthochromatic erythroblast",
+      "explanation": "The orthochromatic erythroblast ejects its nucleus to become a reticulocyte."
+    },
+    {
+      "id": 4,
+      "question": "Which white blood cell is typically increased in parasitic infections?",
+      "options": ["Neutrophil", "Basophil", "Monocyte", "Eosinophil"],
+      "answer": "Eosinophil",
+      "explanation": "Eosinophils respond to parasitic infections and allergic reactions."
+    },
+    {
+      "id": 5,
+      "question": "Which cytochemical stain is positive in myeloblasts but negative in lymphoblasts?",
+      "options": ["Myeloperoxidase (MPO)", "Periodic acid-Schiff (PAS)", "Non-specific esterase", "Tartrate-resistant acid phosphatase (TRAP)"],
+      "answer": "Myeloperoxidase (MPO)",
+      "explanation": "Myeloperoxidase (MPO) stain is used to distinguish myeloid from lymphoid blasts."
+    },
+    {
+      "id": 6,
+      "question": "Which red blood cell abnormality is typically seen in liver disease?",
+      "options": ["Target cells", "Schistocytes", "Teardrop cells", "Spherocytes"],
+      "answer": "Target cells",
+      "explanation": "Target cells are often seen in liver disease due to altered lipid metabolism."
+    },
+    {
+      "id": 7,
+      "question": "Which clotting factor is deficient in Hemophilia A?",
+      "options": ["Factor VIII", "Factor IX", "Factor XI", "Factor VII"],
+      "answer": "Factor VIII",
+      "explanation": "Hemophilia A results from a deficiency in coagulation Factor VIII."
+    },
+    {
+      "id": 8,
+      "question": "Which platelet function test evaluates the ability of platelets to aggregate using various agonists?",
+      "options": ["Bleeding time", "Prothrombin time", "Platelet aggregation test", "Activated partial thromboplastin time"],
+      "answer": "Platelet aggregation test",
+      "explanation": "The platelet aggregation test uses agents like ADP and epinephrine to assess platelet response."
+    },
+    {
+      "id": 9,
+      "question": "What is the best test to evaluate iron stores in the body?",
+      "options": ["Serum iron", "Total iron-binding capacity", "Serum ferritin", "Transferrin saturation"],
+      "answer": "Serum ferritin",
+      "explanation": "Serum ferritin is a reliable indicator of body iron stores."
+    },
+    {
+      "id": 10,
+      "question": "Which genetic disorder is characterized by increased hemoglobin F and ineffective erythropoiesis?",
+      "options": ["Sickle cell disease", "Hereditary spherocytosis", "Thalassemia major", "G6PD deficiency"],
+      "answer": "Thalassemia major",
+      "explanation": "Thalassemia major leads to defective globin chain synthesis, elevated hemoglobin F, and severe anemia."
+    },
+    {
+      "id": 11,
+      "question": "Which coagulation pathway does the prothrombin time (PT) primarily evaluate?",
+      "options": ["Intrinsic pathway", "Extrinsic pathway", "Common pathway", "Fibrinolytic pathway"],
+      "answer": "Extrinsic pathway",
+      "explanation": "The prothrombin time (PT) assesses the extrinsic and common pathways, especially Factor VII."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following describes rouleaux formation?",
+      "options": ["Fragmented red blood cells", "Overlapping platelets", "Red blood cells arranged like stacks of coins", "Spiked projections on red blood cells"],
+      "answer": "Red blood cells arranged like stacks of coins",
+      "explanation": "Rouleaux formation is the alignment of red blood cells resembling stacked coins, often seen in multiple myeloma."
+    },
+    {
+      "id": 13,
+      "question": "What is the recommended method for counting reticulocytes?",
+      "options": ["Wright stain", "New methylene blue stain", "Leishman stain", "Giemsa stain"],
+      "answer": "New methylene blue stain",
+      "explanation": "New methylene blue is a supravital stain that highlights reticulocyte RNA for counting."
+    },
+    {
+      "id": 14,
+      "question": "Which platelet abnormality is associated with Bernard-Soulier syndrome?",
+      "options": ["Defective platelet aggregation", "Absence of GPIIb/IIIa", "Absence of GPIb receptor", "Abnormal dense granules"],
+      "answer": "Absence of GPIb receptor",
+      "explanation": "Bernard-Soulier syndrome involves defective platelet adhesion due to GPIb receptor deficiency."
+    },
+    {
+      "id": 15,
+      "question": "Which test is most appropriate for monitoring warfarin therapy?",
+      "options": ["Activated partial thromboplastin time", "Prothrombin time", "Thrombin time", "Fibrinogen assay"],
+      "answer": "Prothrombin time",
+      "explanation": "Warfarin affects the vitamin K-dependent factors in the extrinsic pathway, which is monitored by prothrombin time."
+    },
+    {
+      "id": 16,
+      "question": "Which red blood cell morphology is commonly seen in iron deficiency anemia?",
+      "options": ["Normocytic normochromic", "Microcytic hypochromic", "Macrocytic normochromic", "Spherocytic"],
+      "answer": "Microcytic hypochromic",
+      "explanation": "Iron deficiency anemia is characterized by small, pale red blood cells."
+    },
+    {
+      "id": 17,
+      "question": "What is the hallmark feature of chronic myelogenous leukemia (CML)?",
+      "options": ["JAK2 mutation", "Philadelphia chromosome", "TRAP positivity", "CD10 expression"],
+      "answer": "Philadelphia chromosome",
+      "explanation": "CML is strongly associated with the Philadelphia chromosome (t(9;22))."
+    },
+    {
+      "id": 18,
+      "question": "Which cell type is counted during a differential white blood cell count?",
+      "options": ["Red blood cells", "White blood cells", "Reticulocytes", "Platelets"],
+      "answer": "White blood cells",
+      "explanation": "A differential count identifies the proportion of each type of white blood cell in the blood."
+    },
+    {
+      "id": 19,
+      "question": "Which inherited condition leads to increased osmotic fragility of red blood cells?",
+      "options": ["Sickle cell anemia", "Thalassemia", "Hereditary spherocytosis", "Paroxysmal nocturnal hemoglobinuria"],
+      "answer": "Hereditary spherocytosis",
+      "explanation": "Hereditary spherocytosis results in red blood cells with defective membranes that lyse easily in hypotonic solutions."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is a characteristic finding in multiple myeloma?",
+      "options": ["Reed-Sternberg cells", "Pelger-Huët anomaly", "Plasma cells in bone marrow", "Auer rods"],
+      "answer": "Plasma cells in bone marrow",
+      "explanation": "Multiple myeloma is a malignancy of plasma cells, typically seen in the bone marrow."
+    }
+  ]
+}

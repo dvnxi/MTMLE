@@ -1,0 +1,145 @@
+{
+  "subject": "Hematology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which anticoagulant is most commonly used for complete blood count (CBC) testing?",
+      "options": ["Sodium citrate", "Heparin", "Ethylenediaminetetraacetic acid (EDTA)", "Oxalate"],
+      "answer": "Ethylenediaminetetraacetic acid (EDTA)",
+      "explanation": "Ethylenediaminetetraacetic acid (EDTA) is the preferred anticoagulant for hematology tests as it preserves cellular morphology."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following red blood cell indices measures the average volume of red blood cells?",
+      "options": ["Mean corpuscular volume (MCV)", "Mean corpuscular hemoglobin (MCH)", "Mean corpuscular hemoglobin concentration (MCHC)", "Red cell distribution width (RDW)"],
+      "answer": "Mean corpuscular volume (MCV)",
+      "explanation": "Mean corpuscular volume (MCV) reflects the average size of red blood cells and helps classify anemias."
+    },
+    {
+      "id": 3,
+      "question": "In which condition is an increased reticulocyte count most commonly observed?",
+      "options": ["Aplastic anemia", "Iron deficiency anemia", "Hemolytic anemia", "Megaloblastic anemia"],
+      "answer": "Hemolytic anemia",
+      "explanation": "Hemolytic anemia causes increased red blood cell destruction, leading to compensatory reticulocytosis."
+    },
+    {
+      "id": 4,
+      "question": "Which white blood cell type is most commonly elevated in bacterial infections?",
+      "options": ["Lymphocytes", "Monocytes", "Neutrophils", "Eosinophils"],
+      "answer": "Neutrophils",
+      "explanation": "Neutrophils are the first responders to bacterial infections and their count increases during such conditions."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following red cell abnormalities is associated with liver disease?",
+      "options": ["Target cells", "Spherocytes", "Teardrop cells", "Schistocytes"],
+      "answer": "Target cells",
+      "explanation": "Target cells are commonly seen in liver disease, due to increased membrane lipids."
+    },
+    {
+      "id": 6,
+      "question": "What is the normal reference range for hemoglobin in adult females?",
+      "options": ["120–160 g/L", "130–180 g/L", "110–140 g/L", "140–190 g/L"],
+      "answer": "120–160 g/L",
+      "explanation": "Normal hemoglobin levels in adult females range from 120–160 g/L."
+    },
+    {
+      "id": 7,
+      "question": "Which hemoglobin variant is most commonly found in sickle cell disease?",
+      "options": ["Hemoglobin A (HbA)", "Hemoglobin A2 (HbA2)", "Hemoglobin C (HbC)", "Hemoglobin S (HbS)"],
+      "answer": "Hemoglobin S (HbS)",
+      "explanation": "Hemoglobin S (HbS) polymerizes under low oxygen conditions, leading to the sickling of red cells."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following best describes basophilic stippling in red blood cells?",
+      "options": ["Aggregated ribosomes", "Denatured hemoglobin", "Iron granules", "Nuclear remnants"],
+      "answer": "Aggregated ribosomes",
+      "explanation": "Basophilic stippling results from aggregated ribosomes and is seen in lead poisoning and thalassemia."
+    },
+    {
+      "id": 9,
+      "question": "In coagulation testing, what is the primary purpose of activated partial thromboplastin time (APTT)?",
+      "options": ["Evaluate platelet function", "Assess extrinsic pathway", "Monitor warfarin therapy", "Assess intrinsic and common pathways"],
+      "answer": "Assess intrinsic and common pathways",
+      "explanation": "Activated partial thromboplastin time (APTT) is used to assess factors of the intrinsic and common coagulation pathways."
+    },
+    {
+      "id": 10,
+      "question": "Which cell is the precursor of all blood cell lines?",
+      "options": ["Myeloblast", "Megakaryocyte", "Hematopoietic stem cell", "Proerythroblast"],
+      "answer": "Hematopoietic stem cell",
+      "explanation": "Hematopoietic stem cells are multipotent cells in the bone marrow that give rise to all blood cell lineages."
+    },
+    {
+      "id": 11,
+      "question": "What is the anticoagulant used in erythrocyte sedimentation rate (ESR) determination by the Westergren method?",
+      "options": ["Sodium citrate", "Potassium oxalate", "Ethylenediaminetetraacetic acid (EDTA)", "Lithium heparin"],
+      "answer": "Sodium citrate",
+      "explanation": "Sodium citrate is the recommended anticoagulant in the Westergren method for ESR measurement."
+    },
+    {
+      "id": 12,
+      "question": "Which platelet abnormality is commonly seen in Bernard-Soulier syndrome?",
+      "options": ["Increased platelet count", "Small platelets", "Giant platelets", "Hypersegmented platelets"],
+      "answer": "Giant platelets",
+      "explanation": "Bernard-Soulier syndrome is a rare inherited platelet disorder characterized by giant platelets and defective adhesion."
+    },
+    {
+      "id": 13,
+      "question": "Which coagulation factor is deficient in Hemophilia A?",
+      "options": ["Factor IX", "Factor VIII", "Factor XI", "Factor VII"],
+      "answer": "Factor VIII",
+      "explanation": "Hemophilia A is caused by a deficiency of coagulation factor VIII, leading to bleeding tendencies."
+    },
+    {
+      "id": 14,
+      "question": "In which leukemia are Auer rods most commonly observed?",
+      "options": ["Acute lymphoblastic leukemia", "Chronic lymphocytic leukemia", "Acute myeloid leukemia", "Chronic myeloid leukemia"],
+      "answer": "Acute myeloid leukemia",
+      "explanation": "Auer rods are needle-like azurophilic granules found in myeloblasts, typical in acute myeloid leukemia."
+    },
+    {
+      "id": 15,
+      "question": "Which laboratory finding is most suggestive of iron deficiency anemia?",
+      "options": ["Increased serum ferritin", "Decreased total iron-binding capacity", "Decreased serum iron", "Increased hemoglobin"],
+      "answer": "Decreased serum iron",
+      "explanation": "Iron deficiency anemia is characterized by low serum iron, increased total iron-binding capacity, and low ferritin."
+    },
+    {
+      "id": 16,
+      "question": "What is the characteristic red blood cell morphology in megaloblastic anemia?",
+      "options": ["Hypochromic microcytic", "Normocytic normochromic", "Macrocytic ovalocytes", "Spherocytes"],
+      "answer": "Macrocytic ovalocytes",
+      "explanation": "Megaloblastic anemia features macrocytic ovalocytes due to impaired DNA synthesis from vitamin B12 or folate deficiency."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is used to stain reticulocytes?",
+      "options": ["Giemsa", "Leishman", "Prussian blue", "New methylene blue"],
+      "answer": "New methylene blue",
+      "explanation": "New methylene blue is a supravital stain that highlights residual RNA in reticulocytes."
+    },
+    {
+      "id": 18,
+      "question": "Which parameter is calculated using hematocrit and red blood cell count?",
+      "options": ["Mean corpuscular volume (MCV)", "Mean corpuscular hemoglobin (MCH)", "Mean corpuscular hemoglobin concentration (MCHC)", "Red cell distribution width (RDW)"],
+      "answer": "Mean corpuscular volume (MCV)",
+      "explanation": "Mean corpuscular volume (MCV) is calculated using hematocrit divided by red blood cell count."
+    },
+    {
+      "id": 19,
+      "question": "Which term refers to variation in red blood cell size?",
+      "options": ["Anisocytosis", "Poikilocytosis", "Macrocytosis", "Microcytosis"],
+      "answer": "Anisocytosis",
+      "explanation": "Anisocytosis refers to variation in red blood cell size and is quantified by red cell distribution width (RDW)."
+    },
+    {
+      "id": 20,
+      "question": "Which coagulation test is prolonged in vitamin K deficiency?",
+      "options": ["Activated partial thromboplastin time (APTT)", "Bleeding time", "Prothrombin time (PT)", "Thrombin time (TT)"],
+      "answer": "Prothrombin time (PT)",
+      "explanation": "Prothrombin time (PT) is prolonged in vitamin K deficiency due to decreased synthesis of factors II, VII, IX, and X."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "subject": "Microbiology and Parasitology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which bacterial genus is most commonly associated with urinary tract infections?",
+      "options": ["Staphylococcus", "Proteus", "Klebsiella", "Escherichia"],
+      "answer": "Escherichia",
+      "explanation": "Escherichia coli is the most frequent cause of urinary tract infections due to its ability to adhere to uroepithelial cells."
+    },
+    {
+      "id": 2,
+      "question": "Which parasite causes sleeping sickness in humans?",
+      "options": ["Leishmania donovani", "Trypanosoma cruzi", "Trypanosoma brucei", "Plasmodium falciparum"],
+      "answer": "Trypanosoma brucei",
+      "explanation": "Trypanosoma brucei, transmitted by the tsetse fly, causes African sleeping sickness."
+    },
+    {
+      "id": 3,
+      "question": "Which staining technique is most appropriate for detecting Mycobacterium tuberculosis in sputum?",
+      "options": ["Gram stain", "Ziehl-Neelsen stain", "India ink", "Trichrome stain"],
+      "answer": "Ziehl-Neelsen stain",
+      "explanation": "Ziehl-Neelsen stain is used to detect acid-fast bacilli such as Mycobacterium tuberculosis."
+    },
+    {
+      "id": 4,
+      "question": "What is the vector of Dengue virus in the Philippines?",
+      "options": ["Culex mosquito", "Tsetse fly", "Aedes aegypti", "Anopheles mosquito"],
+      "answer": "Aedes aegypti",
+      "explanation": "Aedes aegypti is the principal mosquito vector for Dengue virus transmission in the Philippines."
+    },
+    {
+      "id": 5,
+      "question": "Which helminth causes rectal prolapse, especially in children?",
+      "options": ["Enterobius vermicularis", "Trichuris trichiura", "Ascaris lumbricoides", "Ancylostoma duodenale"],
+      "answer": "Trichuris trichiura",
+      "explanation": "Heavy Trichuris trichiura infection can lead to rectal prolapse in children due to straining."
+    },
+    {
+      "id": 6,
+      "question": "What is the intermediate host of Schistosoma japonicum?",
+      "options": ["Mosquito", "Tsetse fly", "Snail", "Tick"],
+      "answer": "Snail",
+      "explanation": "Freshwater snails act as intermediate hosts for Schistosoma species including Schistosoma japonicum."
+    },
+    {
+      "id": 7,
+      "question": "Which fungal infection is commonly diagnosed using a KOH preparation?",
+      "options": ["Histoplasmosis", "Candidiasis", "Cryptococcosis", "Aspergillosis"],
+      "answer": "Candidiasis",
+      "explanation": "Potassium hydroxide (KOH) preparation is used to detect fungal elements such as Candida species in skin or mucosal scrapings."
+    },
+    {
+      "id": 8,
+      "question": "Which test is used to detect bacterial endotoxins in sterile pharmaceutical products?",
+      "options": ["Catalase test", "Limulus amebocyte lysate test", "Coagulase test", "Oxidase test"],
+      "answer": "Limulus amebocyte lysate test",
+      "explanation": "The Limulus amebocyte lysate test detects endotoxins from Gram-negative bacteria using horseshoe crab blood."
+    },
+    {
+      "id": 9,
+      "question": "What is the mode of transmission of Giardia lamblia?",
+      "options": ["Bloodborne", "Sexual", "Fecal-oral", "Vector-borne"],
+      "answer": "Fecal-oral",
+      "explanation": "Giardia lamblia is transmitted via the fecal-oral route through ingestion of contaminated food or water."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following bacteria is a common cause of peptic ulcer disease?",
+      "options": ["Escherichia coli", "Helicobacter pylori", "Salmonella typhi", "Clostridium difficile"],
+      "answer": "Helicobacter pylori",
+      "explanation": "Helicobacter pylori colonizes the gastric mucosa and is associated with gastritis and peptic ulcer disease."
+    },
+    {
+      "id": 11,
+      "question": "What is the causative agent of cholera?",
+      "options": ["Vibrio cholerae", "Shigella dysenteriae", "Salmonella enterica", "Campylobacter jejuni"],
+      "answer": "Vibrio cholerae",
+      "explanation": "Vibrio cholerae causes cholera, a severe diarrheal illness transmitted through contaminated water."
+    },
+    {
+      "id": 12,
+      "question": "Which parasitic stage is considered diagnostic for Ascaris lumbricoides in stool?",
+      "options": ["Larvae", "Adult worm", "Ova", "Cyst"],
+      "answer": "Ova",
+      "explanation": "Ova of Ascaris lumbricoides are commonly detected in stool and are diagnostic of infection."
+    },
+    {
+      "id": 13,
+      "question": "Which organism causes malaria?",
+      "options": ["Toxoplasma gondii", "Trypanosoma cruzi", "Plasmodium falciparum", "Leishmania donovani"],
+      "answer": "Plasmodium falciparum",
+      "explanation": "Plasmodium falciparum is a protozoan parasite and one of the major causes of malaria, especially the most severe form."
+    },
+    {
+      "id": 14,
+      "question": "Which agar is selective for the growth of Neisseria gonorrhoeae?",
+      "options": ["MacConkey agar", "Chocolate agar", "Thayer-Martin agar", "Blood agar"],
+      "answer": "Thayer-Martin agar",
+      "explanation": "Thayer-Martin agar contains antibiotics to suppress normal flora and supports Neisseria gonorrhoeae."
+    },
+    {
+      "id": 15,
+      "question": "Which intestinal protozoan is known to cause flask-shaped ulcers in the colon?",
+      "options": ["Giardia lamblia", "Entamoeba histolytica", "Cryptosporidium parvum", "Balantidium coli"],
+      "answer": "Entamoeba histolytica",
+      "explanation": "Entamoeba histolytica causes amoebic dysentery and flask-shaped ulcers in the colon."
+    },
+    {
+      "id": 16,
+      "question": "What is the function of the catalase test in microbiology?",
+      "options": ["Detect glucose fermentation", "Differentiate Gram-positive cocci", "Identify acid-fast bacilli", "Detect endotoxin production"],
+      "answer": "Differentiate Gram-positive cocci",
+      "explanation": "The catalase test distinguishes Staphylococcus (catalase-positive) from Streptococcus (catalase-negative)."
+    },
+    {
+      "id": 17,
+      "question": "Which bacterial species produces a characteristic green pigment and fruity odor?",
+      "options": ["Pseudomonas aeruginosa", "Proteus mirabilis", "Klebsiella pneumoniae", "Escherichia coli"],
+      "answer": "Pseudomonas aeruginosa",
+      "explanation": "Pseudomonas aeruginosa produces a blue-green pigment (pyocyanin) and a fruity grape-like odor."
+    },
+    {
+      "id": 18,
+      "question": "What is the preferred specimen for diagnosing pulmonary tuberculosis?",
+      "options": ["Blood", "Sputum", "Urine", "Stool"],
+      "answer": "Sputum",
+      "explanation": "Sputum is the specimen of choice for detecting Mycobacterium tuberculosis in pulmonary cases."
+    },
+    {
+      "id": 19,
+      "question": "Which test differentiates Salmonella from Shigella?",
+      "options": ["Triple Sugar Iron agar test", "Catalase test", "Gram stain", "Indole test"],
+      "answer": "Triple Sugar Iron agar test",
+      "explanation": "Triple Sugar Iron agar helps differentiate enteric bacteria by sugar fermentation and hydrogen sulfide production, distinguishing Salmonella (H₂S-positive) from Shigella (H₂S-negative)."
+    },
+    {
+      "id": 20,
+      "question": "Which intestinal nematode can cause pneumonitis during larval migration?",
+      "options": ["Trichuris trichiura", "Strongyloides stercoralis", "Ascaris lumbricoides", "Enterobius vermicularis"],
+      "answer": "Ascaris lumbricoides",
+      "explanation": "Ascaris lumbricoides larvae migrate through the lungs during their life cycle, potentially causing Loeffler’s syndrome (eosinophilic pneumonitis)."
+    }
+  ]
+}

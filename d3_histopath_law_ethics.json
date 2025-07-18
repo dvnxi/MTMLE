@@ -1,10 +1,75 @@
 {
+  "subject": "Histopathologic Techniques, Cytotechnology, Medical Technology Laws and Ethics",
   "questions": [
     {
-      "question": "Example question?",
-      "options": ["A", "B", "C", "D"],
-      "answer": "A",
-      "explanation": "Example explanation."
+      "id": 1,
+      "question": "Which fixative is most commonly used in routine histopathologic examination?",
+      "options": ["Carnoy's solution", "Zenker's solution", "Formalin", "Bouin's solution"],
+      "answer": "Formalin",
+      "explanation": "Formalin, specifically 10% neutral buffered formalin, is the most widely used fixative for preserving tissue morphology."
+    },
+    {
+      "id": 2,
+      "question": "Under Republic Act No. 5527, what is the minimum number of units required for refresher training before a medical technologist can retake the board exam after 3 failures?",
+      "options": ["6 units", "9 units", "12 units", "18 units"],
+      "answer": "12 units",
+      "explanation": "Republic Act No. 5527 mandates 12 units of refresher course for examinees who fail the board exam three times before re-examination."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is an embedding medium used in routine tissue processing?",
+      "options": ["Gelatin", "Paraffin wax", "Formalin", "Glycerin"],
+      "answer": "Paraffin wax",
+      "explanation": "Paraffin wax is commonly used in embedding tissues after dehydration and clearing, allowing sectioning in a microtome."
+    },
+    {
+      "id": 4,
+      "question": "What does the term 'fidelity' refer to in medical technology professional ethics?",
+      "options": ["Doing no harm", "Being truthful", "Keeping promises", "Being fair to all"],
+      "answer": "Keeping promises",
+      "explanation": "Fidelity refers to faithfulness and the duty to keep commitments and promises in professional conduct."
+    },
+    {
+      "id": 5,
+      "question": "Which law governs the practice of the Medical Technology profession in the Philippines?",
+      "options": ["Republic Act No. 3720", "Republic Act No. 1517", "Republic Act No. 4688", "Republic Act No. 5527"],
+      "answer": "Republic Act No. 5527",
+      "explanation": "Republic Act No. 5527, also known as the Philippine Medical Technology Act of 1969, regulates the practice of medical technology."
+    },
+    {
+      "id": 6,
+      "question": "Which dye is used in Hematoxylin and Eosin staining to stain nuclei?",
+      "options": ["Eosin", "Fast green", "Hematoxylin", "Acid fuchsin"],
+      "answer": "Hematoxylin",
+      "explanation": "Hematoxylin stains the nuclei of cells blue or purple, while eosin stains the cytoplasm and extracellular matrix pink."
+    },
+    {
+      "id": 7,
+      "question": "What principle is violated when a medical technologist shares patient results with unauthorized individuals?",
+      "options": ["Veracity", "Beneficence", "Confidentiality", "Autonomy"],
+      "answer": "Confidentiality",
+      "explanation": "Confidentiality obligates medical professionals to keep patient information private unless authorized for release."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a decalcifying agent used in processing bone tissues?",
+      "options": ["Ethanol", "Formalin", "Nitric acid", "Xylene"],
+      "answer": "Nitric acid",
+      "explanation": "Nitric acid is commonly used for decalcification of bone and other calcified tissues to allow sectioning."
+    },
+    {
+      "id": 9,
+      "question": "In the Code of Ethics, what is the primary obligation of a medical technologist?",
+      "options": ["To protect laboratory ownership", "To maintain test volume", "To safeguard patient welfare", "To follow superior orders"],
+      "answer": "To safeguard patient welfare",
+      "explanation": "The medical technologist's Code of Ethics emphasizes the responsibility to uphold the welfare and dignity of patients."
+    },
+    {
+      "id": 10,
+      "question": "What is the primary purpose of tissue fixation in histopathology?",
+      "options": ["Enhance staining", "Dehydrate tissue", "Preserve tissue structure", "Embed tissue"],
+      "answer": "Preserve tissue structure",
+      "explanation": "Fixation preserves the tissue's cellular architecture by preventing autolysis and decomposition."
     }
   ]
 }

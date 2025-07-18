@@ -1,10 +1,185 @@
 {
+  "subject": "Clinical Chemistry",
   "questions": [
     {
-      "question": "Example question?",
-      "options": ["A", "B", "C", "D"],
-      "answer": "A",
-      "explanation": "Example explanation."
+      "id": 1,
+      "question": "Which enzyme is most specific for acute pancreatitis?",
+      "options": ["Amylase", "Lipase", "Trypsin", "Chymotrypsin"],
+      "answer": "Lipase",
+      "explanation": "Lipase is more specific than amylase for diagnosing acute pancreatitis due to its longer half-life and pancreatic specificity.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 2,
+      "question": "Which reagent is used in the Jaffe reaction to measure creatinine?",
+      "options": ["Picric acid", "Sulfanilic acid", "Tungstic acid", "Phosphotungstic acid"],
+      "answer": "Picric acid",
+      "explanation": "The Jaffe reaction uses picric acid in an alkaline medium to form a red-orange complex with creatinine.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 3,
+      "question": "Which form of bilirubin is water-soluble and reacts directly with diazotized sulfanilic acid?",
+      "options": ["Unconjugated bilirubin", "Indirect bilirubin", "Conjugated bilirubin", "Pre-hepatic bilirubin"],
+      "answer": "Conjugated bilirubin",
+      "explanation": "Conjugated bilirubin is water-soluble and directly reacts with diazotized sulfanilic acid, unlike unconjugated bilirubin which is bound to albumin.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 4,
+      "question": "Which lipid parameter is most commonly used to assess coronary heart disease risk?",
+      "options": ["High-density lipoprotein cholesterol", "Triglycerides", "Low-density lipoprotein cholesterol", "Total cholesterol"],
+      "answer": "Low-density lipoprotein cholesterol",
+      "explanation": "Low-density lipoprotein cholesterol is considered the primary target of lipid-lowering therapy due to its strong association with atherosclerosis.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 5,
+      "question": "What is the normal fasting blood glucose reference range in milligrams per deciliter (mg/dL)?",
+      "options": ["60–90 mg/dL", "70–99 mg/dL", "80–110 mg/dL", "90–120 mg/dL"],
+      "answer": "70–99 mg/dL",
+      "explanation": "According to the American Diabetes Association, a normal fasting blood glucose level is between 70–99 mg/dL.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 6,
+      "question": "Which condition is indicated by elevated serum ammonia levels?",
+      "options": ["Renal failure", "Pancreatitis", "Liver failure", "Diabetes mellitus"],
+      "answer": "Liver failure",
+      "explanation": "In liver failure, the liver cannot convert ammonia to urea, leading to hyperammonemia.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 7,
+      "question": "Which protein migrates the fastest toward the anode in serum protein electrophoresis at pH 8.6?",
+      "options": ["Albumin", "Alpha-1 globulin", "Gamma globulin", "Beta globulin"],
+      "answer": "Albumin",
+      "explanation": "Albumin is the smallest and most negatively charged protein at pH 8.6, making it migrate fastest toward the anode.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 8,
+      "question": "What is the specimen of choice for acid-base balance analysis?",
+      "options": ["Venous blood", "Capillary blood", "Arterial blood", "Serum"],
+      "answer": "Arterial blood",
+      "explanation": "Arterial blood is preferred for acid-base analysis because it reflects the gas exchange in the lungs more accurately than venous blood.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 9,
+      "question": "Which hormone regulates the reabsorption of sodium in the distal renal tubules?",
+      "options": ["Antidiuretic hormone", "Aldosterone", "Cortisol", "Parathyroid hormone"],
+      "answer": "Aldosterone",
+      "explanation": "Aldosterone increases sodium reabsorption and potassium excretion in the distal renal tubules.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 10,
+      "question": "Which of the following enzymes is elevated in myocardial infarction and peaks within 24 hours?",
+      "options": ["Creatine kinase-MB (CK-MB)", "Alanine aminotransferase", "Alkaline phosphatase", "Amylase"],
+      "answer": "Creatine kinase-MB (CK-MB)",
+      "explanation": "Creatine kinase-MB (CK-MB) rises 4–6 hours after infarction and peaks at 18–24 hours, making it useful in early detection.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 11,
+      "question": "Which substance is measured by the glucose oxidase method?",
+      "options": ["Cholesterol", "Urea", "Glucose", "Creatinine"],
+      "answer": "Glucose",
+      "explanation": "Glucose oxidase specifically reacts with glucose, producing hydrogen peroxide which is measured colorimetrically.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 12,
+      "question": "Which condition is associated with elevated total protein and decreased albumin?",
+      "options": ["Nephrotic syndrome", "Liver cirrhosis", "Multiple myeloma", "Protein-losing enteropathy"],
+      "answer": "Multiple myeloma",
+      "explanation": "In multiple myeloma, there is an increase in monoclonal immunoglobulin production, elevating total protein while albumin may decrease.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 13,
+      "question": "Which electrolyte is the major extracellular cation?",
+      "options": ["Sodium", "Potassium", "Calcium", "Magnesium"],
+      "answer": "Sodium",
+      "explanation": "Sodium is the most abundant extracellular cation and plays a key role in fluid balance and nerve transmission.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 14,
+      "question": "Which lipoprotein is considered 'good cholesterol'?",
+      "options": ["Low-density lipoprotein", "Very-low-density lipoprotein", "High-density lipoprotein", "Intermediate-density lipoprotein"],
+      "answer": "High-density lipoprotein",
+      "explanation": "High-density lipoprotein removes excess cholesterol from tissues and carries it to the liver for excretion.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 15,
+      "question": "Which method is used for measuring serum calcium using o-cresolphthalein complexone?",
+      "options": ["Colorimetry", "Turbidimetry", "Nephelometry", "Fluorometry"],
+      "answer": "Colorimetry",
+      "explanation": "The o-cresolphthalein complexone method is a colorimetric technique used for quantifying calcium in serum.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 16,
+      "question": "Which organ is primarily responsible for maintaining acid-base balance?",
+      "options": ["Liver", "Kidneys", "Lungs", "Pancreas"],
+      "answer": "Kidneys",
+      "explanation": "The kidneys regulate acid-base balance by excreting hydrogen ions and reabsorbing bicarbonate.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 17,
+      "question": "Which hormone increases blood glucose levels by promoting glycogenolysis?",
+      "options": ["Insulin", "Glucagon", "Somatostatin", "Epinephrine"],
+      "answer": "Glucagon",
+      "explanation": "Glucagon increases blood glucose by stimulating glycogen breakdown in the liver.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 18,
+      "question": "Which analyte is affected by hemolysis due to high intracellular concentration?",
+      "options": ["Sodium", "Chloride", "Potassium", "Bicarbonate"],
+      "answer": "Potassium",
+      "explanation": "Potassium is released from red blood cells during hemolysis, resulting in falsely elevated serum levels.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 19,
+      "question": "Which reagent is used in the Biuret method for total protein determination?",
+      "options": ["Copper sulfate", "Picric acid", "Ferric chloride", "Sulfanilic acid"],
+      "answer": "Copper sulfate",
+      "explanation": "The Biuret method uses copper ions that form a violet complex with peptide bonds in an alkaline medium.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 20,
+      "question": "What is the most common cause of increased anion gap metabolic acidosis?",
+      "options": ["Lactic acidosis", "Renal failure", "Diarrhea", "Hyperaldosteronism"],
+      "answer": "Lactic acidosis",
+      "explanation": "Lactic acidosis increases the anion gap due to the accumulation of unmeasured anions like lactate.",
+      "image": null,
+      "image_comment": null
     }
   ]
 }

@@ -1,0 +1,125 @@
+{
+  "subject": "Histopathologic Techniques, Cytotechnology, and Medical Technology Laws and Ethics",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the fixative of choice for preserving small biopsies for routine histopathologic examination?",
+      "options": [
+        "Bouin's solution",
+        "Formol-saline",
+        "10% Neutral buffered formalin",
+        "Zenker's fluid"
+      ],
+      "answer": "10% Neutral buffered formalin",
+      "explanation": "10% Neutral buffered formalin is the standard fixative for routine histopathology due to its ability to preserve tissue morphology and prevent autolysis."
+    },
+    {
+      "id": 2,
+      "question": "Which dye is commonly used for demonstrating acid-fast bacilli in tissue sections?",
+      "options": [
+        "Congo red",
+        "Ziehl-Neelsen stain",
+        "Masson's trichrome",
+        "Hematoxylin and eosin"
+      ],
+      "answer": "Ziehl-Neelsen stain",
+      "explanation": "Ziehl-Neelsen stain highlights acid-fast organisms such as Mycobacterium tuberculosis using carbol fuchsin dye."
+    },
+    {
+      "id": 3,
+      "question": "In cytology, which of the following is a common stain for evaluating exfoliative smears?",
+      "options": [
+        "Periodic acid-Schiff stain",
+        "Papanicolaou stain",
+        "Sudan black B stain",
+        "Gram stain"
+      ],
+      "answer": "Papanicolaou stain",
+      "explanation": "Papanicolaou stain (Pap stain) is used for evaluating exfoliated cells in gynecologic cytology to screen for malignancy."
+    },
+    {
+      "id": 4,
+      "question": "What is the primary purpose of clearing agents in tissue processing?",
+      "options": [
+        "To dehydrate tissues",
+        "To fix tissues",
+        "To remove water and prepare tissue for infiltration",
+        "To soften the tissue for sectioning"
+      ],
+      "answer": "To remove water and prepare tissue for infiltration",
+      "explanation": "Clearing agents like xylene displace alcohol and render the tissue receptive to paraffin infiltration."
+    },
+    {
+      "id": 5,
+      "question": "Which cytologic sampling method is best used for detection of respiratory tract malignancies?",
+      "options": [
+        "Fine needle aspiration",
+        "Bronchial brushing",
+        "Peritoneal washing",
+        "Exfoliative smear"
+      ],
+      "answer": "Bronchial brushing",
+      "explanation": "Bronchial brushing allows for direct sampling of respiratory epithelial cells and is ideal for detecting bronchogenic carcinomas."
+    },
+    {
+      "id": 6,
+      "question": "Which law governs the practice of Medical Technology in the Philippines?",
+      "options": [
+        "Republic Act No. 7722",
+        "Republic Act No. 1517",
+        "Republic Act No. 5527",
+        "Republic Act No. 9165"
+      ],
+      "answer": "Republic Act No. 5527",
+      "explanation": "Republic Act No. 5527, also known as the Philippine Medical Technology Act of 1969, defines the scope and regulation of the profession."
+    },
+    {
+      "id": 7,
+      "question": "What is the maximum imprisonment penalty under Republic Act No. 5527 for practicing as a medical technologist without a valid certificate of registration?",
+      "options": [
+        "1 month",
+        "6 months",
+        "6 months to 1 year",
+        "1 to 3 years"
+      ],
+      "answer": "6 months to 1 year",
+      "explanation": "Under Section 29 of Republic Act No. 5527, unauthorized practice can lead to imprisonment from 6 months to 1 year and/or a fine."
+    },
+    {
+      "id": 8,
+      "question": "Which Republic Act established the Philippine Blood Services Network and prohibits commercial blood selling?",
+      "options": [
+        "Republic Act No. 7719",
+        "Republic Act No. 8981",
+        "Republic Act No. 9288",
+        "Republic Act No. 10918"
+      ],
+      "answer": "Republic Act No. 7719",
+      "explanation": "Republic Act No. 7719, known as the National Blood Services Act of 1994, promotes voluntary blood donation and prohibits commercial blood trading."
+    },
+    {
+      "id": 9,
+      "question": "Who is responsible for issuing the Certificate of Registration and Professional Identification Card for licensed medical technologists in the Philippines?",
+      "options": [
+        "Department of Health",
+        "Commission on Higher Education",
+        "Philippine Association of Medical Technologists",
+        "Professional Regulation Commission"
+      ],
+      "answer": "Professional Regulation Commission",
+      "explanation": "The Professional Regulation Commission is tasked with issuing licenses and regulating the practice of professions including Medical Technology."
+    },
+    {
+      "id": 10,
+      "question": "Which principle best embodies patient confidentiality and privacy in the Code of Ethics of Medical Technology?",
+      "options": [
+        "Justice",
+        "Beneficence",
+        "Veracity",
+        "Confidentiality"
+      ],
+      "answer": "Confidentiality",
+      "explanation": "Confidentiality refers to the ethical obligation of medical technologists to keep patient information private and protected from unauthorized disclosure."
+    }
+  ]
+}

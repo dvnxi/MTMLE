@@ -1,0 +1,145 @@
+{
+  "subject": "Blood Banking and Serology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which immunoglobulin class is primarily responsible for hemolytic disease of the fetus and newborn (HDFN)?",
+      "options": ["IgA", "IgD", "IgG", "IgM"],
+      "answer": "IgG",
+      "explanation": "IgG is the only antibody class that can cross the placenta and cause HDFN."
+    },
+    {
+      "id": 2,
+      "question": "Which blood group system is most clinically significant in transfusion reactions aside from ABO?",
+      "options": ["Lewis", "Kell", "Duffy", "Lutheran"],
+      "answer": "Kell",
+      "explanation": "The Kell system can cause severe transfusion reactions and HDFN, making it highly significant."
+    },
+    {
+      "id": 3,
+      "question": "Which reagent is used in the indirect antiglobulin test (IAT)?",
+      "options": ["Anti-A", "Anti-D", "Anti-human globulin (AHG)", "Anti-IgA"],
+      "answer": "Anti-human globulin (AHG)",
+      "explanation": "AHG reagent detects IgG antibodies bound to red blood cells in the IAT."
+    },
+    {
+      "id": 4,
+      "question": "Which antigen is most immunogenic after D in the Rh system?",
+      "options": ["C", "E", "c", "e"],
+      "answer": "c",
+      "explanation": "After D, the c antigen is the most immunogenic in the Rh system."
+    },
+    {
+      "id": 5,
+      "question": "What is the universal plasma donor blood group?",
+      "options": ["O", "A", "B", "AB"],
+      "answer": "AB",
+      "explanation": "AB plasma contains no anti-A or anti-B antibodies, making it safe for all recipients."
+    },
+    {
+      "id": 6,
+      "question": "In serologic testing, which antibody class is detected using saline at immediate spin phase?",
+      "options": ["IgA", "IgE", "IgM", "IgG"],
+      "answer": "IgM",
+      "explanation": "IgM antibodies react best at room temperature and are detected in immediate spin crossmatching."
+    },
+    {
+      "id": 7,
+      "question": "Which test confirms the presence of antibodies attached to red cells in vivo?",
+      "options": ["Indirect Coombs test", "Direct Coombs test", "Cold agglutinin test", "Rosette test"],
+      "answer": "Direct Coombs test",
+      "explanation": "The Direct Antiglobulin Test (DAT) detects antibodies or complement bound to red cells in vivo."
+    },
+    {
+      "id": 8,
+      "question": "Which component is most appropriate for a patient with Hemophilia A?",
+      "options": ["Packed RBCs", "Fresh frozen plasma", "Cryoprecipitate", "Platelet concentrate"],
+      "answer": "Cryoprecipitate",
+      "explanation": "Cryoprecipitate is rich in factor VIII, used in treating Hemophilia A."
+    },
+    {
+      "id": 9,
+      "question": "Which blood component is indicated for thrombocytopenia due to chemotherapy?",
+      "options": ["Fresh frozen plasma", "Whole blood", "Platelet concentrate", "Cryoprecipitate"],
+      "answer": "Platelet concentrate",
+      "explanation": "Platelet concentrates are used to manage thrombocytopenia or platelet dysfunction."
+    },
+    {
+      "id": 10,
+      "question": "Which hepatitis marker indicates current infection and infectivity?",
+      "options": ["Anti-HBs", "Anti-HBc", "HBsAg", "HBeAg"],
+      "answer": "HBeAg",
+      "explanation": "HBeAg presence reflects high levels of viral replication and infectivity in hepatitis B."
+    },
+    {
+      "id": 11,
+      "question": "Which method is used to separate plasma from blood during component preparation?",
+      "options": ["Centrifugation", "Filtration", "Sedimentation", "Incubation"],
+      "answer": "Centrifugation",
+      "explanation": "Centrifugation is employed to separate components like plasma, platelets, and RBCs from whole blood."
+    },
+    {
+      "id": 12,
+      "question": "Which antigen is absent in individuals with Bombay phenotype?",
+      "options": ["A", "B", "H", "O"],
+      "answer": "H",
+      "explanation": "Bombay individuals lack the H antigen, which is the precursor for A and B antigens."
+    },
+    {
+      "id": 13,
+      "question": "What is the shelf life of irradiated red blood cells?",
+      "options": ["21 days", "28 days", "35 days", "42 days"],
+      "answer": "28 days",
+      "explanation": "Irradiated RBCs are used to prevent graft-versus-host disease and expire 28 days after irradiation."
+    },
+    {
+      "id": 14,
+      "question": "What condition is associated with the presence of cold autoantibodies?",
+      "options": ["Mycoplasma pneumoniae infection", "Systemic lupus erythematosus", "Hemophilia", "Iron-deficiency anemia"],
+      "answer": "Mycoplasma pneumoniae infection",
+      "explanation": "Cold agglutinins, especially anti-I, are often seen in Mycoplasma pneumoniae infections."
+    },
+    {
+      "id": 15,
+      "question": "What is the anticoagulant used in blood collection bags for transfusion?",
+      "options": ["EDTA", "Heparin", "ACD", "Sodium citrate"],
+      "answer": "ACD",
+      "explanation": "Acid Citrate Dextrose (ACD) is used in blood bags to prevent clotting and preserve cells."
+    },
+    {
+      "id": 16,
+      "question": "Which Rh antigen is the most immunogenic?",
+      "options": ["c", "E", "e", "D"],
+      "answer": "D",
+      "explanation": "The D antigen is the most immunogenic Rh antigen and a major cause of HDFN."
+    },
+    {
+      "id": 17,
+      "question": "Which confirmatory test is used for HIV diagnosis after a reactive ELISA result?",
+      "options": ["Western blot", "Rapid test", "Agglutination test", "Hemagglutination inhibition test"],
+      "answer": "Western blot",
+      "explanation": "Western blot is a confirmatory test used to verify positive HIV ELISA results."
+    },
+    {
+      "id": 18,
+      "question": "What is the ideal storage temperature for platelets?",
+      "options": ["1-6°C", "15-25°C", "20-24°C with agitation", "37°C"],
+      "answer": "20-24°C with agitation",
+      "explanation": "Platelets are stored at 20-24°C with constant agitation to preserve their function."
+    },
+    {
+      "id": 19,
+      "question": "Which serologic test is used to detect antibodies against Treponema pallidum?",
+      "options": ["Widal test", "VDRL", "FTA-ABS", "ASO test"],
+      "answer": "FTA-ABS",
+      "explanation": "The Fluorescent Treponemal Antibody Absorption test confirms syphilis by detecting T. pallidum antibodies."
+    },
+    {
+      "id": 20,
+      "question": "Which blood group antigen is associated with resistance to Plasmodium vivax infection?",
+      "options": ["Kidd", "Duffy", "MNS", "Kell"],
+      "answer": "Duffy",
+      "explanation": "Duffy antigen-negative individuals are resistant to P. vivax because the parasite uses this antigen for entry."
+    }
+  ]
+}

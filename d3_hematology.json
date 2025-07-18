@@ -1,10 +1,145 @@
 {
+  "subject": "Hematology",
   "questions": [
     {
-      "question": "Example question?",
-      "options": ["A", "B", "C", "D"],
-      "answer": "A",
-      "explanation": "Example explanation."
+      "id": 1,
+      "question": "Which anticoagulant is most commonly used for routine complete blood count (CBC) testing?",
+      "options": ["Sodium citrate", "Ethylenediaminetetraacetic acid (EDTA)", "Heparin", "Oxalate"],
+      "answer": "Ethylenediaminetetraacetic acid (EDTA)",
+      "explanation": "Ethylenediaminetetraacetic acid (EDTA) is the preferred anticoagulant for preserving cellular morphology in complete blood count (CBC) tests."
+    },
+    {
+      "id": 2,
+      "question": "Which stage of erythropoiesis is the last to contain a nucleus?",
+      "options": ["Basophilic erythroblast", "Polychromatophilic erythroblast", "Orthochromic erythroblast", "Reticulocyte"],
+      "answer": "Orthochromic erythroblast",
+      "explanation": "The orthochromic erythroblast is the final nucleated stage before becoming a reticulocyte."
+    },
+    {
+      "id": 3,
+      "question": "What is the primary function of neutrophils in the peripheral blood?",
+      "options": ["Antibody production", "Histamine release", "Phagocytosis", "Platelet aggregation"],
+      "answer": "Phagocytosis",
+      "explanation": "Neutrophils are the first line of defense in the innate immune response and primarily function through phagocytosis of bacteria and debris."
+    },
+    {
+      "id": 4,
+      "question": "Which hemoglobin variant is most commonly associated with sickle cell disease?",
+      "options": ["Hemoglobin A", "Hemoglobin A2", "Hemoglobin F", "Hemoglobin S"],
+      "answer": "Hemoglobin S",
+      "explanation": "Hemoglobin S is the abnormal form of hemoglobin responsible for the sickling of red blood cells in sickle cell disease."
+    },
+    {
+      "id": 5,
+      "question": "Which stain is most commonly used for routine peripheral blood smear examination?",
+      "options": ["Sudan III", "Leishman stain", "Giemsa stain", "Wright stain"],
+      "answer": "Wright stain",
+      "explanation": "Wright stain is the standard Romanowsky-type stain used for differentiating blood cells in peripheral smears."
+    },
+    {
+      "id": 6,
+      "question": "Which red cell index is calculated using the formula (Hemoglobin × 10) ÷ RBC count?",
+      "options": ["Mean corpuscular volume (MCV)", "Mean corpuscular hemoglobin (MCH)", "Mean corpuscular hemoglobin concentration (MCHC)", "Red cell distribution width (RDW)"],
+      "answer": "Mean corpuscular hemoglobin (MCH)",
+      "explanation": "Mean corpuscular hemoglobin (MCH) reflects the average amount of hemoglobin per red blood cell and is calculated as (Hemoglobin × 10) ÷ RBC count."
+    },
+    {
+      "id": 7,
+      "question": "What condition is associated with the presence of Heinz bodies in red blood cells?",
+      "options": ["Glucose-6-phosphate dehydrogenase (G6PD) deficiency", "Iron deficiency anemia", "Pernicious anemia", "Hereditary spherocytosis"],
+      "answer": "Glucose-6-phosphate dehydrogenase (G6PD) deficiency",
+      "explanation": "Heinz bodies are denatured hemoglobin precipitates commonly seen in Glucose-6-phosphate dehydrogenase (G6PD) deficiency."
+    },
+    {
+      "id": 8,
+      "question": "Which coagulation test monitors the effectiveness of warfarin therapy?",
+      "options": ["Activated partial thromboplastin time (APTT)", "Prothrombin time (PT)", "Thrombin time (TT)", "Bleeding time"],
+      "answer": "Prothrombin time (PT)",
+      "explanation": "Prothrombin time (PT) is used to monitor warfarin therapy, as it assesses the extrinsic and common coagulation pathways."
+    },
+    {
+      "id": 9,
+      "question": "What is the hallmark peripheral blood finding in iron deficiency anemia?",
+      "options": ["Macrocytic, normochromic cells", "Microcytic, hypochromic cells", "Normocytic, normochromic cells", "Spherocytes"],
+      "answer": "Microcytic, hypochromic cells",
+      "explanation": "Iron deficiency anemia is characterized by red blood cells that are smaller than normal (microcytic) and have reduced hemoglobin content (hypochromic)."
+    },
+    {
+      "id": 10,
+      "question": "What type of white blood cell is typically increased in allergic reactions and parasitic infections?",
+      "options": ["Basophils", "Neutrophils", "Eosinophils", "Monocytes"],
+      "answer": "Eosinophils",
+      "explanation": "Eosinophils play a key role in allergic responses and defense against parasitic infections, particularly helminths."
+    },
+    {
+    "id": 11,
+    "question": "Which of the following findings is most characteristic of megaloblastic anemia?",
+    "options": ["Microcytic, hypochromic cells", "Hypersegmented neutrophils", "Target cells", "Spherocytes"],
+    "answer": "Hypersegmented neutrophils",
+    "explanation": "Hypersegmented neutrophils are a hallmark of megaloblastic anemia, often due to vitamin B12 or folate deficiency."
+    },
+    {
+      "id": 12,
+      "question": "Which bone marrow finding is typically seen in aplastic anemia?",
+      "options": ["Hypercellularity with erythroid hyperplasia", "Increased megakaryocytes", "Hypocellular marrow with fatty infiltration", "Presence of Reed-Sternberg cells"],
+      "answer": "Hypocellular marrow with fatty infiltration",
+      "explanation": "Aplastic anemia is characterized by markedly hypocellular bone marrow replaced by fat, indicating pancytopenia."
+    },
+    {
+      "id": 13,
+      "question": "What is the normal reference range for hemoglobin concentration in adult females?",
+      "options": ["120–160 grams per liter", "110–140 grams per liter", "130–180 grams per liter", "100–120 grams per liter"],
+      "answer": "120–160 grams per liter",
+      "explanation": "The typical reference range for hemoglobin in adult females is 120–160 grams per liter according to CLSI and WHO guidelines."
+    },
+    {
+      "id": 14,
+      "question": "Which cell is responsible for producing platelets in the bone marrow?",
+      "options": ["Myeloblast", "Erythroblast", "Megakaryocyte", "Promyelocyte"],
+      "answer": "Megakaryocyte",
+      "explanation": "Platelets are cytoplasmic fragments derived from megakaryocytes in the bone marrow."
+    },
+    {
+      "id": 15,
+      "question": "What condition is associated with rouleaux formation on a peripheral blood smear?",
+      "options": ["Multiple myeloma", "Iron deficiency anemia", "Thalassemia", "Hemolytic anemia"],
+      "answer": "Multiple myeloma",
+      "explanation": "Rouleaux formation is caused by increased plasma proteins, particularly immunoglobulins, as seen in multiple myeloma."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is a marker of recent red blood cell production?",
+      "options": ["Reticulocyte count", "Hematocrit", "Erythrocyte sedimentation rate", "Prothrombin time"],
+      "answer": "Reticulocyte count",
+      "explanation": "Reticulocyte count reflects bone marrow activity and is used to assess the rate of red blood cell production."
+    },
+    {
+      "id": 17,
+      "question": "Which coagulation factor is deficient in Hemophilia A?",
+      "options": ["Factor VIII", "Factor IX", "Factor X", "Factor XI"],
+      "answer": "Factor VIII",
+      "explanation": "Hemophilia A is caused by a deficiency or dysfunction of coagulation factor VIII."
+    },
+    {
+      "id": 18,
+      "question": "What term describes variation in red blood cell size?",
+      "options": ["Anisocytosis", "Poikilocytosis", "Polychromasia", "Macrocytosis"],
+      "answer": "Anisocytosis",
+      "explanation": "Anisocytosis refers to unequal red blood cell sizes and is commonly seen in various anemias."
+    },
+    {
+      "id": 19,
+      "question": "Which laboratory test is most useful in detecting hereditary spherocytosis?",
+      "options": ["Osmotic fragility test", "Coombs test", "Hemoglobin electrophoresis", "APTT"],
+      "answer": "Osmotic fragility test",
+      "explanation": "The osmotic fragility test assesses red cell membrane stability and is commonly used in diagnosing hereditary spherocytosis."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following best describes the function of erythropoietin?",
+      "options": ["Stimulates platelet production", "Regulates neutrophil migration", "Enhances red blood cell production", "Promotes clot retraction"],
+      "answer": "Enhances red blood cell production",
+      "explanation": "Erythropoietin is a hormone primarily produced by the kidneys that stimulates red blood cell production in response to hypoxia."
     }
   ]
 }

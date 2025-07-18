@@ -1,0 +1,85 @@
+{
+  "subject": "Histopathologic Techniques, Cytotechnology, and Medical Technology Laws and Ethics",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the fixative of choice for routine histopathologic examination?",
+      "options": ["Zenker's fluid", "10% Neutral buffered formalin", "Carnoy’s fluid", "Bouin’s solution"],
+      "answer": "10% Neutral buffered formalin",
+      "explanation": "10% Neutral buffered formalin is the standard fixative for preserving tissue morphology in routine histopathology."
+    },
+    {
+      "id": 2,
+      "question": "Which clearing agent is most commonly used in tissue processing?",
+      "options": ["Chloroform", "Ethanol", "Xylene", "Acetone"],
+      "answer": "Xylene",
+      "explanation": "Xylene is widely used as a clearing agent in histopathology to make tissues transparent before embedding in paraffin."
+    },
+    {
+      "id": 3,
+      "question": "What is the most critical step in histopathologic tissue processing that affects sectioning quality?",
+      "options": ["Fixation", "Clearing", "Embedding", "Dehydration"],
+      "answer": "Embedding",
+      "explanation": "Proper embedding ensures correct orientation and support of the tissue, which is vital for quality microtomy."
+    },
+    {
+      "id": 4,
+      "question": "Which stain is used to identify acid-fast bacilli in tissue sections?",
+      "options": ["Masson's trichrome", "Ziehl-Neelsen", "Periodic Acid-Schiff", "Hematoxylin and Eosin"],
+      "answer": "Ziehl-Neelsen",
+      "explanation": "Ziehl-Neelsen stain is specific for acid-fast organisms like Mycobacterium tuberculosis in tissue sections."
+    },
+    {
+      "id": 5,
+      "question": "Which cytologic technique uses centrifugation to concentrate cells from body fluids?",
+      "options": ["Imprint cytology", "Brush cytology", "Liquid-based cytology", "Cytocentrifugation"],
+      "answer": "Cytocentrifugation",
+      "explanation": "Cytocentrifugation concentrates cells onto a slide using centrifugal force for better cytologic evaluation."
+    },
+    {
+      "id": 6,
+      "question": "Which law governs the practice of Medical Technology in the Philippines?",
+      "options": ["RA 7722", "RA 1517", "RA 5527", "RA 4688"],
+      "answer": "RA 5527",
+      "explanation": "Republic Act 5527 is the 'Philippine Medical Technology Act of 1969' which regulates the MedTech profession in the country."
+    },
+    {
+      "id": 7,
+      "question": "Under RA 5527, which of the following is **not** a function of a Medical Technologist?",
+      "options": [
+        "Blood typing and crossmatching",
+        "Performing histopathologic diagnoses",
+        "Clinical microscopy of urine and stool",
+        "Preparation of blood smears for CBC"
+      ],
+      "answer": "Performing histopathologic diagnoses",
+      "explanation": "Only licensed pathologists can make definitive histopathologic diagnoses; MedTechs assist in technical aspects only."
+    },
+    {
+      "id": 8,
+      "question": "Which agency accredits training laboratories for Medical Technology interns in the Philippines?",
+      "options": ["CHED", "DOH", "PRC", "TESDA"],
+      "answer": "DOH",
+      "explanation": "The Department of Health (DOH) accredits clinical laboratories used for internship training programs in MedTech education."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is considered unethical for a practicing Medical Technologist?",
+      "options": [
+        "Referring a test to another laboratory with patient consent",
+        "Performing tests without quality control",
+        "Following standard operating procedures",
+        "Maintaining confidentiality of patient results"
+      ],
+      "answer": "Performing tests without quality control",
+      "explanation": "Skipping quality control jeopardizes patient safety and violates ethical standards in clinical laboratory practice."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is the licensing body for Medical Technologists in the Philippines?",
+      "options": ["CHED", "DOH", "PRC", "NAPOLCOM"],
+      "answer": "PRC",
+      "explanation": "The Professional Regulation Commission (PRC) administers board exams and issues licenses to registered Medical Technologists in the Philippines."
+    }
+  ]
+}

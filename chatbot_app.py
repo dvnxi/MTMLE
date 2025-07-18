@@ -5,8 +5,8 @@ import ollama
 ollama_client = ollama.Client(host="http://127.0.0.1:11434")
 
 # ✅ Page setup
-st.set_page_config(page_title="R.ChatBot", page_icon="🤖", layout="centered")
-st.markdown("<h2 style='color:#FC8EAC; font-family: Times New Roman, serif; font-style: italic;'>R.ChatBot</h2>", unsafe_allow_html=True)
+st.set_page_config(page_title="NemaBot", page_icon="🤖", layout="centered")
+st.markdown("<h2 style='color:#FC8EAC;'>NemaBot</h2>", unsafe_allow_html=True)
 
 # ✅ Session state for messages
 if "messages" not in st.session_state:
@@ -17,11 +17,11 @@ for msg in st.session_state.messages:
     if msg["role"] == "user":
         st.markdown(f"<span style='color:#1f77b4; font-weight:bold;'>You:</span><br>{msg['content']}", unsafe_allow_html=True)
     else:
-        st.markdown(f"<span style='color:#FC74A6; font-weight:bold;'>R.ChatBot:</span><br>{msg['content']}", unsafe_allow_html=True)
+        st.markdown(f"<span style='color:#FC74A6; font-weight:bold;'>NemaBot:</span><br>{msg['content']}", unsafe_allow_html=True)
 
 # ✅ Text input
 user_input = st.text_input(
-    "Ask your MedTech question:",
+    "Ask question:",
     placeholder="Type your question here...",
     label_visibility="collapsed"
 )

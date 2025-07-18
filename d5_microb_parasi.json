@@ -1,0 +1,145 @@
+{
+  "subject": "Microbiology and Parasitology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which gram-positive bacterium is most commonly implicated in neonatal meningitis along with Escherichia coli?",
+      "options": ["Streptococcus agalactiae", "Listeria monocytogenes", "Streptococcus pneumoniae", "Staphylococcus aureus"],
+      "answer": "Streptococcus agalactiae",
+      "explanation": "Streptococcus agalactiae (Group B Streptococcus) is a leading cause of neonatal meningitis alongside Escherichia coli."
+    },
+    {
+      "id": 2,
+      "question": "Which method is most suitable for the culture of Mycobacterium tuberculosis?",
+      "options": ["Blood agar", "MacConkey agar", "Löwenstein-Jensen medium", "Thayer-Martin agar"],
+      "answer": "Löwenstein-Jensen medium",
+      "explanation": "Löwenstein-Jensen medium is an egg-based medium used for the selective culture of Mycobacterium tuberculosis."
+    },
+    {
+      "id": 3,
+      "question": "Which Plasmodium species can cause relapses due to hypnozoite stages in the liver?",
+      "options": ["Plasmodium falciparum", "Plasmodium malariae", "Plasmodium vivax", "Plasmodium knowlesi"],
+      "answer": "Plasmodium vivax",
+      "explanation": "Plasmodium vivax and Plasmodium ovale can remain dormant in the liver as hypnozoites, causing relapses."
+    },
+    {
+      "id": 4,
+      "question": "Which helminth infection can lead to vitamin B12 deficiency and megaloblastic anemia?",
+      "options": ["Taenia solium", "Ascaris lumbricoides", "Diphyllobothrium latum", "Ancylostoma duodenale"],
+      "answer": "Diphyllobothrium latum",
+      "explanation": "Diphyllobothrium latum, the fish tapeworm, absorbs vitamin B12 and may cause megaloblastic anemia in heavy infections."
+    },
+    {
+      "id": 5,
+      "question": "Which yeast-like fungus is encapsulated and is a common cause of meningitis in patients with AIDS?",
+      "options": ["Candida albicans", "Cryptococcus neoformans", "Aspergillus fumigatus", "Histoplasma capsulatum"],
+      "answer": "Cryptococcus neoformans",
+      "explanation": "Cryptococcus neoformans is an encapsulated yeast associated with cryptococcal meningitis, especially in immunocompromised individuals."
+    },
+    {
+      "id": 6,
+      "question": "Which bacterial genus is identified using the Nagler reaction on egg yolk agar?",
+      "options": ["Clostridium", "Bacillus", "Actinomyces", "Listeria"],
+      "answer": "Clostridium",
+      "explanation": "The Nagler reaction detects lecithinase activity, used to identify Clostridium perfringens."
+    },
+    {
+      "id": 7,
+      "question": "What is the primary vector of Leptospira interrogans in the Philippines?",
+      "options": ["Rodents", "Mosquitoes", "Ticks", "Dogs"],
+      "answer": "Rodents",
+      "explanation": "Leptospira interrogans is transmitted via water contaminated by urine of infected rodents, especially after floods."
+    },
+    {
+      "id": 8,
+      "question": "Which protozoan is diagnosed through detection of motile trophozoites in freshly passed stool?",
+      "options": ["Entamoeba histolytica", "Balantidium coli", "Giardia lamblia", "Trichomonas hominis"],
+      "answer": "Entamoeba histolytica",
+      "explanation": "Motile trophozoites of Entamoeba histolytica can be seen in fresh dysenteric stools."
+    },
+    {
+      "id": 9,
+      "question": "Which viral family includes the causative agent of German measles (rubella)?",
+      "options": ["Paramyxoviridae", "Togaviridae", "Herpesviridae", "Poxviridae"],
+      "answer": "Togaviridae",
+      "explanation": "Rubella virus belongs to the Togaviridae family and is responsible for German measles."
+    },
+    {
+      "id": 10,
+      "question": "What is the causative agent of rat-bite fever in Asia, including the Philippines?",
+      "options": ["Streptobacillus moniliformis", "Spirillum minus", "Leptospira interrogans", "Bartonella henselae"],
+      "answer": "Spirillum minus",
+      "explanation": "Spirillum minus causes rat-bite fever in Asia, typically transmitted via bites or scratches from infected rodents."
+    },
+    {
+      "id": 11,
+      "question": "Which diagnostic test is used to detect reagin antibodies in syphilis screening?",
+      "options": ["FTA-ABS", "VDRL", "TPHA", "Dark-field microscopy"],
+      "answer": "VDRL",
+      "explanation": "The Venereal Disease Research Laboratory (VDRL) test detects non-treponemal antibodies in syphilis screening."
+    },
+    {
+      "id": 12,
+      "question": "Which organism produces swarming colonies on blood agar and is associated with urinary tract infections?",
+      "options": ["Escherichia coli", "Klebsiella pneumoniae", "Proteus mirabilis", "Enterobacter cloacae"],
+      "answer": "Proteus mirabilis",
+      "explanation": "Proteus mirabilis is known for its swarming motility and is a frequent urinary tract pathogen."
+    },
+    {
+      "id": 13,
+      "question": "Which diagnostic method is used to visualize microfilariae in nocturnal periodicity cases?",
+      "options": ["Thick blood smear at night", "Urine microscopy", "Stool concentration", "CSF cytology"],
+      "answer": "Thick blood smear at night",
+      "explanation": "Wuchereria bancrofti microfilariae are best seen in peripheral blood smears collected at night due to nocturnal periodicity."
+    },
+    {
+      "id": 14,
+      "question": "Which organism causes river blindness and is transmitted by blackflies?",
+      "options": ["Wuchereria bancrofti", "Loa loa", "Onchocerca volvulus", "Dracunculus medinensis"],
+      "answer": "Onchocerca volvulus",
+      "explanation": "Onchocerca volvulus is transmitted by blackflies (Simulium species) and causes onchocerciasis or river blindness."
+    },
+    {
+      "id": 15,
+      "question": "Which biosafety level is required for handling Mycobacterium tuberculosis cultures?",
+      "options": ["Biosafety Level 1", "Biosafety Level 2", "Biosafety Level 3", "Biosafety Level 4"],
+      "answer": "Biosafety Level 3",
+      "explanation": "Mycobacterium tuberculosis requires Biosafety Level 3 due to its aerosol transmission and high infectivity."
+    },
+    {
+      "id": 16,
+      "question": "Which gram-negative bacillus exhibits a characteristic safety-pin appearance on Wayson stain?",
+      "options": ["Yersinia pestis", "Vibrio cholerae", "Salmonella typhi", "Shigella dysenteriae"],
+      "answer": "Yersinia pestis",
+      "explanation": "Yersinia pestis shows bipolar staining (safety-pin appearance) on Wayson stain, aiding in diagnosis of plague."
+    },
+    {
+      "id": 17,
+      "question": "Which intestinal protozoan has four nuclei in its mature cyst form?",
+      "options": ["Entamoeba histolytica", "Giardia lamblia", "Balantidium coli", "Blastocystis hominis"],
+      "answer": "Entamoeba histolytica",
+      "explanation": "Entamoeba histolytica cysts typically contain four nuclei, a key feature in microscopic identification."
+    },
+    {
+      "id": 18,
+      "question": "Which diagnostic technique is recommended for identifying Strongyloides stercoralis larvae?",
+      "options": ["Direct fecal smear", "Kato-Katz technique", "Baermann technique", "Scotch tape test"],
+      "answer": "Baermann technique",
+      "explanation": "The Baermann technique allows recovery of motile larvae such as those of Strongyloides stercoralis."
+    },
+    {
+      "id": 19,
+      "question": "What is the appropriate culture medium for Corynebacterium diphtheriae isolation?",
+      "options": ["Chocolate agar", "Tellurite agar", "Sabouraud dextrose agar", "Thiosulfate-citrate-bile salts-sucrose agar"],
+      "answer": "Tellurite agar",
+      "explanation": "Tellurite agar selectively isolates Corynebacterium diphtheriae, producing black colonies due to tellurite reduction."
+    },
+    {
+      "id": 20,
+      "question": "Which parasite causes creeping eruption or cutaneous larva migrans in humans?",
+      "options": ["Necator americanus", "Ancylostoma braziliense", "Ascaris lumbricoides", "Trichinella spiralis"],
+      "answer": "Ancylostoma braziliense",
+      "explanation": "Ancylostoma braziliense, a dog and cat hookworm, causes cutaneous larva migrans when larvae penetrate human skin."
+    }
+  ]
+}

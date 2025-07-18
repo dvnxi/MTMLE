@@ -3,28 +3,28 @@
   "questions": [
     {
       "id": 1,
-      "question": "A peripheral blood smear reveals microcytic, hypochromic red cells with marked anisopoikilocytosis. What is the most likely diagnosis?",
+      "question": "A peripheral blood smear reveals microcytic, hypochromic red blood cells with marked anisopoikilocytosis. What is the most likely diagnosis?",
       "options": ["Iron deficiency anemia", "Megaloblastic anemia", "Hereditary spherocytosis", "Autoimmune hemolytic anemia"],
       "answer": "Iron deficiency anemia",
-      "explanation": "Iron deficiency anemia typically shows microcytic, hypochromic RBCs and variation in size and shape (anisopoikilocytosis).",
+      "explanation": "Iron deficiency anemia typically shows microcytic, hypochromic red blood cells and variation in size and shape (anisopoikilocytosis).",
       "image": "to_be_added",
-      "image_comment": "Peripheral smear showing microcytic hypochromic RBCs."
+      "image_comment": "Peripheral smear showing microcytic hypochromic red blood cells."
     },
     {
       "id": 2,
-      "question": "A patient with chronic lymphocytic leukemia (CLL) is expected to show which characteristic cell on smear?",
+      "question": "A patient with chronic lymphocytic leukemia is expected to show which characteristic cell on smear?",
       "options": ["Howell-Jolly bodies", "Smudge cells", "Heinz bodies", "Auer rods"],
       "answer": "Smudge cells",
-      "explanation": "CLL commonly shows fragile lymphocytes that smear easily, producing smudge cells.",
+      "explanation": "Chronic lymphocytic leukemia commonly shows fragile lymphocytes that smear easily, producing smudge cells.",
       "image": "to_be_added",
-      "image_comment": "Smudge cell appearance in CLL smear."
+      "image_comment": "Smudge cell appearance in chronic lymphocytic leukemia smear."
     },
     {
       "id": 3,
-      "question": "Which anticoagulant is preferred for routine complete blood count (CBC)?",
-      "options": ["Heparin", "EDTA", "Sodium citrate", "Oxalate"],
-      "answer": "EDTA",
-      "explanation": "EDTA is preferred for CBC as it preserves cellular morphology.",
+      "question": "Which anticoagulant is preferred for routine complete blood count?",
+      "options": ["Heparin", "Ethylenediaminetetraacetic acid (EDTA)", "Sodium citrate", "Oxalate"],
+      "answer": "Ethylenediaminetetraacetic acid (EDTA)",
+      "explanation": "Ethylenediaminetetraacetic acid (EDTA) is preferred for complete blood count as it preserves cellular morphology.",
       "image": null,
       "image_comment": null
     },
@@ -42,16 +42,16 @@
       "question": "What is the primary defect in hereditary spherocytosis?",
       "options": ["Globin chain synthesis", "Enzyme deficiency", "Membrane protein defect", "Iron metabolism defect"],
       "answer": "Membrane protein defect",
-      "explanation": "Hereditary spherocytosis is caused by defects in membrane proteins like spectrin, ankyrin, leading to spherocyte formation.",
+      "explanation": "Hereditary spherocytosis is caused by defects in membrane proteins like spectrin and ankyrin, leading to spherocyte formation.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 6,
-      "question": "Which parameter indicates the degree of anisocytosis in a CBC?",
-      "options": ["MCV", "MCH", "RDW", "Hct"],
-      "answer": "RDW",
-      "explanation": "Red cell distribution width (RDW) measures variability in RBC size (anisocytosis).",
+      "question": "Which parameter indicates the degree of anisocytosis in a complete blood count?",
+      "options": ["Mean corpuscular volume", "Mean corpuscular hemoglobin", "Red cell distribution width", "Hematocrit"],
+      "answer": "Red cell distribution width",
+      "explanation": "Red cell distribution width measures variability in red blood cell size (anisocytosis).",
       "image": null,
       "image_comment": null
     },
@@ -60,7 +60,7 @@
       "question": "Auer rods are diagnostic of which leukemia?",
       "options": ["Acute lymphoblastic leukemia", "Chronic myelogenous leukemia", "Acute myeloid leukemia", "Hairy cell leukemia"],
       "answer": "Acute myeloid leukemia",
-      "explanation": "Auer rods are cytoplasmic inclusions seen in myeloblasts, characteristic of AML.",
+      "explanation": "Auer rods are cytoplasmic inclusions seen in myeloblasts, characteristic of acute myeloid leukemia.",
       "image": "to_be_added",
       "image_comment": "Blast cell with Auer rod."
     },
@@ -96,41 +96,41 @@
       "question": "Which staining method is used to visualize reticulocytes?",
       "options": ["Wright-Giemsa stain", "Prussian blue", "Supravital stain", "Sudan black B"],
       "answer": "Supravital stain",
-      "explanation": "Supravital stains (e.g., new methylene blue) highlight residual RNA in reticulocytes.",
+      "explanation": "Supravital stains, such as new methylene blue, highlight residual RNA in reticulocytes.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 12,
-      "question": "What laboratory feature is most characteristic of chronic myelogenous leukemia (CML)?",
-      "options": ["Philadelphia chromosome", "Bence Jones protein", "JAK2 mutation", "Auer rods"],
+      "question": "What laboratory feature is most characteristic of chronic myelogenous leukemia?",
+      "options": ["Philadelphia chromosome", "Bence Jones protein", "Janus kinase 2 mutation", "Auer rods"],
       "answer": "Philadelphia chromosome",
-      "explanation": "The Philadelphia chromosome (t(9;22)) is the hallmark of CML.",
+      "explanation": "The Philadelphia chromosome, resulting from translocation t(9;22), is the hallmark of chronic myelogenous leukemia.",
       "image": "to_be_added",
       "image_comment": "Karyotype showing Philadelphia chromosome translocation."
     },
     {
       "id": 13,
-      "question": "Which RBC inclusion is associated with asplenia?",
+      "question": "Which red blood cell inclusion is associated with asplenia?",
       "options": ["Basophilic stippling", "Heinz bodies", "Howell-Jolly bodies", "Pappenheimer bodies"],
       "answer": "Howell-Jolly bodies",
-      "explanation": "Howell-Jolly bodies represent nuclear remnants, seen when spleen function is absent or reduced.",
+      "explanation": "Howell-Jolly bodies represent nuclear remnants and are seen when spleen function is absent or reduced.",
       "image": "to_be_added",
       "image_comment": "Peripheral smear with Howell-Jolly bodies."
     },
     {
       "id": 14,
-      "question": "Which laboratory test is used to monitor oral anticoagulant therapy (warfarin)?",
-      "options": ["APTT", "Thrombin time", "PT/INR", "Fibrinogen assay"],
-      "answer": "PT/INR",
-      "explanation": "Prothrombin time (PT) and international normalized ratio (INR) are used to monitor warfarin therapy.",
+      "question": "Which laboratory test is used to monitor oral anticoagulant therapy with warfarin?",
+      "options": ["Activated partial thromboplastin time", "Thrombin time", "Prothrombin time / International normalized ratio", "Fibrinogen assay"],
+      "answer": "Prothrombin time / International normalized ratio",
+      "explanation": "Prothrombin time and international normalized ratio are used to monitor warfarin therapy.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 15,
       "question": "Which inherited condition shows increased osmotic fragility?",
-      "options": ["Thalassemia", "Hereditary spherocytosis", "G6PD deficiency", "Sickle cell anemia"],
+      "options": ["Thalassemia", "Hereditary spherocytosis", "Glucose-6-phosphate dehydrogenase deficiency", "Sickle cell anemia"],
       "answer": "Hereditary spherocytosis",
       "explanation": "Spherocytes are more fragile in hypotonic solutions, leading to increased osmotic fragility.",
       "image": null,
@@ -138,16 +138,16 @@
     },
     {
       "id": 16,
-      "question": "What is the expected MCV in iron deficiency anemia?",
+      "question": "What is the expected mean corpuscular volume in iron deficiency anemia?",
       "options": ["Increased", "Normal", "Decreased", "Variable"],
       "answer": "Decreased",
-      "explanation": "Iron deficiency anemia produces microcytic RBCs with decreased MCV (<80 fL).",
+      "explanation": "Iron deficiency anemia produces microcytic red blood cells with decreased mean corpuscular volume (less than 80 femtoliters).",
       "image": null,
       "image_comment": null
     },
     {
       "id": 17,
-      "question": "What RBC morphology is characteristic of β-thalassemia?",
+      "question": "What red blood cell morphology is characteristic of beta-thalassemia?",
       "options": ["Spherocytes", "Schistocytes", "Target cells", "Burr cells"],
       "answer": "Target cells",
       "explanation": "Target cells are commonly seen in thalassemias due to excess membrane relative to cell volume.",
@@ -157,27 +157,27 @@
     {
       "id": 18,
       "question": "Which test measures the intrinsic and common coagulation pathways?",
-      "options": ["PT", "APTT", "TT", "D-dimer"],
-      "answer": "APTT",
-      "explanation": "Activated partial thromboplastin time (APTT) evaluates factors VIII, IX, XI, XII, and the common pathway.",
+      "options": ["Prothrombin time", "Activated partial thromboplastin time", "Thrombin time", "D-dimer"],
+      "answer": "Activated partial thromboplastin time",
+      "explanation": "Activated partial thromboplastin time evaluates factors VIII, IX, XI, XII, and the common pathway.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 19,
       "question": "Which condition shows rouleaux formation on blood smear?",
-      "options": ["Multiple myeloma", "Iron deficiency anemia", "Sickle cell anemia", "G6PD deficiency"],
+      "options": ["Multiple myeloma", "Iron deficiency anemia", "Sickle cell anemia", "Glucose-6-phosphate dehydrogenase deficiency"],
       "answer": "Multiple myeloma",
-      "explanation": "Increased serum globulins in multiple myeloma promote RBC stacking (rouleaux).",
+      "explanation": "Increased serum globulins in multiple myeloma promote red blood cell stacking known as rouleaux formation.",
       "image": "to_be_added",
       "image_comment": "Peripheral smear with rouleaux formation."
     },
     {
       "id": 20,
-      "question": "Which WBC abnormality is commonly seen in infectious mononucleosis?",
+      "question": "Which white blood cell abnormality is commonly seen in infectious mononucleosis?",
       "options": ["Hypersegmented neutrophils", "Reactive lymphocytes", "Smudge cells", "Pelger-Huët anomaly"],
       "answer": "Reactive lymphocytes",
-      "explanation": "Infectious mononucleosis is characterized by the presence of large, atypical (reactive) lymphocytes.",
+      "explanation": "Infectious mononucleosis is characterized by the presence of large, atypical reactive lymphocytes.",
       "image": "to_be_added",
       "image_comment": "Peripheral smear with reactive lymphocytes."
     }

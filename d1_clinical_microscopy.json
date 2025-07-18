@@ -6,7 +6,7 @@
       "question": "Which type of urine specimen is most suitable for routine urinalysis?",
       "options": ["First morning", "Random", "Timed", "Midstream clean-catch"],
       "answer": "First morning",
-      "explanation": "The first morning urine is the most concentrated, making it ideal for routine analysis and microscopic examination.",
+      "explanation": "The first morning urine specimen is the most concentrated, making it ideal for routine analysis and microscopic examination.",
       "image": null,
       "image_comment": null
     },
@@ -15,7 +15,7 @@
       "question": "What is the primary component of a urinary cast?",
       "options": ["Fibrin", "Uromodulin (Tamm-Horsfall protein)", "Albumin", "Globulin"],
       "answer": "Uromodulin (Tamm-Horsfall protein)",
-      "explanation": "Uromodulin is the main matrix of urinary casts, produced by renal tubular epithelial cells.",
+      "explanation": "Uromodulin, also known as Tamm-Horsfall protein, is the main matrix of urinary casts and is produced by renal tubular epithelial cells.",
       "image": null,
       "image_comment": null
     },
@@ -24,7 +24,7 @@
       "question": "Which crystal is commonly seen in acidic urine and appears as envelope-shaped?",
       "options": ["Calcium oxalate", "Triple phosphate", "Cystine", "Amorphous urates"],
       "answer": "Calcium oxalate",
-      "explanation": "Calcium oxalate crystals are envelope-shaped and found in acidic or neutral urine.",
+      "explanation": "Calcium oxalate crystals are envelope-shaped and typically found in acidic or neutral urine.",
       "image": null,
       "image_comment": "Add microscopic image of calcium oxalate crystal"
     },
@@ -33,7 +33,7 @@
       "question": "What is the best method to preserve urine for routine analysis if immediate testing is not possible?",
       "options": ["Refrigeration", "Formalin addition", "Heating", "Acidification"],
       "answer": "Refrigeration",
-      "explanation": "Refrigeration slows bacterial growth and chemical changes in urine specimens.",
+      "explanation": "Refrigeration slows bacterial growth and prevents chemical changes in urine specimens during storage.",
       "image": null,
       "image_comment": null
     },
@@ -42,7 +42,7 @@
       "question": "Which condition is associated with the presence of fatty casts in urine?",
       "options": ["Acute glomerulonephritis", "Nephrotic syndrome", "Pyelonephritis", "Cystitis"],
       "answer": "Nephrotic syndrome",
-      "explanation": "Fatty casts are characteristic of nephrotic syndrome due to lipiduria.",
+      "explanation": "Fatty casts are characteristic of nephrotic syndrome due to the presence of lipiduria.",
       "image": null,
       "image_comment": "Add microscopic image of fatty cast"
     },
@@ -51,7 +51,7 @@
       "question": "What is the significance of a positive leukocyte esterase test on urine dipstick?",
       "options": ["Hematuria", "Proteinuria", "Pyuria", "Glycosuria"],
       "answer": "Pyuria",
-      "explanation": "Leukocyte esterase indicates the presence of WBCs, suggesting infection or inflammation (pyuria).",
+      "explanation": "Leukocyte esterase indicates the presence of white blood cells, suggesting infection or inflammation (pyuria).",
       "image": null,
       "image_comment": null
     },
@@ -62,14 +62,14 @@
       "answer": "Schistosoma haematobium",
       "explanation": "Eggs of Schistosoma haematobium are best detected in urine collected around noon due to peak egg excretion.",
       "image": null,
-      "image_comment": "Add image of S. haematobium egg"
+      "image_comment": "Add image of Schistosoma haematobium egg"
     },
     {
       "id": 8,
       "question": "Which of the following is a normal crystal found in alkaline urine?",
       "options": ["Uric acid", "Ammonium biurate", "Cystine", "Bilirubin"],
       "answer": "Ammonium biurate",
-      "explanation": "Ammonium biurate crystals are common in alkaline urine and have a 'thorn apple' appearance.",
+      "explanation": "Ammonium biurate crystals are common in alkaline urine and have a characteristic 'thorn apple' appearance.",
       "image": null,
       "image_comment": "Add microscopic image of ammonium biurate crystal"
     },
@@ -85,9 +85,9 @@
     {
       "id": 10,
       "question": "What is the preferred anticoagulant for synovial fluid analysis?",
-      "options": ["EDTA", "Heparin", "Sodium citrate", "Fluoride oxalate"],
+      "options": ["Ethylenediaminetetraacetic acid (EDTA)", "Heparin", "Sodium citrate", "Fluoride oxalate"],
       "answer": "Heparin",
-      "explanation": "Heparin prevents clotting without interfering with crystal examination in synovial fluid.",
+      "explanation": "Heparin prevents clotting without interfering with crystal examination in synovial fluid analysis.",
       "image": null,
       "image_comment": null
     }

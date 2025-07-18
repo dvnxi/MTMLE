@@ -1,10 +1,185 @@
 {
+  "subject": "Blood Banking and Serology",
   "questions": [
     {
-      "question": "Example question?",
-      "options": ["A", "B", "C", "D"],
-      "answer": "A",
-      "explanation": "Example explanation."
+      "id": 1,
+      "question": "Which blood group is considered the universal red cell donor?",
+      "options": ["Group AB", "Group O", "Group A", "Group B"],
+      "answer": "Group O",
+      "explanation": "Group O red cells lack A and B antigens, making them compatible with all blood groups in emergencies.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 2,
+      "question": "What is the most common cause of hemolytic transfusion reactions?",
+      "options": ["ABO incompatibility", "Rh incompatibility", "Iron overload", "Hepatitis B infection"],
+      "answer": "ABO incompatibility",
+      "explanation": "ABO incompatibility is the most frequent cause of acute hemolytic transfusion reactions due to naturally occurring antibodies.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 3,
+      "question": "What is the principle of the antiglobulin test?",
+      "options": ["Detection of red cell antigens", "Identification of bacterial contamination", "Detection of non-agglutinating antibodies", "Detection of platelet antigens"],
+      "answer": "Detection of non-agglutinating antibodies",
+      "explanation": "The antiglobulin test (also known as Coombs test) detects antibodies that do not cause visible agglutination of red cells.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 4,
+      "question": "Which immunoglobulin class is most efficient at activating complement during transfusion reactions?",
+      "options": ["Immunoglobulin G (IgG)", "Immunoglobulin M (IgM)", "Immunoglobulin A (IgA)", "Immunoglobulin E (IgE)"],
+      "answer": "Immunoglobulin M (IgM)",
+      "explanation": "IgM is a pentamer and is the most efficient at activating complement, particularly in ABO reactions.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 5,
+      "question": "Which blood component is most appropriate for a patient with hemophilia A?",
+      "options": ["Platelet concentrate", "Fresh frozen plasma", "Cryoprecipitate", "Packed red blood cells"],
+      "answer": "Cryoprecipitate",
+      "explanation": "Cryoprecipitate contains high levels of Factor VIII, which is deficient in hemophilia A patients.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 6,
+      "question": "What is the shelf life of whole blood stored at 1–6°C with citrate phosphate dextrose adenine (CPDA-1)?",
+      "options": ["21 days", "35 days", "42 days", "7 days"],
+      "answer": "35 days",
+      "explanation": "Whole blood with CPDA-1 anticoagulant has a shelf life of 35 days under refrigeration.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a characteristic of Kidd (Jk) antibodies?",
+      "options": ["Naturally occurring and IgM", "Usually cause mild reactions", "Detected easily during testing", "Often implicated in delayed hemolytic transfusion reactions"],
+      "answer": "Often implicated in delayed hemolytic transfusion reactions",
+      "explanation": "Kidd antibodies are IgG and are notorious for causing delayed hemolytic transfusion reactions due to their evanescent nature.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 8,
+      "question": "In blood donation, what is the minimum hemoglobin level required for a male donor?",
+      "options": ["12.0 g/dL", "12.5 g/dL", "13.0 g/dL", "13.5 g/dL"],
+      "answer": "13.0 g/dL",
+      "explanation": "Male donors must have a minimum hemoglobin level of 13.0 g/dL to be eligible for whole blood donation.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 9,
+      "question": "Which Rh antigen is the most immunogenic after D antigen?",
+      "options": ["C", "c", "E", "e"],
+      "answer": "c",
+      "explanation": "After D antigen, c is the most immunogenic Rh antigen, especially in transfusion settings.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 10,
+      "question": "What does the acronym AHG stand for in the context of the Coombs test?",
+      "options": ["Anti-Hemoglobin Globulin", "Anti-Human Globulin", "Agglutinating Human Gamma", "Albumin Human Globulin"],
+      "answer": "Anti-Human Globulin",
+      "explanation": "AHG (Anti-Human Globulin) is used to bridge antibodies and red cell antigens in the antiglobulin test.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 11,
+      "question": "Which of the following diseases is associated with a high frequency of autoantibodies against red blood cells?",
+      "options": ["Myasthenia gravis", "Systemic lupus erythematosus", "Multiple sclerosis", "Crohn's disease"],
+      "answer": "Systemic lupus erythematosus",
+      "explanation": "Autoimmune hemolytic anemia is frequently associated with systemic lupus erythematosus (SLE).",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 12,
+      "question": "Which of the following blood components should be transfused within 5 days of collection?",
+      "options": ["Platelet concentrate", "Packed red blood cells", "Fresh frozen plasma", "Cryoprecipitate"],
+      "answer": "Platelet concentrate",
+      "explanation": "Platelets are stored at 20–24°C with gentle agitation and must be used within 5 days to maintain viability.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 13,
+      "question": "Which screening test is commonly used to detect unexpected red cell antibodies?",
+      "options": ["Crossmatch test", "Direct antiglobulin test", "Antibody screen", "Hemoglobin electrophoresis"],
+      "answer": "Antibody screen",
+      "explanation": "Antibody screening is done to detect clinically significant red cell antibodies before transfusion.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 14,
+      "question": "What is the primary indication for leukocyte-reduced red blood cell transfusions?",
+      "options": ["Preventing febrile non-hemolytic transfusion reactions", "Treating thrombocytopenia", "Managing hemophilia", "Preventing iron overload"],
+      "answer": "Preventing febrile non-hemolytic transfusion reactions",
+      "explanation": "Leukoreduction reduces the risk of febrile reactions and alloimmunization to white blood cell antigens.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 15,
+      "question": "What is the acceptable volume of blood drawn during a standard whole blood donation?",
+      "options": ["250 mL", "350 mL", "450 mL", "500 mL"],
+      "answer": "450 mL",
+      "explanation": "A standard blood donation collects approximately 450 mL of whole blood.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 16,
+      "question": "Which enzyme treatment can enhance the reactivity of Rh and Kidd system antibodies?",
+      "options": ["Trypsin", "Papain", "Neuraminidase", "Albumin"],
+      "answer": "Papain",
+      "explanation": "Enzyme treatment with papain enhances the detection of Rh and Kidd antibodies during serologic testing.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 17,
+      "question": "In transfusion medicine, what is the purpose of an immediate spin crossmatch?",
+      "options": ["To detect IgG antibodies", "To check Rh compatibility", "To detect ABO incompatibility", "To confirm hemoglobin levels"],
+      "answer": "To detect ABO incompatibility",
+      "explanation": "Immediate spin crossmatch is a quick method used to detect ABO incompatibilities before transfusion.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of irradiation of blood products?",
+      "options": ["To increase shelf life", "To reduce potassium content", "To prevent transfusion-associated graft-versus-host disease", "To prevent bacterial contamination"],
+      "answer": "To prevent transfusion-associated graft-versus-host disease",
+      "explanation": "Irradiation inactivates donor T lymphocytes, preventing graft-versus-host disease in immunocompromised patients.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 19,
+      "question": "Which condition requires transfusion of washed red blood cells?",
+      "options": ["Thalassemia major", "Sickle cell anemia", "IgA deficiency with anti-IgA antibodies", "Hemophilia A"],
+      "answer": "IgA deficiency with anti-IgA antibodies",
+      "explanation": "Washed red cells are used for patients with IgA deficiency to prevent severe anaphylactic reactions.",
+      "image": null,
+      "image_comment": null
+    },
+    {
+      "id": 20,
+      "question": "Which blood group system includes the Fy^a and Fy^b antigens?",
+      "options": ["Kell", "Duffy", "Kidd", "MNS"],
+      "answer": "Duffy",
+      "explanation": "The Duffy blood group system includes the Fy^a and Fy^b antigens and is significant in transfusion and malaria research.",
+      "image": null,
+      "image_comment": null
     }
   ]
 }

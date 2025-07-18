@@ -1,0 +1,75 @@
+{
+  "subject": "Clinical Microscopy",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which urine specimen type is most appropriate for microscopic examination of formed elements?",
+      "options": ["Random", "First morning", "24-hour", "Postprandial"],
+      "answer": "First morning",
+      "explanation": "The first morning urine specimen is the most concentrated and ideal for detecting formed elements like casts and cells."
+    },
+    {
+      "id": 2,
+      "question": "In urinalysis, what is the clinical significance of the presence of broad casts?",
+      "options": ["Cystitis", "Glomerulonephritis", "Chronic renal failure", "Acute pyelonephritis"],
+      "answer": "Chronic renal failure",
+      "explanation": "Broad casts are known as 'renal failure casts' and are commonly associated with end-stage renal disease or chronic renal failure."
+    },
+    {
+      "id": 3,
+      "question": "What reagent is used in the chemical test for protein in urine using dipstick method?",
+      "options": ["Bromthymol blue", "Tetrabromophenol blue", "Nitroprusside", "Sulfanilic acid"],
+      "answer": "Tetrabromophenol blue",
+      "explanation": "Tetrabromophenol blue is the indicator dye that changes color in the presence of protein in the urine dipstick method."
+    },
+    {
+      "id": 4,
+      "question": "Which urine crystal appears as hexagonal plates and is associated with inherited metabolic disorder?",
+      "options": ["Uric acid", "Cystine", "Calcium oxalate", "Triple phosphate"],
+      "answer": "Cystine",
+      "explanation": "Cystine crystals are colorless, hexagonal plates found in acid urine and are diagnostic of cystinuria, an inherited metabolic disorder."
+    },
+    {
+      "id": 5,
+      "question": "What condition is most likely when urine specific gravity is consistently low (<1.010)?",
+      "options": ["Diabetes mellitus", "Dehydration", "Chronic renal disease", "Congestive heart failure"],
+      "answer": "Chronic renal disease",
+      "explanation": "A consistently low specific gravity indicates an inability to concentrate urine, a sign of chronic renal disease."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a characteristic finding in nephrotic syndrome?",
+      "options": ["Low specific gravity", "Hematuria", "Massive proteinuria", "WBC casts"],
+      "answer": "Massive proteinuria",
+      "explanation": "Nephrotic syndrome is marked by massive proteinuria, hypoalbuminemia, hyperlipidemia, and edema."
+    },
+    {
+      "id": 7,
+      "question": "Which urinary sediment component is best identified using polarized light microscopy?",
+      "options": ["Bacteria", "Casts", "Crystals", "Red blood cells"],
+      "answer": "Crystals",
+      "explanation": "Crystals exhibit birefringence under polarized light, aiding in their identification and differentiation."
+    },
+    {
+      "id": 8,
+      "question": "What is the best preservative for a 24-hour urine specimen for glucose analysis?",
+      "options": ["Hydrochloric acid", "Thymol", "Boric acid", "Toluene"],
+      "answer": "Thymol",
+      "explanation": "Thymol preserves glucose and prevents bacterial degradation, making it suitable for 24-hour urine glucose testing."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following cells in urine is most indicative of vaginal contamination?",
+      "options": ["Renal tubular epithelial cells", "Squamous epithelial cells", "Transitional epithelial cells", "White blood cells"],
+      "answer": "Squamous epithelial cells",
+      "explanation": "Squamous epithelial cells, originating from the external genitalia, indicate contamination of the urine sample."
+    },
+    {
+      "id": 10,
+      "question": "Which stain is commonly used to identify oval fat bodies in urine?",
+      "options": ["Sternheimer-Malbin", "Sudan III", "Gram stain", "Prussian blue"],
+      "answer": "Sudan III",
+      "explanation": "Sudan III is a fat stain that colors lipids orange-red, aiding in the identification of oval fat bodies in nephrotic syndrome."
+    }
+  ]
+}

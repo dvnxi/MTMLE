@@ -31,7 +31,7 @@
     {
       "id": 4,
       "question": "What is the storage temperature for cryoprecipitate?",
-      "options": ["-18 °C or lower", "1–6 °C", "20–24 °C", "-80 °C"],
+      "options": ["-18 °C or lower", "1-6 °C", "20-24 °C", "-80 °C"],
       "answer": "-18 °C or lower",
       "explanation": "Cryoprecipitate is stored frozen at -18 °C or lower to preserve clotting factors.",
       "image": null,
@@ -75,10 +75,10 @@
     },
     {
       "id": 9,
-      "question": "Which immunoglobulin class is primarily responsible for hemolytic disease of the fetus and newborn?",
-      "options": ["Immunoglobulin G (IgG)", "Immunoglobulin M (IgM)", "Immunoglobulin A (IgA)", "Immunoglobulin D (IgD)"],
-      "answer": "Immunoglobulin G (IgG)",
-      "explanation": "IgG can cross the placenta and cause fetal red cell destruction.",
+      "question": "Which antibody is most commonly associated with severe hemolytic disease of the fetus and newborn?",
+      "options": ["Anti-M", "Anti-Lea", "Anti-D", "Anti-I"],
+      "answer": "Anti-D",
+      "explanation": "Anti-D, an IgG antibody in the Rh system, is the most common cause of severe hemolytic disease of the fetus and newborn (HDFN) because it crosses the placenta and attacks fetal red blood cells.",
       "image": null,
       "image_comment": null
     },

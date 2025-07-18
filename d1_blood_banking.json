@@ -3,37 +3,37 @@
   "questions": [
     {
       "id": 1,
-      "question": "Which antigen in the Rh system is the most immunogenic and clinically significant?",
+      "question": "Which antigen in the Rhesus (Rh) system is the most immunogenic and clinically significant?",
       "options": ["C", "E", "D", "c"],
       "answer": "D",
-      "explanation": "The D antigen is the most immunogenic in the Rh system. It is the major cause of HDFN and important for transfusion compatibility.",
+      "explanation": "The D antigen is the most immunogenic in the Rhesus (Rh) system. It is the major cause of Hemolytic Disease of the Fetus and Newborn (HDFN) and important for transfusion compatibility.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 2,
       "question": "What is the main purpose of the major crossmatch?",
-      "options": ["Detect unexpected antibodies in donor plasma", "Ensure compatibility between donor RBCs and recipient serum", "Determine ABO group of donor cells", "Identify recipient blood group"],
-      "answer": "Ensure compatibility between donor RBCs and recipient serum",
-      "explanation": "The major crossmatch tests recipient serum against donor RBCs to prevent hemolytic transfusion reactions.",
+      "options": ["Detect unexpected antibodies in donor plasma", "Ensure compatibility between donor red blood cells and recipient serum", "Determine ABO blood group of donor cells", "Identify recipient blood group"],
+      "answer": "Ensure compatibility between donor red blood cells and recipient serum",
+      "explanation": "The major crossmatch tests recipient serum against donor red blood cells to prevent hemolytic transfusion reactions.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 3,
       "question": "Which antibody is naturally occurring and reacts best at room temperature?",
-      "options": ["Anti-D", "Anti-K", "Anti-A", "Anti-Fya"],
+      "options": ["Anti-D", "Anti-Kell", "Anti-A", "Anti-Fya"],
       "answer": "Anti-A",
-      "explanation": "Anti-A and Anti-B are naturally occurring IgM antibodies that react optimally at room temperature or colder.",
+      "explanation": "Anti-A and Anti-B are naturally occurring Immunoglobulin M (IgM) antibodies that react optimally at room temperature or colder.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 4,
-      "question": "A patient is group A, Rh-negative. What donor RBC unit is most appropriate in an emergency transfusion if identical blood is not available?",
-      "options": ["O Rh-negative", "O Rh-positive", "B Rh-negative", "A Rh-positive"],
-      "answer": "O Rh-negative",
-      "explanation": "O Rh-negative is considered universal donor for RBCs, minimizing risk in emergencies.",
+      "question": "A patient is group A, Rhesus (Rh)-negative. What donor red blood cell unit is most appropriate in an emergency transfusion if identical blood is not available?",
+      "options": ["O Rhesus (Rh)-negative", "O Rhesus (Rh)-positive", "B Rhesus (Rh)-negative", "A Rhesus (Rh)-positive"],
+      "answer": "O Rhesus (Rh)-negative",
+      "explanation": "O Rhesus (Rh)-negative is considered the universal donor for red blood cells, minimizing risk in emergencies.",
       "image": null,
       "image_comment": null
     },
@@ -48,10 +48,10 @@
     },
     {
       "id": 6,
-      "question": "Which antibody class is most commonly associated with hemolytic disease of the fetus and newborn (HDFN)?",
-      "options": ["IgM", "IgA", "IgD", "IgG"],
-      "answer": "IgG",
-      "explanation": "Only IgG crosses the placenta and can cause HDFN.",
+      "question": "Which antibody class is most commonly associated with Hemolytic Disease of the Fetus and Newborn (HDFN)?",
+      "options": ["Immunoglobulin M (IgM)", "Immunoglobulin A (IgA)", "Immunoglobulin D (IgD)", "Immunoglobulin G (IgG)"],
+      "answer": "Immunoglobulin G (IgG)",
+      "explanation": "Only Immunoglobulin G (IgG) antibodies cross the placenta and can cause Hemolytic Disease of the Fetus and Newborn (HDFN).",
       "image": null,
       "image_comment": null
     },
@@ -60,7 +60,7 @@
       "question": "What is the recommended storage temperature for red blood cell units?",
       "options": ["-20°C", "1-6°C", "20-24°C", "37°C"],
       "answer": "1-6°C",
-      "explanation": "RBCs are stored at 1-6°C to preserve viability and prevent bacterial growth.",
+      "explanation": "Red blood cells are stored at 1-6°C to preserve viability and prevent bacterial growth.",
       "image": null,
       "image_comment": null
     },
@@ -69,7 +69,7 @@
       "question": "Which test detects weak D antigen expression?",
       "options": ["Indirect antiglobulin test", "Direct antiglobulin test", "Saline crossmatch", "Enzyme panel"],
       "answer": "Indirect antiglobulin test",
-      "explanation": "Weak D is detected using the indirect antiglobulin test (IAT) after anti-D incubation.",
+      "explanation": "Weak D is detected using the indirect antiglobulin test after anti-D incubation.",
       "image": null,
       "image_comment": null
     },
@@ -78,23 +78,23 @@
       "question": "What is the primary cause of transfusion-associated circulatory overload (TACO)?",
       "options": ["Immune-mediated hemolysis", "Rapid infusion volume", "Cytokine release", "Contaminated blood unit"],
       "answer": "Rapid infusion volume",
-      "explanation": "TACO is due to excessive blood volume infusions, especially in patients with cardiac or renal compromise.",
+      "explanation": "Transfusion-associated circulatory overload is due to excessive blood volume infusions, especially in patients with cardiac or renal compromise.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 10,
-      "question": "Which additive solution is commonly used to extend RBC shelf life up to 42 days?",
-      "options": ["ACD", "CPDA-1", "Normal saline", "Citrate-phosphate-dextrose"],
-      "answer": "CPDA-1",
-      "explanation": "CPDA-1 extends RBC storage to 35–42 days by providing nutrients and anticoagulation.",
+      "question": "Which additive solution is commonly used to extend red blood cell shelf life up to 42 days?",
+      "options": ["Acid citrate dextrose (ACD)", "Citrate phosphate dextrose adenine solution (CPDA-1)", "Normal saline", "Citrate-phosphate-dextrose"],
+      "answer": "Citrate phosphate dextrose adenine solution (CPDA-1)",
+      "explanation": "CPDA-1 extends red blood cell storage to 35–42 days by providing nutrients and anticoagulation.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 11,
       "question": "What is the primary screening test for unexpected antibodies in patient serum?",
-      "options": ["ABO forward grouping", "Antibody screen", "Crossmatch", "Rh typing"],
+      "options": ["ABO forward grouping", "Antibody screen", "Crossmatch", "Rhesus (Rh) typing"],
       "answer": "Antibody screen",
       "explanation": "Antibody screening detects clinically significant unexpected alloantibodies.",
       "image": null,
@@ -105,33 +105,33 @@
       "question": "What is the most common cause of a positive direct antiglobulin test (DAT)?",
       "options": ["Recent transfusion", "Cold agglutinins", "Autoimmune hemolytic anemia", "ABO incompatibility"],
       "answer": "Autoimmune hemolytic anemia",
-      "explanation": "DAT is most often positive in autoimmune hemolytic anemia due to IgG or complement binding to RBCs.",
+      "explanation": "DAT is most often positive in autoimmune hemolytic anemia due to Immunoglobulin G (IgG) or complement binding to red blood cells.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 13,
-      "question": "Which plasma component is most appropriate for treating TTP (thrombotic thrombocytopenic purpura)?",
-      "options": ["Cryoprecipitate", "Albumin", "Platelet concentrate", "Plasma exchange with FFP"],
-      "answer": "Plasma exchange with FFP",
-      "explanation": "Plasma exchange with FFP replenishes ADAMTS13 and removes autoantibodies in TTP.",
+      "question": "Which plasma component is most appropriate for treating thrombotic thrombocytopenic purpura (TTP)?",
+      "options": ["Cryoprecipitate", "Albumin", "Platelet concentrate", "Plasma exchange with fresh frozen plasma (FFP)"],
+      "answer": "Plasma exchange with fresh frozen plasma (FFP)",
+      "explanation": "Plasma exchange with fresh frozen plasma replenishes ADAMTS13 and removes autoantibodies in thrombotic thrombocytopenic purpura.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 14,
       "question": "Which transfusion-transmitted infection has the highest risk of transmission worldwide?",
-      "options": ["Hepatitis B", "Hepatitis C", "HIV", "HTLV-I"],
-      "answer": "Hepatitis B",
-      "explanation": "Globally, hepatitis B remains the most frequent transfusion-transmitted infection due to higher carrier rates.",
+      "options": ["Hepatitis B virus (HBV)", "Hepatitis C virus (HCV)", "Human Immunodeficiency Virus (HIV)", "Human T-lymphotropic virus type I (HTLV-I)"],
+      "answer": "Hepatitis B virus (HBV)",
+      "explanation": "Globally, Hepatitis B virus remains the most frequent transfusion-transmitted infection due to higher carrier rates.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 15,
       "question": "What does the Kleihauer-Betke test detect?",
-      "options": ["Fetal red cells in maternal blood", "Maternal antibodies", "ABO incompatibility", "Rh genotype"],
-      "answer": "Fetal red cells in maternal blood",
+      "options": ["Fetal red blood cells in maternal blood", "Maternal antibodies", "ABO incompatibility", "Rhesus (Rh) genotype"],
+      "answer": "Fetal red blood cells in maternal blood",
       "explanation": "The Kleihauer-Betke acid elution test quantifies fetal cells in maternal circulation.",
       "image": null,
       "image_comment": null
@@ -139,7 +139,7 @@
     {
       "id": 16,
       "question": "What is the most important initial step if an acute transfusion reaction is suspected?",
-      "options": ["Notify physician immediately", "Stop transfusion immediately", "Check patient temperature", "Send blood bag to lab"],
+      "options": ["Notify physician immediately", "Stop transfusion immediately", "Check patient temperature", "Send blood bag to laboratory"],
       "answer": "Stop transfusion immediately",
       "explanation": "The first and most critical step is stopping the transfusion to prevent further complications.",
       "image": null,
@@ -148,7 +148,7 @@
     {
       "id": 17,
       "question": "Which antigen group shows dosage effect (stronger reactions with homozygous expression)?",
-      "options": ["Rh", "MNS", "Kell", "Duffy"],
+      "options": ["Rhesus (Rh)", "MNS", "Kell", "Duffy"],
       "answer": "MNS",
       "explanation": "MNS antigens show dosage, meaning stronger agglutination in homozygous cells.",
       "image": null,
@@ -159,25 +159,25 @@
       "question": "Which reaction temperature best characterizes warm autoantibodies?",
       "options": ["0-4°C", "20-24°C", "30-37°C", "Above 40°C"],
       "answer": "30-37°C",
-      "explanation": "Warm autoantibodies react optimally at 30-37°C and are commonly IgG.",
+      "explanation": "Warm autoantibodies react optimally at 30-37°C and are commonly Immunoglobulin G (IgG).",
       "image": null,
       "image_comment": null
     },
     {
       "id": 19,
-      "question": "What is the preferred blood product for massive transfusion protocols?",
-      "options": ["Whole blood", "Packed RBCs with plasma and platelets", "Cryoprecipitate alone", "Platelet concentrate only"],
-      "answer": "Packed RBCs with plasma and platelets",
-      "explanation": "Balanced resuscitation using RBCs, plasma, and platelets is preferred to maintain hemostasis in massive transfusion.",
+      "question": "What is the preferred blood product combination for massive transfusion protocols?",
+      "options": ["Whole blood", "Packed red blood cells with plasma and platelets", "Cryoprecipitate alone", "Platelet concentrate only"],
+      "answer": "Packed red blood cells with plasma and platelets",
+      "explanation": "Balanced resuscitation using red blood cells, plasma, and platelets is preferred to maintain hemostasis in massive transfusion.",
       "image": null,
       "image_comment": null
     },
     {
       "id": 20,
       "question": "Which immunoglobulin class is primarily responsible for immediate intravascular hemolysis?",
-      "options": ["IgG", "IgM", "IgA", "IgE"],
-      "answer": "IgM",
-      "explanation": "IgM can fix complement strongly, leading to rapid intravascular hemolysis seen in ABO incompatibility.",
+      "options": ["Immunoglobulin G (IgG)", "Immunoglobulin M (IgM)", "Immunoglobulin A (IgA)", "Immunoglobulin E (IgE)"],
+      "answer": "Immunoglobulin M (IgM)",
+      "explanation": "Immunoglobulin M (IgM) can fix complement strongly, leading to rapid intravascular hemolysis seen in ABO incompatibility.",
       "image": null,
       "image_comment": null
     }

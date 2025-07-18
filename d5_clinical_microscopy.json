@@ -1,0 +1,75 @@
+{
+  "subject": "Clinical Microscopy",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is the most appropriate specimen for routine urinalysis?",
+      "options": ["Random urine", "First morning urine", "24-hour urine", "Midstream clean catch"],
+      "answer": "First morning urine",
+      "explanation": "First morning urine is the most concentrated and ideal for routine urinalysis as it reflects the kidney's concentrating ability."
+    },
+    {
+      "id": 2,
+      "question": "In urine microscopy, which crystal appears as colorless envelopes or octahedrons?",
+      "options": ["Calcium carbonate", "Triple phosphate", "Calcium oxalate", "Uric acid"],
+      "answer": "Calcium oxalate",
+      "explanation": "Calcium oxalate crystals are colorless and envelope-shaped, commonly found in acidic or neutral urine."
+    },
+    {
+      "id": 3,
+      "question": "Which test is used to detect reducing substances in urine?",
+      "options": ["Benedict's test", "Sulfur test", "Fouchet's test", "Nitroprusside test"],
+      "answer": "Benedict's test",
+      "explanation": "Benedict's test detects reducing sugars in urine, which is useful in screening for galactosuria or glucosuria."
+    },
+    {
+      "id": 4,
+      "question": "What is the clinical significance of the presence of eosinophils in urine?",
+      "options": ["Urinary tract infection", "Allergic interstitial nephritis", "Renal calculi", "Glomerulonephritis"],
+      "answer": "Allergic interstitial nephritis",
+      "explanation": "Eosinophils in urine are suggestive of allergic interstitial nephritis, often drug-induced."
+    },
+    {
+      "id": 5,
+      "question": "Which parameter is measured using the sulfosalicylic acid (SSA) test in urine?",
+      "options": ["Glucose", "Ketones", "Protein", "Bilirubin"],
+      "answer": "Protein",
+      "explanation": "The sulfosalicylic acid test detects all types of protein in urine, including Bence Jones protein."
+    },
+    {
+      "id": 6,
+      "question": "Which type of cast is typically seen in healthy individuals after strenuous exercise?",
+      "options": ["Granular cast", "Red blood cell cast", "Hyaline cast", "Waxy cast"],
+      "answer": "Hyaline cast",
+      "explanation": "Hyaline casts are composed mainly of Tamm-Horsfall protein and may appear in normal individuals after exercise or dehydration."
+    },
+    {
+      "id": 7,
+      "question": "What is the best technique to concentrate parasites in stool specimens?",
+      "options": ["Direct smear", "Formalin-ether concentration", "Trichrome stain", "Giemsa stain"],
+      "answer": "Formalin-ether concentration",
+      "explanation": "Formalin-ether concentration method enhances detection of ova and parasites by sedimenting them from fecal debris."
+    },
+    {
+      "id": 8,
+      "question": "Which organism appears as a trophozoite with a falling leaf motility in wet mount microscopy of stool?",
+      "options": ["Giardia lamblia", "Entamoeba histolytica", "Balantidium coli", "Cryptosporidium parvum"],
+      "answer": "Giardia lamblia",
+      "explanation": "Giardia lamblia trophozoites show a characteristic falling leaf motility and are pear-shaped with flagella."
+    },
+    {
+      "id": 9,
+      "question": "What is the normal range of pH in a freshly voided urine specimen?",
+      "options": ["3.5-s4.5", "4.5-s8.0", "6.0-s9.0", "5.0-s6.0"],
+      "answer": "4.5-s8.0",
+      "explanation": "Urine pH normally ranges from 4.5 to 8.0, depending on diet and metabolic state."
+    },
+    {
+      "id": 10,
+      "question": "Which microscopic element is a definitive indicator of glomerulonephritis in urinalysis?",
+      "options": ["White blood cell cast", "Red blood cell cast", "Hyaline cast", "Waxy cast"],
+      "answer": "Red blood cell cast",
+      "explanation": "Red blood cell casts are pathognomonic for glomerular bleeding, typically seen in glomerulonephritis."
+    }
+  ]
+}

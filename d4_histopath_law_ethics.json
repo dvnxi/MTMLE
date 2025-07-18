@@ -1,0 +1,75 @@
+{
+  "subject": "Histopathologic Techniques, Cytotechnology, Medical Technology Laws and Ethics",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary fixative used in most histopathology laboratories for routine tissue preservation?",
+      "options": ["Absolute alcohol", "10% neutral buffered formalin", "Acetone", "Glutaraldehyde"],
+      "answer": "10% neutral buffered formalin",
+      "explanation": "10% neutral buffered formalin is the most commonly used fixative due to its ability to preserve tissue morphology effectively."
+    },
+    {
+      "id": 2,
+      "question": "Which cytological stain is primarily used in Pap smear evaluation?",
+      "options": ["Hematoxylin and eosin", "Periodic acid–Schiff", "Papanicolaou stain", "Ziehl–Neelsen stain"],
+      "answer": "Papanicolaou stain",
+      "explanation": "The Papanicolaou stain is specifically designed for cytological specimens like Pap smears to differentiate cellular components."
+    },
+    {
+      "id": 3,
+      "question": "What is the embedding medium used for paraffin sectioning in histopathology?",
+      "options": ["Gelatin", "Formalin", "Paraffin wax", "Alcohol"],
+      "answer": "Paraffin wax",
+      "explanation": "Paraffin wax provides structural support to the tissue during microtomy and sectioning."
+    },
+    {
+      "id": 4,
+      "question": "Which chemical is used for decalcifying bone specimens prior to sectioning?",
+      "options": ["Formalin", "Nitric acid", "Xylene", "Ethanol"],
+      "answer": "Nitric acid",
+      "explanation": "Nitric acid is commonly used for decalcification to soften calcified tissue without severely damaging the structure."
+    },
+    {
+      "id": 5,
+      "question": "Which biosafety cabinet class is recommended for processing potentially infectious cytological specimens?",
+      "options": ["Class I", "Class II", "Class III", "Laminar flow cabinet"],
+      "answer": "Class II",
+      "explanation": "Class II biosafety cabinets provide both personnel and environmental protection and are suitable for handling infectious materials."
+    },
+    {
+      "id": 6,
+      "question": "Which law governs the practice of Medical Technology in the Philippines?",
+      "options": ["Republic Act No. 9165", "Republic Act No. 7722", "Republic Act No. 5527", "Republic Act No. 4688"],
+      "answer": "Republic Act No. 5527",
+      "explanation": "Republic Act No. 5527, also known as the Medical Technology Act of 1969, regulates the practice of medical technology in the Philippines."
+    },
+    {
+      "id": 7,
+      "question": "According to Republic Act No. 5527, who is authorized to issue certificates of registration to Medical Technologists?",
+      "options": ["Department of Health", "Professional Regulation Commission", "CHED", "Philippine Association of Medical Technologists"],
+      "answer": "Professional Regulation Commission",
+      "explanation": "The Professional Regulation Commission (PRC) is responsible for licensing and registering professionals including Medical Technologists."
+    },
+    {
+      "id": 8,
+      "question": "What is the minimum required internship hours for a Bachelor of Science in Medical Technology student according to RA 5527?",
+      "options": ["600 hours", "900 hours", "1,200 hours", "1,560 hours"],
+      "answer": "1,200 hours",
+      "explanation": "RA 5527 mandates at least 1,200 hours of internship training in accredited laboratories before taking the board examination."
+    },
+    {
+      "id": 9,
+      "question": "Under the Code of Ethics for Medical Technologists, which principle emphasizes honesty and integrity in laboratory work?",
+      "options": ["Confidentiality", "Professionalism", "Accuracy and Truthfulness", "Objectivity"],
+      "answer": "Accuracy and Truthfulness",
+      "explanation": "Medical Technologists are expected to deliver accurate and honest results as part of their ethical responsibilities."
+    },
+    {
+      "id": 10,
+      "question": "What is the primary function of the Professional Regulatory Board of Medical Technology?",
+      "options": ["Oversee laboratory operations", "Formulate licensure exam questions and enforce RA 5527", "Inspect clinical laboratories", "Conduct curriculum review"],
+      "answer": "Formulate licensure exam questions and enforce RA 5527",
+      "explanation": "The PRBMT is tasked with implementing RA 5527, administering the licensure exams, and upholding professional standards."
+    }
+  ]
+}

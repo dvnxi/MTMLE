@@ -1,0 +1,145 @@
+{
+  "subject": "Blood Banking and Serology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What blood group system is most clinically significant after the ABO blood group system in transfusion medicine?",
+      "options": ["Kell blood group system", "Lewis blood group system", "Rh blood group system", "Duffy blood group system"],
+      "answer": "Rh blood group system",
+      "explanation": "The Rh blood group system, particularly the D antigen, is the most clinically significant after the ABO system due to its role in hemolytic reactions and Hemolytic Disease of the Fetus and Newborn."
+    },
+    {
+      "id": 2,
+      "question": "What is the most common cause of a positive direct antiglobulin test (DAT)?",
+      "options": ["Cold agglutinins", "Warm autoantibodies", "Drug-induced hemolysis", "Delayed transfusion reaction"],
+      "answer": "Warm autoantibodies",
+      "explanation": "Warm autoantibodies are the most frequent cause of a positive direct antiglobulin test, typically seen in autoimmune hemolytic anemia."
+    },
+    {
+      "id": 3,
+      "question": "Which immunoglobulin class is primarily responsible for hemolytic transfusion reactions due to ABO incompatibility?",
+      "options": ["Immunoglobulin G (IgG)", "Immunoglobulin A (IgA)", "Immunoglobulin M (IgM)", "Immunoglobulin D (IgD)"],
+      "answer": "Immunoglobulin M (IgM)",
+      "explanation": "Immunoglobulin M (IgM) is a pentamer capable of activating complement, leading to intravascular hemolysis in ABO incompatibility."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following diseases is associated with the production of HBsAg (Hepatitis B surface antigen)?",
+      "options": ["Hepatitis A", "Hepatitis B", "Hepatitis C", "Hepatitis E"],
+      "answer": "Hepatitis B",
+      "explanation": "The presence of HBsAg in serum is indicative of an active Hepatitis B virus infection, either acute or chronic."
+    },
+    {
+      "id": 5,
+      "question": "What is the anticoagulant used in blood collection bags for transfusion purposes?",
+      "options": ["Ethylenediaminetetraacetic acid (EDTA)", "Heparin", "Sodium citrate", "Citrate phosphate dextrose adenine (CPDA-1)"],
+      "answer": "Citrate phosphate dextrose adenine (CPDA-1)",
+      "explanation": "Citrate phosphate dextrose adenine (CPDA-1) preserves red cell viability and provides anticoagulation for up to 35 days of storage."
+    },
+    {
+      "id": 6,
+      "question": "In the Indirect Antiglobulin Test (IAT), what is being detected?",
+      "options": ["Antigens on red blood cells", "Antibodies in serum", "Complement components", "Leukocyte antigens"],
+      "answer": "Antibodies in serum",
+      "explanation": "The Indirect Antiglobulin Test (IAT) detects antibodies in the patient's serum that may react with specific antigens on red blood cells."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following storage temperatures is appropriate for red blood cell units?",
+      "options": ["1°C to 6°C", "20°C to 24°C", "-18°C or colder", "Room temperature (25°C)"],
+      "answer": "1°C to 6°C",
+      "explanation": "Red blood cell units must be stored between 1°C to 6°C to maintain viability and prevent bacterial proliferation."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following antigen-antibody reactions is most commonly enhanced by enzyme treatment during antibody screening?",
+      "options": ["Duffy", "Kell", "Lewis", "MNS"],
+      "answer": "Lewis",
+      "explanation": "Enzymes like ficin or papain can enhance reactions of certain antigens such as Lewis, Rh, and Kidd by removing sialic acid residues and modifying red cell membrane structure."
+    },
+    {
+      "id": 9,
+      "question": "Which hepatitis marker indicates recovery and immunity from Hepatitis B virus infection?",
+      "options": ["Hepatitis B surface antigen (HBsAg)", "Hepatitis B e antigen (HBeAg)", "Anti-HBs antibody", "Anti-HBc IgM antibody"],
+      "answer": "Anti-HBs antibody",
+      "explanation": "The appearance of Anti-HBs antibodies in serum marks recovery and long-term immunity following infection or vaccination."
+    },
+    {
+      "id": 10,
+      "question": "What is the maximum allowable storage period for platelet concentrates at 20°C to 24°C with continuous gentle agitation?",
+      "options": ["3 days", "5 days", "7 days", "10 days"],
+      "answer": "5 days",
+      "explanation": "Platelet concentrates are stored at 20°C to 24°C with agitation and are typically viable for up to 5 days."
+    },
+    {
+      "id": 11,
+      "question": "Which test is used to detect weak D antigen on red blood cells?",
+      "options": ["Saline replacement technique", "Direct Antiglobulin Test", "Indirect Antiglobulin Test", "Enzyme treatment test"],
+      "answer": "Indirect Antiglobulin Test",
+      "explanation": "The Indirect Antiglobulin Test is used to detect weak D antigen by incubating the red cells with anti-D and then using antihuman globulin reagent."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following antibodies is commonly naturally occurring and does not require prior sensitization?",
+      "options": ["Anti-D", "Anti-K", "Anti-Lea", "Anti-Jka"],
+      "answer": "Anti-Lea",
+      "explanation": "Anti-Lea is a naturally occurring antibody found in individuals lacking the Lea antigen, typically not associated with transfusion reactions."
+    },
+    {
+      "id": 13,
+      "question": "What is the primary purpose of crossmatching in pretransfusion testing?",
+      "options": ["To determine the recipient’s Rh status", "To screen for infectious diseases", "To ensure ABO compatibility", "To detect antibodies against donor red blood cells"],
+      "answer": "To detect antibodies against donor red blood cells",
+      "explanation": "Crossmatching ensures that the recipient’s serum does not contain antibodies that will react with the donor’s red blood cells, preventing transfusion reactions."
+    },
+    {
+      "id": 14,
+      "question": "What antigen is found in approximately 85% of Caucasians and is important in Hemolytic Disease of the Fetus and Newborn?",
+      "options": ["E antigen", "C antigen", "K antigen", "D antigen"],
+      "answer": "D antigen",
+      "explanation": "The D antigen is the most immunogenic Rh antigen and is a major cause of Hemolytic Disease of the Fetus and Newborn if the mother is D-negative."
+    },
+    {
+      "id": 15,
+      "question": "Which serologic test is used for the diagnosis of syphilis?",
+      "options": ["Enzyme-linked immunosorbent assay", "Venereal Disease Research Laboratory test", "Rapid plasma reagin test", "Fluorescent treponemal antibody-absorption test"],
+      "answer": "Venereal Disease Research Laboratory test",
+      "explanation": "The Venereal Disease Research Laboratory (VDRL) test is a non-treponemal test used to screen for syphilis by detecting reagin antibodies."
+    },
+    {
+      "id": 16,
+      "question": "What is the shelf life of frozen red blood cells when stored at -65°C or lower?",
+      "options": ["10 years", "5 years", "1 year", "6 months"],
+      "answer": "10 years",
+      "explanation": "Frozen red blood cells stored at -65°C or colder can be preserved for up to 10 years using glycerol as a cryoprotectant."
+    },
+    {
+      "id": 17,
+      "question": "Which blood component is preferred for neonates requiring transfusion to avoid hyperkalemia?",
+      "options": ["Fresh frozen plasma", "Irradiated red blood cells", "Leukocyte-reduced red blood cells", "Washed red blood cells"],
+      "answer": "Washed red blood cells",
+      "explanation": "Washed red blood cells remove plasma and reduce potassium content, which is ideal for neonates and patients with severe allergies or IgA deficiency."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a confirmatory test for Human Immunodeficiency Virus (HIV) infection?",
+      "options": ["Enzyme-linked immunosorbent assay", "Western blot", "Rapid HIV test", "HIV RNA PCR"],
+      "answer": "Western blot",
+      "explanation": "The Western blot test confirms Human Immunodeficiency Virus infection by detecting specific antibodies against viral proteins."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following markers is used to detect past infection with Hepatitis B virus?",
+      "options": ["Anti-HBs", "Anti-HBc Immunoglobulin M", "HBsAg", "HBeAg"],
+      "answer": "Anti-HBc Immunoglobulin M",
+      "explanation": "Anti-HBc Immunoglobulin M appears shortly after infection and indicates recent or past exposure to Hepatitis B virus."
+    },
+    {
+      "id": 20,
+      "question": "Which antibody type mediates an anaphylactic reaction during transfusion in patients with Immunoglobulin A (IgA) deficiency?",
+      "options": ["Immunoglobulin G (IgG)", "Immunoglobulin M (IgM)", "Immunoglobulin A (IgA)", "Immunoglobulin E (IgE)"],
+      "answer": "Immunoglobulin E (IgE)",
+      "explanation": "Anaphylactic transfusion reactions in Immunoglobulin A-deficient individuals are mediated by Immunoglobulin E (IgE) antibodies directed against donor Immunoglobulin A."
+    }
+  ]
+}

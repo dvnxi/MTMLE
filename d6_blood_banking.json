@@ -1,0 +1,155 @@
+{
+  "subject": "Blood Banking and Serology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the most commonly used enhancement medium in the Indirect Antiglobulin Test (IAT)?",
+      "options": ["Albumin", "LISS (Low Ionic Strength Solution)", "PEG (Polyethylene Glycol)", "Saline"],
+      "answer": "LISS (Low Ionic Strength Solution)",
+      "explanation": "LISS enhances antigen-antibody reactions by reducing zeta potential and increasing uptake of antibodies onto red cells."
+    },
+    {
+      "id": 2,
+      "question": "Which Rh antigen is the most immunogenic and clinically significant?",
+      "options": ["E", "e", "C", "D"],
+      "answer": "D",
+      "explanation": "The D antigen is the most immunogenic of the Rh system and is of primary concern in transfusion and pregnancy."
+    },
+    {
+      "id": 3,
+      "question": "What antibody is typically involved in delayed hemolytic transfusion reactions?",
+      "options": ["Immunoglobulin M (IgM)", "Immunoglobulin G (IgG)", "Immunoglobulin A (IgA)", "Immunoglobulin D (IgD)"],
+      "answer": "Immunoglobulin G (IgG)",
+      "explanation": "Delayed transfusion reactions are usually due to anamnestic responses to Immunoglobulin G (IgG) antibodies formed from previous exposure."
+    },
+    {
+      "id": 4,
+      "question": "Which blood group system is most associated with Hemolytic Disease of the Fetus and Newborn (HDFN)?",
+      "options": ["Kell", "Rh", "Lewis", "Duffy"],
+      "answer": "Rh",
+      "explanation": "The Rh system, especially the D antigen, is the most commonly involved in severe cases of Hemolytic Disease of the Fetus and Newborn (HDFN)."
+    },
+    {
+      "id": 5,
+      "question": "What is the principle of the Direct Antiglobulin Test (DAT)?",
+      "options": [
+        "Detects incomplete antibodies in patient serum",
+        "Detects antibodies bound to red cells in vivo",
+        "Detects cold agglutinins",
+        "Detects antibody specificity"
+      ],
+      "answer": "Detects antibodies bound to red cells in vivo",
+      "explanation": "The Direct Antiglobulin Test (DAT) detects Immunoglobulin G (IgG) or complement attached to red blood cells within the body."
+    },
+    {
+      "id": 6,
+      "question": "What is the first step in resolving an ABO discrepancy due to cold autoantibodies?",
+      "options": ["Repeat reverse typing", "Prewarm the sample", "Use enzyme-treated cells", "Use monoclonal antisera"],
+      "answer": "Prewarm the sample",
+      "explanation": "Cold autoantibodies can cause false agglutination in reverse typing, which can be minimized by prewarming the sample and reagents."
+    },
+    {
+      "id": 7,
+      "question": "Which antigen is destroyed by enzyme treatment in antibody identification panels?",
+      "options": ["Rh", "Duffy", "Kidd", "Lewis"],
+      "answer": "Duffy",
+      "explanation": "The Duffy antigens are sensitive to enzyme treatment and are destroyed, helping in differentiating antibody specificities."
+    },
+    {
+      "id": 8,
+      "question": "What is the minimum hemoglobin level required for an allogeneic blood donor in the Philippines?",
+      "options": ["10.5 g/dL", "11.5 g/dL", "12.5 g/dL", "13.5 g/dL"],
+      "answer": "12.5 g/dL",
+      "explanation": "The Department of Health requires a minimum hemoglobin level of 12.5 g/dL for allogeneic donors to ensure donor and recipient safety."
+    },
+    {
+      "id": 9,
+      "question": "Which technique is used to differentiate multiple antibodies in a sample?",
+      "options": ["Enzyme treatment", "Antibody titration", "Elution", "Antibody panel testing"],
+      "answer": "Antibody panel testing",
+      "explanation": "Antibody panels using red cells with known antigen profiles help differentiate and identify multiple antibodies."
+    },
+    {
+      "id": 10,
+      "question": "Which Immunoglobulin class is usually responsible for ABO hemolytic transfusion reactions?",
+      "options": ["Immunoglobulin A (IgA)", "Immunoglobulin E (IgE)", "Immunoglobulin G (IgG)", "Immunoglobulin M (IgM)"],
+      "answer": "Immunoglobulin M (IgM)",
+      "explanation": "Immunoglobulin M (IgM) antibodies react at room temperature and are responsible for intravascular hemolysis in ABO incompatibility."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following blood group systems is NOT clinically significant in transfusion reactions?",
+      "options": ["Rh", "Kidd", "MNS", "Lewis"],
+      "answer": "Lewis",
+      "explanation": "Lewis antibodies are usually Immunoglobulin M (IgM) and not clinically significant because Lewis antigens are not expressed on fetal red cells."
+    },
+    {
+      "id": 12,
+      "question": "What is the function of Coombs control cells in antiglobulin testing?",
+      "options": [
+        "Detect cold agglutinins",
+        "Validate negative antiglobulin tests",
+        "Confirm antibody specificity",
+        "Enhance Immunoglobulin G (IgG) reactions"
+      ],
+      "answer": "Validate negative antiglobulin tests",
+      "explanation": "Coombs control cells (IgG-coated cells) are added to negative tests to confirm that the antihuman globulin reagent is working properly."
+    },
+    {
+      "id": 13,
+      "question": "Which antibody specificity is most commonly implicated in transfusion-associated hemolysis after enzyme treatment?",
+      "options": ["Anti-D", "Anti-Fya", "Anti-Jka", "Anti-Lea"],
+      "answer": "Anti-Jka",
+      "explanation": "Kidd antibodies (like Anti-Jka) can cause severe hemolytic transfusion reactions and often show enhanced reactivity with enzyme-treated cells."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is a method for detecting weak D antigen in Rh typing?",
+      "options": ["Saline method", "Immediate spin", "Indirect Antiglobulin Test", "Enzyme method"],
+      "answer": "Indirect Antiglobulin Test",
+      "explanation": "Weak D typing requires an Indirect Antiglobulin Test to detect incomplete expression of the D antigen on red blood cells."
+    },
+    {
+      "id": 15,
+      "question": "In emergency situations when there is no time for crossmatching, which blood type is safest to transfuse?",
+      "options": ["Type A positive", "Type B negative", "Type O negative", "Type AB positive"],
+      "answer": "Type O negative",
+      "explanation": "Type O negative red blood cells are considered universal donors and are used in emergencies when the recipient’s blood type is unknown."
+    },
+    {
+      "id": 16,
+      "question": "What is the appropriate storage temperature for red blood cell units?",
+      "options": ["1-6°C", "10-15°C", "18-25°C", "Frozen at -20°C"],
+      "answer": "1-6°C",
+      "explanation": "Red blood cell units must be stored at 1-6°C to maintain viability and prevent bacterial growth."
+    },
+    {
+      "id": 17,
+      "question": "Which antibody is naturally occurring and commonly found in the serum of individuals without prior sensitization?",
+      "options": ["Anti-D", "Anti-Kell", "Anti-A", "Anti-Fya"],
+      "answer": "Anti-A",
+      "explanation": "ABO antibodies such as Anti-A and Anti-B are naturally occurring and do not require prior exposure to form."
+    },
+    {
+      "id": 18,
+      "question": "Which antigen in the Kell blood group system is highly immunogenic and clinically significant?",
+      "options": ["K (Kell)", "k (Cellano)", "Jsᵃ", "Jsᵇ"],
+      "answer": "K (Kell)",
+      "explanation": "The K antigen is highly immunogenic and is the most clinically significant in the Kell blood group system."
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of irradiation of blood products?",
+      "options": ["Prevent febrile non-hemolytic reactions", "Prevent transfusion-associated graft-versus-host disease", "Prevent bacterial contamination", "Enhance Immunoglobulin G (IgG) activity"],
+      "answer": "Prevent transfusion-associated graft-versus-host disease",
+      "explanation": "Irradiation of blood products inactivates donor lymphocytes, preventing transfusion-associated graft-versus-host disease."
+    },
+    {
+      "id": 20,
+      "question": "What blood component is primarily indicated in patients with Hemophilia A?",
+      "options": ["Platelet concentrate", "Fresh frozen plasma", "Cryoprecipitate", "Packed red blood cells"],
+      "answer": "Cryoprecipitate",
+      "explanation": "Cryoprecipitate contains high levels of Factor VIII and is used in the treatment of Hemophilia A."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "subject": "Clinical Chemistry",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which anticoagulant is commonly used for glucose testing to inhibit glycolysis?",
+      "options": ["EDTA", "Heparin", "Sodium fluoride", "Oxalate"],
+      "answer": "Sodium fluoride",
+      "explanation": "Sodium fluoride inhibits enolase, preventing glycolysis in blood samples for accurate glucose measurement."
+    },
+    {
+      "id": 2,
+      "question": "What is the most commonly used method for creatinine determination in clinical laboratories?",
+      "options": ["Jaffe reaction", "Biuret method", "Nessler's method", "Caraway method"],
+      "answer": "Jaffe reaction",
+      "explanation": "The Jaffe reaction is a colorimetric method involving creatinine and picric acid in an alkaline solution."
+    },
+    {
+      "id": 3,
+      "question": "Which lipid fraction is considered 'bad cholesterol'?",
+      "options": ["HDL", "LDL", "VLDL", "Chylomicrons"],
+      "answer": "LDL",
+      "explanation": "LDL transports cholesterol to peripheral tissues and is a major contributor to atherosclerosis."
+    },
+    {
+      "id": 4,
+      "question": "Which enzyme is most specific for acute pancreatitis?",
+      "options": ["ALT", "AST", "Amylase", "Lipase"],
+      "answer": "Lipase",
+      "explanation": "Lipase is more specific and remains elevated longer in acute pancreatitis than amylase."
+    },
+    {
+      "id": 5,
+      "question": "What hormone is elevated in primary hypothyroidism?",
+      "options": ["T3", "T4", "TSH", "ACTH"],
+      "answer": "TSH",
+      "explanation": "TSH is elevated due to lack of negative feedback from low circulating thyroid hormones."
+    },
+    {
+      "id": 6,
+      "question": "Which condition is associated with elevated total protein and decreased albumin?",
+      "options": ["Nephrotic syndrome", "Cirrhosis", "Dehydration", "Multiple myeloma"],
+      "answer": "Multiple myeloma",
+      "explanation": "Multiple myeloma shows increased globulins (monoclonal spike), often with decreased albumin."
+    },
+    {
+      "id": 7,
+      "question": "Which enzyme is considered most specific for myocardial infarction?",
+      "options": ["AST", "CK-MB", "LDH", "Troponin I"],
+      "answer": "Troponin I",
+      "explanation": "Troponin I is highly specific and remains elevated for up to 10 days post-MI."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following methods is used to measure serum sodium?",
+      "options": ["Spectrophotometry", "Flame photometry", "Atomic absorption", "Ion-selective electrode"],
+      "answer": "Ion-selective electrode",
+      "explanation": "ISE is the current standard for measuring electrolytes such as sodium and potassium in serum."
+    },
+    {
+      "id": 9,
+      "question": "Which test is used to monitor long-term glucose control in diabetics?",
+      "options": ["Fasting blood sugar", "Random blood sugar", "Oral glucose tolerance test", "HbA1c"],
+      "answer": "HbA1c",
+      "explanation": "HbA1c reflects average blood glucose levels over the past 2-3 months."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is elevated in obstructive jaundice?",
+      "options": ["Unconjugated bilirubin", "Urobilinogen", "Direct (conjugated) bilirubin", "Stercobilin"],
+      "answer": "Direct (conjugated) bilirubin",
+      "explanation": "In obstructive jaundice, conjugated bilirubin cannot be excreted and backs up into the blood."
+    },
+    {
+      "id": 11,
+      "question": "Which tumor marker is primarily used for monitoring prostate cancer?",
+      "options": ["AFP", "CEA", "CA-125", "PSA"],
+      "answer": "PSA",
+      "explanation": "Prostate-specific antigen (PSA) is used for screening and monitoring prostate cancer."
+    },
+    {
+      "id": 12,
+      "question": "In metabolic acidosis, what is the expected respiratory compensation?",
+      "options": ["Hypoventilation", "Hyperventilation", "Respiratory arrest", "Normal respiration"],
+      "answer": "Hyperventilation",
+      "explanation": "The lungs compensate for metabolic acidosis by eliminating CO₂ via hyperventilation."
+    },
+    {
+      "id": 13,
+      "question": "Which test is used to assess renal tubular function?",
+      "options": ["Creatinine clearance", "BUN", "Urinalysis", "Concentration and dilution tests"],
+      "answer": "Concentration and dilution tests",
+      "explanation": "These tests assess the kidney’s ability to concentrate or dilute urine appropriately."
+    },
+    {
+      "id": 14,
+      "question": "Which analyte is commonly measured using the glucose oxidase-peroxidase method?",
+      "options": ["Cholesterol", "Triglycerides", "Glucose", "Urea"],
+      "answer": "Glucose",
+      "explanation": "The glucose oxidase-peroxidase method is enzymatic and highly specific for glucose."
+    },
+    {
+      "id": 15,
+      "question": "Which fraction of serum proteins migrates fastest in electrophoresis?",
+      "options": ["Albumin", "Alpha-1", "Alpha-2", "Gamma"],
+      "answer": "Albumin",
+      "explanation": "Albumin is the smallest and most negatively charged protein, thus migrates fastest."
+    },
+    {
+      "id": 16,
+      "question": "Which vitamin deficiency leads to elevated methylmalonic acid and homocysteine?",
+      "options": ["Vitamin C", "Vitamin B1", "Vitamin B12", "Vitamin D"],
+      "answer": "Vitamin B12",
+      "explanation": "B12 deficiency leads to a build-up of methylmalonic acid and homocysteine."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following conditions is characterized by elevated blood ammonia?",
+      "options": ["Uremia", "Cirrhosis", "Pancreatitis", "Diabetes"],
+      "answer": "Cirrhosis",
+      "explanation": "Cirrhosis impairs hepatic conversion of ammonia to urea, resulting in hyperammonemia."
+    },
+    {
+      "id": 18,
+      "question": "What analyte is measured by the BUN test?",
+      "options": ["Blood urea nitrogen", "Creatinine", "Uric acid", "Ammonia"],
+      "answer": "Blood urea nitrogen",
+      "explanation": "BUN is a marker of renal function and reflects urea produced by liver metabolism of proteins."
+    },
+    {
+      "id": 19,
+      "question": "Which enzyme is elevated in hepatocellular injury but not in cholestasis?",
+      "options": ["ALP", "GGT", "ALT", "5'-nucleotidase"],
+      "answer": "ALT",
+      "explanation": "ALT is more specific for hepatocellular damage; ALP and GGT are more elevated in cholestasis."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is the primary storage form of iron in the body?",
+      "options": ["Ferritin", "Transferrin", "Hemosiderin", "Hemoglobin"],
+      "answer": "Ferritin",
+      "explanation": "Ferritin is the main intracellular iron storage protein and reflects body iron stores."
+    }
+  ]
+}

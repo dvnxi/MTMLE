@@ -1,10 +1,145 @@
 {
+  "subject": "Microbiology and Parasitology",
   "questions": [
     {
-      "question": "Example question?",
-      "options": ["A", "B", "C", "D"],
-      "answer": "A",
-      "explanation": "Example explanation."
+      "id": 1,
+      "question": "What is the primary staining technique used in the identification of Mycobacterium tuberculosis?",
+      "options": ["Gram stain", "Acid-fast stain", "India ink stain", "Giemsa stain"],
+      "answer": "Acid-fast stain",
+      "explanation": "Mycobacterium tuberculosis retains carbol fuchsin dye in acid-fast staining due to its high lipid content cell wall."
+    },
+    {
+      "id": 2,
+      "question": "Which bacterium is the most common cause of urinary tract infections in the community setting?",
+      "options": ["Klebsiella pneumoniae", "Escherichia coli", "Pseudomonas aeruginosa", "Proteus mirabilis"],
+      "answer": "Escherichia coli",
+      "explanation": "Escherichia coli is the leading cause of community-acquired urinary tract infections due to its uropathogenic strains."
+    },
+    {
+      "id": 3,
+      "question": "Which parasitic stage of Plasmodium falciparum is diagnostic in peripheral blood smears?",
+      "options": ["Sporozoite", "Merozoite", "Ring form trophozoite", "Oocyst"],
+      "answer": "Ring form trophozoite",
+      "explanation": "The ring form trophozoite of Plasmodium falciparum is commonly seen in thin blood smears for malaria diagnosis."
+    },
+    {
+      "id": 4,
+      "question": "What is the causative agent of amoebic dysentery?",
+      "options": ["Giardia lamblia", "Entamoeba coli", "Entamoeba histolytica", "Balantidium coli"],
+      "answer": "Entamoeba histolytica",
+      "explanation": "Entamoeba histolytica causes invasive intestinal infection characterized by dysentery and ulceration."
+    },
+    {
+      "id": 5,
+      "question": "Which fungal organism causes thrush in immunocompromised patients?",
+      "options": ["Aspergillus fumigatus", "Histoplasma capsulatum", "Candida albicans", "Cryptococcus neoformans"],
+      "answer": "Candida albicans",
+      "explanation": "Candida albicans causes oral and esophageal thrush, particularly in patients with weakened immune systems."
+    },
+    {
+      "id": 6,
+      "question": "What is the vector of Dengue virus in the Philippines?",
+      "options": ["Anopheles mosquito", "Culex mosquito", "Aedes aegypti mosquito", "Phlebotomus sandfly"],
+      "answer": "Aedes aegypti mosquito",
+      "explanation": "Aedes aegypti mosquito transmits Dengue virus, which is endemic in tropical countries like the Philippines."
+    },
+    {
+      "id": 7,
+      "question": "Which test is used to detect the presence of bacterial endotoxin in sterile pharmaceuticals?",
+      "options": ["Catalase test", "Lysine iron agar test", "Limulus amoebocyte lysate test", "Oxidase test"],
+      "answer": "Limulus amoebocyte lysate test",
+      "explanation": "The Limulus amoebocyte lysate test detects endotoxins from Gram-negative bacteria using horseshoe crab blood lysate."
+    },
+    {
+      "id": 8,
+      "question": "Which helminth causes rectal prolapse in heavy infections among children?",
+      "options": ["Enterobius vermicularis", "Trichuris trichiura", "Ascaris lumbricoides", "Hookworm"],
+      "answer": "Trichuris trichiura",
+      "explanation": "Heavy infections of Trichuris trichiura (whipworm) can cause tenesmus and rectal prolapse, especially in children."
+    },
+    {
+      "id": 9,
+      "question": "Which culture medium is selective for Salmonella and Shigella species?",
+      "options": ["Blood agar", "MacConkey agar", "Xylose lysine deoxycholate agar", "Chocolate agar"],
+      "answer": "Xylose lysine deoxycholate agar",
+      "explanation": "Xylose lysine deoxycholate agar inhibits normal flora and supports the growth of enteric pathogens like Salmonella and Shigella."
+    },
+    {
+      "id": 10,
+      "question": "Which virus causes hand, foot, and mouth disease and is common in pediatric outbreaks in the Philippines?",
+      "options": ["Rotavirus", "Coxsackie virus A16", "Epstein-Barr virus", "Cytomegalovirus"],
+      "answer": "Coxsackie virus A16",
+      "explanation": "Coxsackie virus A16, an Enterovirus, is the most common cause of hand, foot, and mouth disease in children."
+    },
+     {
+      "id": 11,
+      "question": "Which diagnostic test is most specific for detecting antibodies against Treponema pallidum in syphilis?",
+      "options": ["Venereal Disease Research Laboratory (VDRL) test", "Rapid Plasma Reagin (RPR) test", "Fluorescent Treponemal Antibody Absorption (FTA-ABS) test", "Darkfield microscopy"],
+      "answer": "Fluorescent Treponemal Antibody Absorption (FTA-ABS) test",
+      "explanation": "The Fluorescent Treponemal Antibody Absorption (FTA-ABS) test specifically detects antibodies to Treponema pallidum and is used to confirm syphilis diagnosis."
+    },
+    {
+      "id": 12,
+      "question": "Which protozoan parasite causes a sexually transmitted infection and is diagnosed via wet mount microscopy?",
+      "options": ["Giardia lamblia", "Trichomonas vaginalis", "Entamoeba histolytica", "Toxoplasma gondii"],
+      "answer": "Trichomonas vaginalis",
+      "explanation": "Trichomonas vaginalis is diagnosed by identifying motile trophozoites in vaginal or urethral wet mounts."
+    },
+    {
+      "id": 13,
+      "question": "What is the characteristic laboratory finding in cerebrospinal fluid infected by Cryptococcus neoformans?",
+      "options": ["India ink positive encapsulated yeast", "Acid-fast bacilli", "Spherules with endospores", "Non-motile cysts"],
+      "answer": "India ink positive encapsulated yeast",
+      "explanation": "Cryptococcus neoformans appears as encapsulated yeast in India ink preparation of cerebrospinal fluid, commonly seen in immunocompromised patients."
+    },
+    {
+      "id": 14,
+      "question": "Which bacterial genus is characterized by swarming motility on culture media?",
+      "options": ["Salmonella", "Proteus", "Pseudomonas", "Escherichia"],
+      "answer": "Proteus",
+      "explanation": "Proteus species exhibit swarming motility, forming concentric waves on non-selective agar surfaces."
+    },
+    {
+      "id": 15,
+      "question": "What is the causative agent of rice water stools in cholera?",
+      "options": ["Vibrio vulnificus", "Vibrio parahaemolyticus", "Vibrio cholerae", "Shigella dysenteriae"],
+      "answer": "Vibrio cholerae",
+      "explanation": "Vibrio cholerae produces cholera toxin leading to profuse, watery diarrhea described as 'rice water stools'."
+    },
+    {
+      "id": 16,
+      "question": "Which diagnostic test detects latent tuberculosis infection in asymptomatic individuals?",
+      "options": ["Ziehl-Neelsen stain", "Tuberculin skin test", "Auramine-rhodamine stain", "Chest X-ray"],
+      "answer": "Tuberculin skin test",
+      "explanation": "The Tuberculin skin test (Mantoux test) identifies previous exposure to Mycobacterium tuberculosis by measuring delayed hypersensitivity."
+    },
+    {
+      "id": 17,
+      "question": "Which intestinal protozoan has a characteristic 'falling leaf' motility in wet mount examination?",
+      "options": ["Giardia lamblia", "Trichomonas vaginalis", "Entamoeba histolytica", "Balantidium coli"],
+      "answer": "Giardia lamblia",
+      "explanation": "Giardia lamblia trophozoites exhibit distinctive falling leaf motility under the microscope in fresh stool specimens."
+    },
+    {
+      "id": 18,
+      "question": "Which organism is a leading cause of neonatal meningitis and shows a CAMP test positive result?",
+      "options": ["Group B Streptococcus", "Listeria monocytogenes", "Escherichia coli", "Haemophilus influenzae"],
+      "answer": "Group B Streptococcus",
+      "explanation": "Group B Streptococcus (Streptococcus agalactiae) is CAMP test positive and is a common cause of neonatal meningitis and sepsis."
+    },
+    {
+      "id": 19,
+      "question": "Which diagnostic technique is commonly used to visualize microfilariae in peripheral blood smears?",
+      "options": ["Giemsa stain", "Gram stain", "Ziehl-Neelsen stain", "Darkfield microscopy"],
+      "answer": "Giemsa stain",
+      "explanation": "Giemsa stain is used to identify microfilariae, such as Wuchereria bancrofti, in thick and thin peripheral blood smears."
+    },
+    {
+      "id": 20,
+      "question": "Which parasite is transmitted through undercooked pork and causes cysticercosis?",
+      "options": ["Taenia saginata", "Taenia solium", "Trichinella spiralis", "Diphyllobothrium latum"],
+      "answer": "Taenia solium",
+      "explanation": "Taenia solium, the pork tapeworm, can lead to cysticercosis when humans ingest eggs that migrate to tissues like the brain and muscles."
     }
   ]
 }

@@ -1,0 +1,145 @@
+{
+  "subject": "Clinical Chemistry",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which blood component is primarily measured to assess glomerular filtration rate (GFR)?",
+      "options": ["Uric acid", "Creatinine", "Ammonia", "Blood urea nitrogen (BUN)"],
+      "answer": "Creatinine",
+      "explanation": "Creatinine is a waste product filtered by the kidneys, and its serum level is commonly used to estimate glomerular filtration rate (GFR)."
+    },
+    {
+      "id": 2,
+      "question": "Which enzyme is most specific for myocardial infarction diagnosis within the first 6 hours?",
+      "options": ["Aspartate aminotransferase (AST)", "Creatine kinase-MB (CK-MB)", "Lactate dehydrogenase (LDH)", "Alanine aminotransferase (ALT)"],
+      "answer": "Creatine kinase-MB (CK-MB)",
+      "explanation": "Creatine kinase-MB is one of the first cardiac markers to rise during myocardial infarction and is more specific than AST or LDH."
+    },
+    {
+      "id": 3,
+      "question": "Which method is used in glucose determination based on hydrogen peroxide formation?",
+      "options": ["Hexokinase method", "Glucose oxidase method", "Nelson-Somogyi method", "Ortho-toluidine method"],
+      "answer": "Glucose oxidase method",
+      "explanation": "Glucose oxidase catalyzes the oxidation of glucose to gluconic acid and hydrogen peroxide, which is then measured colorimetrically."
+    },
+    {
+      "id": 4,
+      "question": "Which liver enzyme is most specific for hepatocellular injury?",
+      "options": ["Aspartate aminotransferase (AST)", "Alkaline phosphatase (ALP)", "Alanine aminotransferase (ALT)", "Gamma-glutamyl transferase (GGT)"],
+      "answer": "Alanine aminotransferase (ALT)",
+      "explanation": "Alanine aminotransferase is found primarily in the liver and is more specific for liver injury compared to AST."
+    },
+    {
+      "id": 5,
+      "question": "In acid-base balance, what parameter reflects the metabolic component?",
+      "options": ["Partial pressure of carbon dioxide (pCO₂)", "Oxygen saturation", "pH", "Bicarbonate (HCO₃⁻)"],
+      "answer": "Bicarbonate (HCO₃⁻)",
+      "explanation": "Bicarbonate concentration indicates the metabolic component of acid-base balance and is regulated by the kidneys."
+    },
+    {
+      "id": 6,
+      "question": "Which hormone is elevated in primary hypothyroidism?",
+      "options": ["Thyroid-stimulating hormone (TSH)", "Triiodothyronine (T3)", "Thyroxine (T4)", "Calcitonin"],
+      "answer": "Thyroid-stimulating hormone (TSH)",
+      "explanation": "In primary hypothyroidism, low thyroid hormone levels trigger increased thyroid-stimulating hormone release from the pituitary."
+    },
+    {
+      "id": 7,
+      "question": "Which test evaluates long-term glucose control in diabetic patients?",
+      "options": ["Fasting blood glucose", "Oral glucose tolerance test", "Hemoglobin A1c", "Random blood sugar"],
+      "answer": "Hemoglobin A1c",
+      "explanation": "Hemoglobin A1c reflects average blood glucose levels over the past 2–3 months and is used for diabetes monitoring."
+    },
+    {
+      "id": 8,
+      "question": "What is the principle of flame photometry in electrolyte measurement?",
+      "options": ["Light absorption", "Light emission", "Electrochemical conductivity", "Colorimetry"],
+      "answer": "Light emission",
+      "explanation": "Flame photometry is based on the emission of light by excited atoms (e.g., sodium, potassium) in a flame."
+    },
+    {
+      "id": 9,
+      "question": "Which cardiac biomarker has the highest specificity and sensitivity for myocardial infarction?",
+      "options": ["Myoglobin", "Creatine kinase-MB", "Troponin I", "Lactate dehydrogenase"],
+      "answer": "Troponin I",
+      "explanation": "Troponin I is the most sensitive and specific marker for myocardial infarction and remains elevated for days after onset."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is used as an internal standard in gas chromatography?",
+      "options": ["Glucose", "Toluene", "Water", "Sodium chloride"],
+      "answer": "Toluene",
+      "explanation": "Toluene is often used as an internal standard in gas chromatography to correct for variations in sample injection and analysis."
+    },
+    {
+      "id": 11,
+      "question": "Which analyte is increased in obstructive jaundice but not in hemolytic jaundice?",
+      "options": ["Direct bilirubin", "Indirect bilirubin", "Urobilinogen", "Haptoglobin"],
+      "answer": "Direct bilirubin",
+      "explanation": "Obstructive jaundice leads to impaired excretion of conjugated (direct) bilirubin, causing its elevation in serum."
+    },
+    {
+      "id": 12,
+      "question": "What is the major carrier protein for copper in the plasma?",
+      "options": ["Transferrin", "Albumin", "Ceruloplasmin", "Ferritin"],
+      "answer": "Ceruloplasmin",
+      "explanation": "Ceruloplasmin binds the majority of copper in plasma and plays a role in iron metabolism and antioxidant defense."
+    },
+    {
+      "id": 13,
+      "question": "Which lipid parameter is most predictive of coronary artery disease risk?",
+      "options": ["High-density lipoprotein cholesterol (HDL-C)", "Triglycerides", "Low-density lipoprotein cholesterol (LDL-C)", "Total cholesterol"],
+      "answer": "Low-density lipoprotein cholesterol (LDL-C)",
+      "explanation": "Low-density lipoprotein cholesterol is the primary atherogenic lipoprotein associated with increased cardiovascular risk."
+    },
+    {
+      "id": 14,
+      "question": "Which method is based on reduction of phosphomolybdic acid for uric acid determination?",
+      "options": ["Uricase method", "Jaffe reaction", "Caraway method", "Diazo method"],
+      "answer": "Caraway method",
+      "explanation": "The Caraway method is a colorimetric technique where uric acid reduces phosphomolybdic acid to form a blue chromogen."
+    },
+    {
+      "id": 15,
+      "question": "Which tumor marker is elevated in hepatocellular carcinoma?",
+      "options": ["Alpha-fetoprotein (AFP)", "Carcinoembryonic antigen (CEA)", "Prostate-specific antigen (PSA)", "CA-125"],
+      "answer": "Alpha-fetoprotein (AFP)",
+      "explanation": "Alpha-fetoprotein is a fetal protein re-expressed in hepatocellular carcinoma and germ cell tumors."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is a non-protein nitrogen compound used to assess renal function?",
+      "options": ["Creatinine", "Albumin", "Transferrin", "Globulin"],
+      "answer": "Creatinine",
+      "explanation": "Creatinine is a non-protein nitrogenous waste product used to evaluate kidney function and glomerular filtration."
+    },
+    {
+      "id": 17,
+      "question": "Which electrolyte imbalance is commonly associated with metabolic alkalosis?",
+      "options": ["Hyperkalemia", "Hypokalemia", "Hypernatremia", "Hyponatremia"],
+      "answer": "Hypokalemia",
+      "explanation": "Metabolic alkalosis often causes potassium to shift into cells, leading to hypokalemia."
+    },
+    {
+      "id": 18,
+      "question": "Which enzyme catalyzes the conversion of lactate to pyruvate in lactic acid measurement?",
+      "options": ["Lactate dehydrogenase", "Creatine kinase", "Alanine aminotransferase", "Amylase"],
+      "answer": "Lactate dehydrogenase",
+      "explanation": "Lactate dehydrogenase catalyzes the reversible reaction between lactate and pyruvate, which is key in lactic acid analysis."
+    },
+    {
+      "id": 19,
+      "question": "What is the anticoagulant of choice for blood gas analysis?",
+      "options": ["Ethylenediaminetetraacetic acid (EDTA)", "Sodium citrate", "Heparin", "Oxalate"],
+      "answer": "Heparin",
+      "explanation": "Heparin is preferred for arterial blood gas analysis because it minimally interferes with measured gases and pH."
+    },
+    {
+      "id": 20,
+      "question": "Which test evaluates liver synthetic function by measuring clotting ability?",
+      "options": ["Prothrombin time (PT)", "Ammonia level", "Aspartate aminotransferase (AST)", "Serum albumin"],
+      "answer": "Prothrombin time (PT)",
+      "explanation": "Prothrombin time is prolonged in liver disease due to reduced synthesis of clotting factors, making it a marker of hepatic function."
+    }
+  ]
+}

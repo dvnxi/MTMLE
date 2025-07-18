@@ -1,0 +1,145 @@
+{
+  "subject": "Hematology",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which anticoagulant is most commonly used for complete blood count testing?",
+      "options": ["Sodium citrate", "Ethylenediaminetetraacetic acid (EDTA)", "Heparin", "Oxalate"],
+      "answer": "Ethylenediaminetetraacetic acid (EDTA)",
+      "explanation": "Ethylenediaminetetraacetic acid (EDTA) preserves cellular morphology and is the anticoagulant of choice for complete blood count testing."
+    },
+    {
+      "id": 2,
+      "question": "What is the primary site of hematopoiesis in a 5-month-old fetus?",
+      "options": ["Liver", "Spleen", "Bone marrow", "Yolk sac"],
+      "answer": "Liver",
+      "explanation": "The liver is the primary site of hematopoiesis during mid-fetal development, typically from the 6th week to the 6th month of gestation."
+    },
+    {
+      "id": 3,
+      "question": "What is the characteristic red blood cell morphology in iron deficiency anemia?",
+      "options": ["Macrocytic and normochromic", "Normocytic and normochromic", "Microcytic and hypochromic", "Spherocytic"],
+      "answer": "Microcytic and hypochromic",
+      "explanation": "Iron deficiency anemia is typically characterized by microcytic and hypochromic red blood cells due to decreased hemoglobin synthesis."
+    },
+    {
+      "id": 4,
+      "question": "Which hemoglobin electrophoresis band migrates the farthest towards the anode at alkaline pH?",
+      "options": ["Hemoglobin A", "Hemoglobin S", "Hemoglobin C", "Hemoglobin H"],
+      "answer": "Hemoglobin H",
+      "explanation": "Hemoglobin H, composed of beta-chain tetramers, migrates fastest at alkaline pH due to its high negative charge."
+    },
+    {
+      "id": 5,
+      "question": "Which cell is responsible for antibody production in the blood?",
+      "options": ["Neutrophil", "T lymphocyte", "Monocyte", "Plasma cell"],
+      "answer": "Plasma cell",
+      "explanation": "Plasma cells, derived from B lymphocytes, are responsible for producing and secreting antibodies."
+    },
+    {
+      "id": 6,
+      "question": "Which red blood cell inclusion is composed of denatured hemoglobin and requires supravital staining for detection?",
+      "options": ["Howell-Jolly bodies", "Basophilic stippling", "Pappenheimer bodies", "Heinz bodies"],
+      "answer": "Heinz bodies",
+      "explanation": "Heinz bodies are denatured hemoglobin aggregates that require supravital stains like crystal violet for visualization."
+    },
+    {
+      "id": 7,
+      "question": "Which white blood cell is increased in allergic reactions and parasitic infections?",
+      "options": ["Neutrophil", "Lymphocyte", "Eosinophil", "Monocyte"],
+      "answer": "Eosinophil",
+      "explanation": "Eosinophils are associated with hypersensitivity reactions and play a key role in defending against parasitic infections."
+    },
+    {
+      "id": 8,
+      "question": "What is the primary function of fibrinogen in coagulation?",
+      "options": ["Initiation of clotting cascade", "Cross-linking of platelets", "Conversion to thrombin", "Formation of fibrin clot"],
+      "answer": "Formation of fibrin clot",
+      "explanation": "Fibrinogen is converted to fibrin by thrombin, which then polymerizes to form a stable fibrin clot."
+    },
+    {
+      "id": 9,
+      "question": "Which test is used to monitor oral anticoagulant therapy with warfarin?",
+      "options": ["Activated partial thromboplastin time", "Bleeding time", "Prothrombin time", "Thrombin time"],
+      "answer": "Prothrombin time",
+      "explanation": "Prothrombin time evaluates the extrinsic and common pathways and is the test of choice for monitoring warfarin therapy."
+    },
+    {
+      "id": 10,
+      "question": "What is the characteristic finding in peripheral smear of megaloblastic anemia?",
+      "options": ["Microcytic cells", "Target cells", "Hypersegmented neutrophils", "Schistocytes"],
+      "answer": "Hypersegmented neutrophils",
+      "explanation": "Hypersegmented neutrophils are a classic finding in megaloblastic anemia due to impaired DNA synthesis."
+    },
+    {
+      "id": 11,
+      "question": "What is the normal range of hemoglobin for adult Filipino males?",
+      "options": ["10–12 g/dL", "11–13 g/dL", "13–17 g/dL", "15–20 g/dL"],
+      "answer": "13–17 g/dL",
+      "explanation": "The normal reference range for hemoglobin in Filipino adult males is approximately 13–17 g/dL, consistent with international standards."
+    },
+    {
+      "id": 12,
+      "question": "Which clotting factor is also known as anti-hemophilic factor A?",
+      "options": ["Factor VIII", "Factor IX", "Factor XI", "Factor X"],
+      "answer": "Factor VIII",
+      "explanation": "Factor VIII is also called anti-hemophilic factor A and is deficient in classical Hemophilia A."
+    },
+    {
+      "id": 13,
+      "question": "Which red blood cell abnormality is typically seen in hereditary spherocytosis?",
+      "options": ["Target cells", "Schistocytes", "Spherocytes", "Teardrop cells"],
+      "answer": "Spherocytes",
+      "explanation": "Spherocytes are small, round, densely staining red cells lacking central pallor, common in hereditary spherocytosis."
+    },
+    {
+      "id": 14,
+      "question": "Which erythrocyte sedimentation rate (ESR) method is the standard in most clinical laboratories?",
+      "options": ["Wintrobe method", "Zeta sedimentation ratio", "Modified Westergren method", "Microhematocrit method"],
+      "answer": "Modified Westergren method",
+      "explanation": "The Modified Westergren method is the most widely accepted and standardized method for measuring erythrocyte sedimentation rate."
+    },
+    {
+      "id": 15,
+      "question": "What is the most probable cause of pancytopenia in a patient with markedly hypocellular bone marrow?",
+      "options": ["Iron deficiency anemia", "Aplastic anemia", "Chronic myelogenous leukemia", "Sickle cell anemia"],
+      "answer": "Aplastic anemia",
+      "explanation": "Aplastic anemia results in pancytopenia due to failure of hematopoietic stem cells, seen as hypocellularity in bone marrow."
+    },
+    {
+      "id": 16,
+      "question": "What is the confirmatory test for hereditary hemochromatosis?",
+      "options": ["Serum ferritin", "Transferrin saturation", "HFE gene testing", "Serum iron"],
+      "answer": "HFE gene testing",
+      "explanation": "Genetic testing for mutations in the HFE gene confirms hereditary hemochromatosis, a disorder of iron overload."
+    },
+    {
+      "id": 17,
+      "question": "Which condition is characterized by increased red cell mass, normal oxygen saturation, and low erythropoietin levels?",
+      "options": ["Secondary polycythemia", "Polycythemia vera", "Thalassemia", "Hereditary spherocytosis"],
+      "answer": "Polycythemia vera",
+      "explanation": "Polycythemia vera is a myeloproliferative disorder with autonomous red cell production and low erythropoietin levels."
+    },
+    {
+      "id": 18,
+      "question": "Which stage of red blood cell maturation is the last stage to contain a nucleus?",
+      "options": ["Reticulocyte", "Orthochromic normoblast", "Polychromatic normoblast", "Basophilic normoblast"],
+      "answer": "Orthochromic normoblast",
+      "explanation": "The orthochromic normoblast is the last erythroid precursor to contain a nucleus before it is extruded during maturation."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is a primary feature of chronic myelogenous leukemia (CML)?",
+      "options": ["Philadelphia chromosome", "JAK2 mutation", "Auer rods", "Hypogranular neutrophils"],
+      "answer": "Philadelphia chromosome",
+      "explanation": "The Philadelphia chromosome, resulting from a translocation between chromosomes 9 and 22, is characteristic of chronic myelogenous leukemia."
+    },
+    {
+      "id": 20,
+      "question": "What is the reference method for hemoglobin determination in clinical laboratories?",
+      "options": ["Copper sulfate method", "Hemiglobincyanide (HiCN) method", "Sahli’s method", "Oxyhemoglobin method"],
+      "answer": "Hemiglobincyanide (HiCN) method",
+      "explanation": "The hemiglobincyanide method is the internationally recommended reference method for quantitative hemoglobin analysis."
+    }
+  ]
+}
