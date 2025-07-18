@@ -200,7 +200,7 @@ if st.session_state.logged_in and st.session_state.username == "Rica":
     # Main logic
 else:
     st.sidebar.title("Navigation")
-    options = st.sidebar.radio("Choose a section:", ["Home", "Mock Exam", "About", "References", "Reviewers and Notes", "NemaBot"])
+    options = st.sidebar.radio("Choose a section:", ["Home", "Mock Exam", "About", "References", "Timeline/Milestones", "Reviewers and Notes", "NemaBot"])
 
 if options == "Home":
     if not st.session_state.logged_in:
