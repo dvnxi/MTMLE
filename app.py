@@ -36,7 +36,7 @@ if 'username' not in st.session_state:
 # Login page
 def login():
     # Load the image
-    image = Image.open("C:/Users/Jairo/Downloads/M4.png")
+    image = Image.open("M4.png")
 
     # Layout with two columns
     col1, col2 = st.columns([1, 4])  # Adjust width ratio as needed
