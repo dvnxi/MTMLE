@@ -345,7 +345,7 @@ elif options == "Mock Exam":
 elif options == "About":
     st.markdown("<h2 style='margin: 0; color:#FC8EAC;'>About</h2>", unsafe_allow_html=True)
     st.write("The MTLE Review Web App is an interactive, self-paced mock examination and review platform designed for various purposes such as preparation for the MTLE.")
-    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>The development of this app was inspired by a certain individual who is currently taking a Bachelor of Science in Medical Technology program at Centro Escolar University Manila.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='color:#FFC0CB; font-style: italic;'>The development of this app was inspired by my friends, currently taking a Bachelor of Science in Medical Technology program at Centro Escolar University Manila.</p>", unsafe_allow_html=True)
     st.write("For any issues or suggestions, please contact the developer.")
     st.write("This app used various sources, such as articles, books, and online resources. Please refer to the 'References' section for more details.")
     st.write("All rights reserved. This app is not affiliated with the Professional Regulation Commission (PRC) or any official medical technology board review programs.")
